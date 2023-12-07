@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_hallwaymonster",
   "bbox_bottom": 383,
-  "bbox_left": 71,
+  "bbox_left": 68,
   "bbox_right": 286,
   "bbox_top": 0,
   "bboxMode": 0,
