@@ -58,7 +58,6 @@
     {"id":{"name":"obj_classroom1","path":"objects/obj_classroom1/obj_classroom1.yy",},},
     {"id":{"name":"spr_classdoor1","path":"sprites/spr_classdoor1/spr_classdoor1.yy",},},
     {"id":{"name":"spr_hallwaydoor","path":"sprites/spr_hallwaydoor/spr_hallwaydoor.yy",},},
-    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"room_puzzle3","path":"rooms/room_puzzle3/room_puzzle3.yy",},},
     {"id":{"name":"obj_wall_1","path":"objects/obj_wall_1/obj_wall_1.yy",},},
     {"id":{"name":"obj_collsionblock1","path":"objects/obj_collsionblock1/obj_collsionblock1.yy",},},
