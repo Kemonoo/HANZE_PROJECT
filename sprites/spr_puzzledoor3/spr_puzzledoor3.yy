@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_wall",
+  "name": "spr_puzzledoor3",
   "bbox_bottom": 127,
   "bbox_left": 0,
   "bbox_right": 127,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b6abc39-dd65-4bb3-a2ec-da42c3b49fa7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0e377c05-39ac-4e66-9880-5bd7ed7269eb",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfe606d6-6fc5-4edb-a9b1-514cd0329881","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"681970f2-d823-4b86-a851-104f3790f8a0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "name": "doors",
+    "path": "folders/Sprites/doors.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_wall",
+    "name": "spr_puzzledoor3",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5b6abc39-dd65-4bb3-a2ec-da42c3b49fa7","path":"sprites/spr_wall/spr_wall.yy",},},},"Disabled":false,"id":"584af0ab-2abc-4795-a77b-ef2b895cc7eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0e377c05-39ac-4e66-9880-5bd7ed7269eb","path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},},},"Disabled":false,"id":"eefb92d1-34b3-4b29-93af-f7d8d417767b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

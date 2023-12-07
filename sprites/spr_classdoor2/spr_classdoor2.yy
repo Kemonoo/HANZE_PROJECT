@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_wall",
+  "name": "spr_classdoor2",
   "bbox_bottom": 127,
   "bbox_left": 0,
   "bbox_right": 127,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b6abc39-dd65-4bb3-a2ec-da42c3b49fa7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92a42889-6d60-44c3-abfc-5e059f794edd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfe606d6-6fc5-4edb-a9b1-514cd0329881","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8002c484-95f9-4124-a86f-dae299b018e5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "background",
-    "path": "folders/Sprites/background.yy",
+    "name": "doors",
+    "path": "folders/Sprites/doors.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_wall",
+    "name": "spr_classdoor2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5b6abc39-dd65-4bb3-a2ec-da42c3b49fa7","path":"sprites/spr_wall/spr_wall.yy",},},},"Disabled":false,"id":"584af0ab-2abc-4795-a77b-ef2b895cc7eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92a42889-6d60-44c3-abfc-5e059f794edd","path":"sprites/spr_classdoor2/spr_classdoor2.yy",},},},"Disabled":false,"id":"93609cde-96f3-4231-a677-13f5bf466f87","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
