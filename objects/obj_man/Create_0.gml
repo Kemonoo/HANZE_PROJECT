@@ -3,7 +3,7 @@ image_angle = 0;
 direction = 0;   
 is_dashing = false; 
 
-
+depth -= 0.5;
 
 
 var spr_man_idle = spr_man_idle1; 
