@@ -85,7 +85,13 @@ if (instance_exists(obj_monster)) {
  
 }
 
+
+    if (place_meeting(x, y, obj_item_shoes)) {
+      move_speed = 10;
+    } 
     
+ 
+  
  
 
 
@@ -93,6 +99,8 @@ if (instance_exists(obj_monster)) {
 
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
     room_goto(room_bedroom); 
+	hallwayx = x;
+	hallway = y;
 }
 
 if (place_meeting(x, y, obj_classroom1) && keyboard_check_pressed(ord("E"))) {

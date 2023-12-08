@@ -33,8 +33,8 @@
   ],
   "solid": true,
   "spriteId": {
-    "name": "spr_man_idle1",
-    "path": "sprites/spr_man_idle1/spr_man_idle1.yy",
+    "name": "spr_man_idle1_3",
+    "path": "sprites/spr_man_idle1_3/spr_man_idle1_3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
