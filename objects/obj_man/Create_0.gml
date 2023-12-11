@@ -6,13 +6,21 @@ is_dashing = false;
 //depth -= 1.;
 
 
-var spr_man_idle = spr_man_idle1; 
-var spr_man_walk = spr_man_walking; 
-var spr_man_dash = spr_man_dashing; 
-
-
 alarm[0] = -1; 
 move_speed = 5; 
 
 hallwayx = 5245
 hallway = 902
+
+// variables for movement and sprite change
+player_speed = 5
+vx = 0;
+vy = 0;
+dir = 3;
+move_right = 0;
+move_left = 0;
+move_up = 0;
+move_down = 0;
+
+// state variables
+inside_object = false	// when inside obj_locker this is set to true

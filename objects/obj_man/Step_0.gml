@@ -1,75 +1,98 @@
-var spr_man_idle = spr_man_idle1; 
-var spr_man_walk = spr_man_walking; 
-var spr_man_dash = spr_man_dashing; 
+
+if (!is_dashing and !inside_object) {
+	// check if keys pressed
+	move_right = keyboard_check(ord("D"));
+	move_left = keyboard_check(ord("A"));
+	move_up = keyboard_check(ord("W"));
+	move_down = keyboard_check(ord("S"));
+
+	// calculate movemnt
+	vx = ((move_right - move_left) * player_speed);
+	vy = ((move_down - move_up) * player_speed);
+
+	// set idle sprite
+	if (vx == 0 && vy == 0)
+	{
+		switch dir
+		{
+			case 0: sprite_index = spr_player_idle_right; break;
+			case 1: sprite_index = spr_player_idle_up; break;
+			case 2: sprite_index = spr_player_idle_left; break;
+			case 3: sprite_index = spr_player_idle_down; break;
+		}
+	}
 
 
-
-
-if (!is_dashing) {
-    
-  
-    if (keyboard_check(ord("W"))) {
-        y -= move_speed;
-        sprite_index = spr_man_walk; 
-    }
-    if (keyboard_check(ord("A"))) {
-        x -= move_speed;
-        sprite_index = spr_man_walk; 
-        image_xscale = -1; 
-    }
-    if (keyboard_check(ord("S"))) {
-        y += move_speed;
-        sprite_index = spr_man_walk; 
-    }
-    if (keyboard_check(ord("D"))) {
-        x += move_speed;
-        sprite_index = spr_man_walk; 
-        image_xscale = 1; 
-    }
-
-   
-    if (!keyboard_check(ord("W")) && !keyboard_check(ord("A")) && !keyboard_check(ord("S")) && !keyboard_check(ord("D"))) {
-        sprite_index = spr_man_idle; 
-    }
+	if ((vx != 0 || vy != 0) && not inside_object)
+	{
+		x += vx;
+		y += vy;
+	
+		//change sprite based on direction
+		if (vx > 0) 
+		{
+			sprite_index = spr_player_walking_right;
+			dir = 0;
+		}
+		if (vx < 0)
+		{
+			sprite_index = spr_player_walking_left;
+			dir = 2;
+		}
+		if (vy > 0) 
+		{
+			sprite_index = spr_player_walking_down;
+			dir = 3;
+		}
+		if (vy < 0) 
+		{
+			sprite_index = spr_player_walking_up;
+			dir = 1;
+		}
+	}
 }
-
-
-if (keyboard_check_pressed(vk_space)) {
-    if (!is_dashing) {
+ 
+if !inside_object
+{
+	if (keyboard_check_pressed(vk_space)) {
+	    if (!is_dashing) {
         
-        var dash_speed = 300; 
-        var dash_duration = 10; 
+	        var dash_speed = 300; 
+	        var dash_duration = 10; 
 
       
-        var dash_direction = 0; 
-        if (keyboard_check(ord("W"))) dash_direction = 90; // Up
-        if (keyboard_check(ord("A"))) dash_direction = 180; // Left
-        if (keyboard_check(ord("S"))) dash_direction = 270; // Down
-        if (keyboard_check(ord("D"))) dash_direction = 0; // Right
+	        var dash_direction = 0; 
+		
+			// switch is like if statement for each case of dir. {case 0:} is equivalent to {if dir == 0:}
+			switch dir
+			{
+				// replace spr_player_idle_(direction) with sprite for dashing in that direction
+				case 0: dash_direction = 0; sprite_index = spr_player_idle_right; break;	
+				case 1: dash_direction = 90;  sprite_index = spr_player_idle_up; break;
+				case 2: dash_direction = 180;  sprite_index = spr_player_idle_left; break;
+				case 3: dash_direction = 270;  sprite_index = spr_player_idle_down; break;
+			}
 
-      
-        var dash_x = lengthdir_x(dash_speed, dash_direction);
-        var dash_y = lengthdir_y(dash_speed, dash_direction);
+	        var dash_x = lengthdir_x(dash_speed, dash_direction);
+	        var dash_y = lengthdir_y(dash_speed, dash_direction);
 
         
-        x += dash_x;
-        y += dash_y;
+	        x += dash_x;
+	        y += dash_y;
 
-        is_dashing = true; 
-        sprite_index = spr_man_dash; 
-        image_speed = 2; 
-        image_index = 0; 
-        alarm[0] = dash_duration; 
-    }
+	        is_dashing = true; 
+	        image_speed = 2; 
+	        image_index = 0; 
+	        alarm[0] = dash_duration; 
+	    }
+	}
 }
 
 
 if (alarm[0] > 0) {
     alarm[0] -= 1;
 } else if (is_dashing) {
-
     is_dashing = false;
-    sprite_index = spr_man_idle; 
     image_speed = 1; 
 }
 
