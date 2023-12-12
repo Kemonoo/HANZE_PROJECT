@@ -80,6 +80,8 @@
     {"name":"inst_1AA97D00","path":"rooms/room_hallway/room_hallway.yy",},
     {"name":"inst_5F3D96C9","path":"rooms/room_hallway/room_hallway.yy",},
     {"name":"inst_576F437F","path":"rooms/room_hallway/room_hallway.yy",},
+    {"name":"inst_2DD31CD4","path":"rooms/room_hallway/room_hallway.yy",},
+    {"name":"inst_1200DE48","path":"rooms/room_hallway/room_hallway.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -88,6 +90,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1AA97D00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_puzzle1","path":"objects/obj_puzzle1/obj_puzzle1.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":0.75,"x":10208.0,"y":2816.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F3D96C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bedroom","path":"objects/obj_bedroom/obj_bedroom.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.25,"x":7296.0,"y":1248.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_576F437F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallway_monster","path":"objects/obj_hallway_monster/obj_hallway_monster.yy",},"properties":[],"rotation":0.0,"scaleX":0.33333334,"scaleY":0.33333334,"x":8384.0,"y":3423.9998,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DD31CD4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_puzzle2","path":"objects/obj_puzzle2/obj_puzzle2.yy",},"properties":[],"rotation":0.0,"scaleX":0.25,"scaleY":0.5,"x":5088.0,"y":3936.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1200DE48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_classroom1","path":"objects/obj_classroom1/obj_classroom1.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.25,"x":5952.0,"y":1248.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"instances_background","depth":200,"effectEnabled":true,"effectType":null,"gridX":128,"gridY":128,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3189697D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"onj_background","path":"objects/onj_background/onj_background.yy",},"properties":[],"rotation":0.0,"scaleX":25.0,"scaleY":2.0,"x":6144.0,"y":1280.0,},

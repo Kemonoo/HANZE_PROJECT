@@ -132,10 +132,14 @@ if (place_meeting(x, y, obj_classroom1) && keyboard_check_pressed(ord("E"))) {
     room_goto(room_class1); 
 }
 if (place_meeting(x, y, obj_classroom2) && keyboard_check_pressed(ord("E"))) {
-    room_goto(room_class2); 
+    hallwayx = x;
+	hallway = y;
+	room_goto(room_class2); 
 }
 if (place_meeting(x, y, obj_classroom3) && keyboard_check_pressed(ord("E"))) {
-    room_goto(room_class3); 
+    hallwayx = x;
+	hallway = y;
+	room_goto(room_class3); 
 }
 if (place_meeting(x, y, obj_hallwaydoor) && keyboard_check_pressed(ord("E"))) {
     x = hallwayx;
@@ -147,7 +151,9 @@ if (place_meeting(x, y, obj_hallwaydoor) && keyboard_check_pressed(ord("E"))) {
 
 
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
-    room_goto(room_bedroom); 
+    hallwayx = x;
+	hallway = y;
+	room_goto(room_bedroom); 
 }
 
 if (place_meeting(x, y, obj_puzzle1) && keyboard_check_pressed(ord("E"))) {
@@ -156,10 +162,14 @@ if (place_meeting(x, y, obj_puzzle1) && keyboard_check_pressed(ord("E"))) {
     room_goto(room_puzzle1); 
 }
 if (place_meeting(x, y, obj_puzzle2) && keyboard_check_pressed(ord("E"))) {
-    room_goto(room_puzzle2); 
+    hallwayx = x;
+	hallway = y;
+	room_goto(room_puzzle2); 
 }
 if (place_meeting(x, y, obj_puzzle3) && keyboard_check_pressed(ord("E"))) {
-    room_goto(room_puzzle3); 
+    hallwayx = x;
+	hallway = y;
+   room_goto(room_puzzle3); 
 }
 
 

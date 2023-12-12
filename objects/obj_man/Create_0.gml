@@ -3,7 +3,7 @@ image_angle = 0;
 direction = 0;   
 is_dashing = false; 
 
-//depth -= 1.;
+depth -= .5;
 
 
 alarm[0] = -1; 
