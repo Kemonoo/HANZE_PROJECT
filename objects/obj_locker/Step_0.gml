@@ -13,6 +13,7 @@ if instance_exists(obj_locker)
 				obj_man.inside_object = false;
 				obj_man.visible = true;
 				camera_set_view_target(view_camera[0], obj_man.id);
+				inside_time_limit = 0;
 			}
 			else
 			{
@@ -20,6 +21,8 @@ if instance_exists(obj_locker)
 				obj_man.inside_object = true;
 				obj_man.visible = false;
 				camera_set_view_target(view_camera[0], id);
+				inside_time_limit = 3;	// seconds
+				alarm_set(0, 60)
 			}
 		}
 	}
