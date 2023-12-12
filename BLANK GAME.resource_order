@@ -73,6 +73,5 @@
     {"name":"obj_locker","order":5,"path":"objects/obj_locker/obj_locker.yy",},
     {"name":"obj_man","order":4,"path":"objects/obj_man/obj_man.yy",},
     {"name":"obj_title_menu","order":1,"path":"objects/obj_title_menu/obj_title_menu.yy",},
-    {"name":"Object11","order":8,"path":"objects/Object11/Object11.yy",},
   ],
 }

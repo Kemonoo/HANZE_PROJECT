@@ -7,10 +7,10 @@ is_dashing = false;
 
 
 alarm[0] = -1; 
-move_speed = 5; 
+move_speed = 3; 
 
-hallwayx = 5245
-hallway = 902
+hallwayx = 7326
+hallway = 1315
 
 // variables for movement and sprite change
 player_speed = 5

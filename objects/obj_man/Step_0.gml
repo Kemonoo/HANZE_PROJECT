@@ -57,7 +57,7 @@ if !inside_object
 	if (keyboard_check_pressed(vk_space)) {
 	    if (!is_dashing) {
         
-	        var dash_speed = 300; 
+	        var dash_speed = 150; 
 	        var dash_duration = 10; 
 
       
@@ -110,7 +110,7 @@ if (instance_exists(obj_monster)) {
 
 
     if (place_meeting(x, y, obj_item_shoes)) {
-      move_speed = 10;
+		player_speed = 6;
     } 
     
  
