@@ -15,8 +15,8 @@
     {"name":"0f431ba6-af17-4d21-8e9d-9851443435ab","order":1,"path":"folders/Sprites/layers/0f431ba6-af17-4d21-8e9d-9851443435ab.yy",},
     {"name":"monster","order":3,"path":"folders/Sprites/monster.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
-    {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"tiles","order":8,"path":"folders/Sprites/tiles.yy",},
+    {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
@@ -62,7 +62,6 @@
     {"name":"spr_bedroomdoor","order":1,"path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},
     {"name":"obj_hallway_monster","order":3,"path":"objects/obj_hallway_monster/obj_hallway_monster.yy",},
     {"name":"tile_hallway_tiles2","order":1,"path":"tilesets/tile_hallway_tiles2/tile_hallway_tiles2.yy",},
-    {"name":"spr_hallwaydoor_1","order":8,"path":"sprites/spr_hallwaydoor_1/spr_hallwaydoor_1.yy",},
     {"name":"room_bedroom","order":8,"path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"obj_bedroom","order":1,"path":"objects/obj_bedroom/obj_bedroom.yy",},
     {"name":"spr_player_idle_down","order":9,"path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},
