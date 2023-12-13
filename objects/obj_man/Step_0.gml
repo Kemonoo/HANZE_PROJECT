@@ -97,6 +97,48 @@ if (alarm[0] > 0) {
 }
 
 
+if (instance_exists(obj_vision)) {
+
+
+
+
+switch dir
+			{
+				// replace spr_player_idle_(direction) with sprite for dashing in that direction
+					case 0: {
+					obj_vision.x = x; 
+					obj_vision.y = y;
+					obj_vision.image_angle = 360;
+					break;
+				}
+					case 1: {
+					obj_vision.x = x; 
+					obj_vision.y = y;
+					obj_vision.image_angle = 90;
+					break;
+				}
+
+					
+					case 2:{
+					obj_vision.x = x; 
+					obj_vision.y = y;
+					obj_vision.image_angle = 180 ;
+					break;
+				}
+					case 3: {
+					obj_vision.x = x; 
+					obj_vision.y = y;
+					obj_vision.image_angle = 270;
+					break;
+				}
+				
+			}
+			
+}
+
+
+
+
 
 if (instance_exists(obj_monster)) {
     if (place_meeting(x, y, obj_collsionblock1)) {
@@ -114,18 +156,11 @@ if (instance_exists(obj_monster)) {
     } 
     
  
-  
- 
-
-
-
-
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
     room_goto(room_bedroom); 
 	hallwayx = x;
 	hallway = y;
 }
-
 if (place_meeting(x, y, obj_classroom1) && keyboard_check_pressed(ord("E"))) {
 	hallwayx = x;
 	hallway = y;
@@ -145,11 +180,7 @@ if (place_meeting(x, y, obj_hallwaydoor) && keyboard_check_pressed(ord("E"))) {
     x = hallwayx;
 	y = hallway;
 	room_goto(room_hallway); 
-	
-	
 }
-
-
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
     hallwayx = x;
 	hallway = y;

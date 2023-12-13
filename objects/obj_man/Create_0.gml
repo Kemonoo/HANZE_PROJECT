@@ -7,13 +7,13 @@ depth -= .5;
 
 
 alarm[0] = -1; 
-move_speed = 3; 
+//move_speed = 3; 
 
 hallwayx = 7326
 hallway = 1315
 
 // variables for movement and sprite change
-player_speed = 5
+player_speed = 3
 vx = 0;
 vy = 0;
 dir = 3;
