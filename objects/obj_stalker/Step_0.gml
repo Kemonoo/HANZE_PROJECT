@@ -10,7 +10,7 @@ var freeze_angle_range = 360; // This is the half-angle, so the total angle rang
 if (abs(angle_difference(obj_man.direction, angle_to_player)) < freeze_angle_range) {
     speed = 0; // Stop moving
 } else {
-    speed = 2; // Move normally
+    speed = 4; // Move normally
 }
 
 // Move towards the player if allowed
