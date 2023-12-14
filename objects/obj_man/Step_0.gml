@@ -104,7 +104,7 @@ if (instance_exists(obj_vision)) {
 
 switch dir
 			{
-				// replace spr_player_idle_(direction) with sprite for dashing in that direction
+				
 					case 0: {
 					obj_vision.x = x; 
 					obj_vision.y = y;
