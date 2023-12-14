@@ -24,6 +24,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
+    {"name":"spr_jerk","order":3,"path":"sprites/spr_jerk/spr_jerk.yy",},
     {"name":"spr_main_font","order":4,"path":"sprites/spr_main_font/spr_main_font.yy",},
     {"name":"obj_classroom2","order":3,"path":"objects/obj_classroom2/obj_classroom2.yy",},
     {"name":"scr_actions","order":1,"path":"scripts/scr_actions/scr_actions.yy",},
