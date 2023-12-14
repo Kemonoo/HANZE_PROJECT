@@ -1,5 +1,5 @@
 if (move_towards_player) {
-	speed = 50;
+	speed = 30;
 	
 	move_towards_point(obj_man.x, obj_man.y, speed)
     //var direction_to_player = point_direction(x, y, obj_man.x, obj_man.y);
