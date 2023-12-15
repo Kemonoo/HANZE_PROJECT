@@ -62,7 +62,7 @@
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"spr_classdoor2","path":"sprites/spr_classdoor2/spr_classdoor2.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
-    {"id":{"name":"obj_stalker","path":"objects/obj_stalker/obj_stalker.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_classroom3","path":"objects/obj_classroom3/obj_classroom3.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"obj_item_shoes","path":"objects/obj_item_shoes/obj_item_shoes.yy",},},

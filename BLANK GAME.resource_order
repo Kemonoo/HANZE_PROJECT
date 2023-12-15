@@ -41,7 +41,7 @@
     {"name":"obj_settings","order":3,"path":"objects/obj_settings/obj_settings.yy",},
     {"name":"spr_classdoor2","order":3,"path":"sprites/spr_classdoor2/spr_classdoor2.yy",},
     {"name":"obj_monster","order":2,"path":"objects/obj_monster/obj_monster.yy",},
-    {"name":"obj_stalker","order":5,"path":"objects/obj_stalker/obj_stalker.yy",},
+    {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_classroom3","order":4,"path":"objects/obj_classroom3/obj_classroom3.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"room_hallway","order":4,"path":"rooms/room_hallway/room_hallway.yy",},
