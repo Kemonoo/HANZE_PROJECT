@@ -20,7 +20,7 @@
 // Step Event for obj_enemy
 // Step Event for obj_enemy
 // Step Event for obj_enemy
-var follow_distance = 250; // Adjust the distance at which enemies start following
+var follow_distance = 300; // Adjust the distance at which enemies start following
 
 if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) {
      //Move towards the player

@@ -88,6 +88,7 @@
     {"id":{"name":"spr_player_walking_left","path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},},
     {"id":{"name":"spr_dash_idle_up","path":"sprites/spr_dash_idle_up/spr_dash_idle_up.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"scr_inventory_add_item","path":"scripts/scr_inventory_add_item/scr_inventory_add_item.yy",},},
     {"id":{"name":"room_class2","path":"rooms/room_class2/room_class2.yy",},},
     {"id":{"name":"obj_vision","path":"objects/obj_vision/obj_vision.yy",},},
     {"id":{"name":"room_puzzle2","path":"rooms/room_puzzle2/room_puzzle2.yy",},},
@@ -95,6 +96,7 @@
     {"id":{"name":"spr_player_walking_down","path":"sprites/spr_player_walking_down/spr_player_walking_down.yy",},},
     {"id":{"name":"spr_player_walking_right","path":"sprites/spr_player_walking_right/spr_player_walking_right.yy",},},
     {"id":{"name":"monster_lullaby","path":"sounds/monster_lullaby/monster_lullaby.yy",},},
+    {"id":{"name":"spr_nails","path":"sprites/spr_nails/spr_nails.yy",},},
     {"id":{"name":"spr_locker","path":"sprites/spr_locker/spr_locker.yy",},},
     {"id":{"name":"spr_blackground","path":"sprites/spr_blackground/spr_blackground.yy",},},
     {"id":{"name":"spr_tile_set_hallway","path":"sprites/spr_tile_set_hallway/spr_tile_set_hallway.yy",},},
@@ -121,6 +123,7 @@
     {"id":{"name":"obj_locker","path":"objects/obj_locker/obj_locker.yy",},},
     {"id":{"name":"hallway_placeholder","path":"sounds/hallway_placeholder/hallway_placeholder.yy",},},
     {"id":{"name":"obj_man","path":"objects/obj_man/obj_man.yy",},},
+    {"id":{"name":"obj_nails","path":"objects/obj_nails/obj_nails.yy",},},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},},
   ],
   "RoomOrderNodes": [

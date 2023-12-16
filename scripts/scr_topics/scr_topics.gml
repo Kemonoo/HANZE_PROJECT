@@ -1,7 +1,7 @@
 global.topics = {};
 
 global.topics[$ "Example"] = [
-	TEXT("Hello Person."),
-	TEXT("i am very sad and mad ans wish i had my shoes."),
-	TEXT("Wish someone could go get them from the scary scary room with a long neck monster that grabs you if you touch the wrong things.")
+	TEXT("Sup loser."),
+	TEXT("You made me spill my drink on my shoes. Had to walk around all day on my socks, because my shoes were drying in the art room."),
+	TEXT("You should go get them if you know whats best for you.")
 ];

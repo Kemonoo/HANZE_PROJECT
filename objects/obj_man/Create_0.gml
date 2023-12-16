@@ -24,6 +24,8 @@ move_down = 0;
 
 // state variables
 inside_object = false	// when inside obj_locker this is set to true
+inventory = ds_list_create();
+
 
 // create listener and set orientation
 audio_listener_set_position(0,x,y,0);

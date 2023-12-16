@@ -209,6 +209,26 @@ if (place_meeting(x, y, obj_puzzle3) && keyboard_check_pressed(ord("E"))) {
 
 
 
+// Step Event of obj_player
+
+// Initialize inventory array
+inventory = ds_list_create();
+
+// Check for collision with throwable items
+var item_collision = instance_place(x, y, obj_nails);
+
+if (item_collision != noone) {
+    // Check if the item is a pickup
+    if (item_collision.is_pickup) {
+        // Add the item to the inventory
+        scr_inventory_add_item(inventory, item_collision.item_id);
+        // Optionally, you can play a sound or perform other actions here
+        // Destroy the picked-up item
+        instance_destroy(item_collision);
+    }
+}
+
+
 
 
 
