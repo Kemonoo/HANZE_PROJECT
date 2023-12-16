@@ -50,6 +50,7 @@
     {"name":"inst_5927E14A","path":"rooms/room_puzzle1/room_puzzle1.yy",},
     {"name":"inst_4D69F4D5","path":"rooms/room_puzzle1/room_puzzle1.yy",},
     {"name":"inst_4D4B2990","path":"rooms/room_puzzle1/room_puzzle1.yy",},
+    {"name":"inst_6F243A15","path":"rooms/room_puzzle1/room_puzzle1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -75,6 +76,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5927E14A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collsionblock1","path":"objects/obj_collsionblock1/obj_collsionblock1.yy",},"properties":[],"rotation":90.0,"scaleX":0.25,"scaleY":0.75,"x":1280.0,"y":1280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D69F4D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collsionblock1","path":"objects/obj_collsionblock1/obj_collsionblock1.yy",},"properties":[],"rotation":180.0,"scaleX":0.25,"scaleY":0.5,"x":644.1411,"y":1327.4548,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D4B2990","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_collsionblock1","path":"objects/obj_collsionblock1/obj_collsionblock1.yy",},"properties":[],"rotation":180.0,"scaleX":0.25,"scaleY":0.75,"x":352.0,"y":1056.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F243A15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_control_SoundMaze","path":"objects/obj_control_SoundMaze/obj_control_SoundMaze.yy",},"properties":[],"rotation":0.0,"scaleX":6.0,"scaleY":6.0,"x":1552.0,"y":544.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"instances_background","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EC9C771","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":38.250004,"scaleY":0.5,"x":128.0,"y":704.0,},

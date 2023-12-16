@@ -73,6 +73,7 @@
     {"name":"monster_lullaby","order":1,"path":"sounds/monster_lullaby/monster_lullaby.yy",},
     {"name":"spr_nails","order":3,"path":"sprites/spr_nails/spr_nails.yy",},
     {"name":"spr_locker","order":1,"path":"sprites/spr_locker/spr_locker.yy",},
+    {"name":"obj_control_SoundMaze","order":1,"path":"objects/obj_control_SoundMaze/obj_control_SoundMaze.yy",},
     {"name":"spr_player_walking_up","order":16,"path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},
     {"name":"spr_puzzledoor3","order":7,"path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},
     {"name":"spr_bedroomdoor","order":1,"path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},

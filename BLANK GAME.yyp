@@ -100,6 +100,7 @@
     {"id":{"name":"spr_locker","path":"sprites/spr_locker/spr_locker.yy",},},
     {"id":{"name":"spr_blackground","path":"sprites/spr_blackground/spr_blackground.yy",},},
     {"id":{"name":"spr_tile_set_hallway","path":"sprites/spr_tile_set_hallway/spr_tile_set_hallway.yy",},},
+    {"id":{"name":"obj_control_SoundMaze","path":"objects/obj_control_SoundMaze/obj_control_SoundMaze.yy",},},
     {"id":{"name":"spr_player_walking_up","path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},},
     {"id":{"name":"spr_puzzledoor3","path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},},
     {"id":{"name":"spr_bedroomdoor","path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},},
