@@ -24,3 +24,7 @@ move_down = 0;
 
 // state variables
 inside_object = false	// when inside obj_locker this is set to true
+
+// create listener and set orientation
+audio_listener_set_position(0,x,y,0);
+audio_listener_set_orientation(0,0,1,0,0,0,1);

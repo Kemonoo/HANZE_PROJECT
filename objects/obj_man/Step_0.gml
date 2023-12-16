@@ -9,6 +9,9 @@ if (!is_dashing and !inside_object) {
 	// calculate movemnt
 	vx = ((move_right - move_left) * player_speed);
 	vy = ((move_down - move_up) * player_speed);
+	
+	//move audio listener with me
+	audio_listener_set_position(0,x,y,0);
 
 	// set idle sprite
 	if (vx == 0 && vy == 0)
