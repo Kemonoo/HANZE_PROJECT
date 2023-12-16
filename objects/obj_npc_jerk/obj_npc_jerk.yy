@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_jerk",
-    "path": "sprites/spr_jerk/spr_jerk.yy",
+    "name": "spr_jock",
+    "path": "sprites/spr_jock/spr_jock.yy",
   },
   "spriteMaskId": null,
   "visible": true,

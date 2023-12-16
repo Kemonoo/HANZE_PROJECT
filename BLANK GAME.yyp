@@ -44,7 +44,7 @@
   },
   "resources": [
     {"id":{"name":"obj_puzzle2","path":"objects/obj_puzzle2/obj_puzzle2.yy",},},
-    {"id":{"name":"spr_jerk","path":"sprites/spr_jerk/spr_jerk.yy",},},
+    {"id":{"name":"spr_jock","path":"sprites/spr_jock/spr_jock.yy",},},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},},
     {"id":{"name":"obj_classroom2","path":"objects/obj_classroom2/obj_classroom2.yy",},},
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
@@ -102,6 +102,7 @@
     {"id":{"name":"spr_puzzledoor3","path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},},
     {"id":{"name":"spr_bedroomdoor","path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},},
     {"id":{"name":"obj_hallway_monster","path":"objects/obj_hallway_monster/obj_hallway_monster.yy",},},
+    {"id":{"name":"Testmonster","path":"sprites/Testmonster/Testmonster.yy",},},
     {"id":{"name":"obj_txt_box","path":"objects/obj_txt_box/obj_txt_box.yy",},},
     {"id":{"name":"tile_hallway_tiles2","path":"tilesets/tile_hallway_tiles2/tile_hallway_tiles2.yy",},},
     {"id":{"name":"room_bedroom","path":"rooms/room_bedroom/room_bedroom.yy",},},
