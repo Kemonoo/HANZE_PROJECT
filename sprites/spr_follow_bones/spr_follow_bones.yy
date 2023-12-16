@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_follow_bones",
-  "bbox_bottom": 113,
+  "bbox_bottom": 114,
   "bbox_left": 36,
   "bbox_right": 91,
-  "bbox_top": 4,
+  "bbox_top": 5,
   "bboxMode": 2,
   "collisionKind": 2,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"998af7fa-95a2-43d2-96b1-9c775c6aad42",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52099eb0-e8f6-4a3e-9f3b-81e7233851f5",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bf8669b4-3855-4972-93e1-6d88e158c534","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d717e54-3933-4786-ae50-aebc4e063fa3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"998af7fa-95a2-43d2-96b1-9c775c6aad42","path":"sprites/spr_follow_bones/spr_follow_bones.yy",},},},"Disabled":false,"id":"6f055bf8-ab13-4c32-ba25-5b4281e8e1c3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"52099eb0-e8f6-4a3e-9f3b-81e7233851f5","path":"sprites/spr_follow_bones/spr_follow_bones.yy",},},},"Disabled":false,"id":"134da2e4-7810-4502-ac89-96012cacb86e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
