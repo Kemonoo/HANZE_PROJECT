@@ -10,8 +10,7 @@ if (!is_dashing and !inside_object) {
 	vx = ((move_right - move_left) * player_speed);
 	vy = ((move_down - move_up) * player_speed);
 	
-	//move audio listener with me
-	audio_listener_set_position(0,x,y,0);
+	
 
 	// set idle sprite
 	if (vx == 0 && vy == 0)
@@ -158,6 +157,9 @@ if (instance_exists(obj_monster)) {
 		player_speed = 6;
     } 
     
+	//move audio listener with me
+	audio_listener_set_position(0,x,y,0);
+	
  //doors
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
     room_goto(room_bedroom); 
