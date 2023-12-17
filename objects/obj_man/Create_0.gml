@@ -7,7 +7,7 @@ depth -= .5;
 
 
 alarm[0] = -1; 
-//move_speed = 3; 
+
 
 hallwayx = 7326
 hallway = 1315

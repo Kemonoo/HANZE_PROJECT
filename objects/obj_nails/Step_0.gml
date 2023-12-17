@@ -1,36 +1,31 @@
-/// @description Insert description here
-// You can write your code in this editor
 
+// Step Event of obj_pickup_and_shoot
 
+// Check if the item is not picked up
+if (!is_picked_up) {
+    // Check for collision with the player
+    var player_collision = instance_place(x, y, obj_man);
 
-// Step Event
-
-// Check for input or condition to throw the item
-if (mouse_check_button_pressed(mb_left)) {
-    // Create the throwable item instance at the player's position
-    var throwable_instance = instance_create_layer(x, y, "Instances", obj_nails);
-
-    // Set the speed and direction of the thrown item
-    throwable_instance.speed = 5; // Adjust the speed as needed
-    throwable_instance.direction = point_direction(x, y, mouse_x, mouse_y);
-
-    // You can add additional code here, such as setting a cooldown
-}
-// Step Event
-
-// Move the throwable item
-if (!place_meeting(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction), obj_wall)) {
-    // Move only if there's no collision with obj_wall (adjust obj_wall to your wall object)
-    x += lengthdir_x(speed, direction);
-    y += lengthdir_y(speed, direction);
+    if (player_collision != noone) {
+        // Check if the player pressed the pickup key (e.g., spacebar)
+        if (keyboard_check_pressed(vk_enter)) {
+            // Set is_picked_up to true
+            is_picked_up = true;
+            // Make the item invisible
+            image_alpha = 0;
+            // Optionally, you can play a sound or perform other actions here
+        }
+    }
 } else {
-    // Destroy the throwable item if it collides with a wall or other obstacle
-    instance_destroy();
+    // If the item is picked up, follow the player
+    x = obj_man.x;
+    y = obj_man.y;
+
+    // Check if the player pressed the shoot key (e.g., left mouse button)
+    if (mouse_check_button_pressed(mb_left)) {
+        // Create the projectile (obj_nails)
+        var nails_instance = instance_create_layer(x, y, "Instances", obj_throw_nails);
+        nails_instance.speed = shooting_speed;
+        nails_instance.direction = point_direction(x, y, mouse_x, mouse_y);
+    }
 }
-
-
-
-
-
-
-

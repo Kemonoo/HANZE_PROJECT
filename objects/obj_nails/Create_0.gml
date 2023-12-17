@@ -1,8 +1,9 @@
-// Create Event of obj_throwable_item
+// Create Event of obj_pickup_and_shoot
 
-// Set the throwable item as a pickup
-is_pickup = true;
+is_picked_up = false;
 
-// Unique item ID
-item_id = 1; // You can use different IDs for different items
+// Optional: Customize the shooting speed
+shooting_speed = 5;
 
+// Set the initial visibility of the item
+image_alpha = 1;
