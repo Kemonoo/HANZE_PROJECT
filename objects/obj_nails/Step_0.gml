@@ -8,7 +8,7 @@ if (!is_picked_up) {
 
     if (player_collision != noone) {
         // Check if the player pressed the pickup key (e.g., spacebar)
-        if (keyboard_check_pressed(vk_enter)) {
+        if keyboard_check_pressed(ord("E")) {
             // Set is_picked_up to true
             is_picked_up = true;
             // Make the item invisible
