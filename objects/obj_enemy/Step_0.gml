@@ -1,5 +1,5 @@
 
-var follow_distance = 300; 
+var follow_distance = 320; 
 
 if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) {
   
