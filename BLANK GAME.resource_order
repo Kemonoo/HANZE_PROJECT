@@ -46,6 +46,7 @@
     {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_classroom3","order":4,"path":"objects/obj_classroom3/obj_classroom3.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
+    {"name":"spr_jock_but_better","order":12,"path":"sprites/spr_jock_but_better/spr_jock_but_better.yy",},
     {"name":"room_hallway","order":4,"path":"rooms/room_hallway/room_hallway.yy",},
     {"name":"obj_classroom1","order":2,"path":"objects/obj_classroom1/obj_classroom1.yy",},
     {"name":"spr_classdoor1","order":2,"path":"sprites/spr_classdoor1/spr_classdoor1.yy",},
