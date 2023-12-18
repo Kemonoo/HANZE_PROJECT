@@ -10,4 +10,3 @@ if (move_towards_player) {
         speed = 0;
     }
   
-

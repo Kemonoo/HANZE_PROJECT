@@ -1,20 +1,8 @@
 zzzzzspeed = 0;
 move_towards_player = false;
 
-//variables and setup
-// Emitter variables
-myEmitter = 0;
-
-// Initialize useSound to noone
-useSound = noone;
-
-// Create Emitter
-if (useSound != noone) {
-    if (!audio_is_playing(useSound)) {
-        myEmitter = audio_emitter_create();
-        audio_emitter_position(myEmitter, x, y, 0);
-        audio_falloff_set_model(audio_falloff_exponent_distance);
-        audio_emitter_falloff(myEmitter, fallStart, maxDist, 1);
-        audio_play_sound_on(myEmitter, useSound, 1, 1);
-    }
-}
+// Create event of obj_monster
+audio_emitter = audio_emitter_create();
+audio_emitter_position(audio_emitter, x, y, 0);
+audio_emitter_velocity(audio_emitter, 0, 0, 0); // Set velocity if needed
+audio_emitter_gain(audio_emitter, 1.0); // Set volume (0.0 to 1.0)
