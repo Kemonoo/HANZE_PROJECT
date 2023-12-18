@@ -9,4 +9,5 @@ if (move_towards_player) {
 	} else {
         speed = 0;
     }
-  
+
+audio_emitter_position(audio_emitter, x, y, 0);
