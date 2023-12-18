@@ -1,4 +1,4 @@
-speed = 0;
+zzzzzspeed = 0;
 move_towards_player = false;
 
 //variables and setup
