@@ -10,7 +10,7 @@ if (!is_dashing and !inside_object) {
 	vx = ((move_right - move_left) * player_speed);
 	vy = ((move_down - move_up) * player_speed);
 	
-	
+
 
 	// set idle sprite
 	if (vx == 0 && vy == 0)

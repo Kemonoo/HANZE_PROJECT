@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_walll",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "decorations",
-    "path": "folders/Objects/Audio Object/decorations.yy",
+    "name": "obj_other",
+    "path": "folders/Objects/obj_other.yy",
   },
-  "parentObjectId": {
-    "name": "obj_plant_noEnter",
-    "path": "objects/obj_plant_noEnter/obj_plant_noEnter.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "deskieboi__Sem_",
-    "path": "sprites/deskieboi__Sem_/deskieboi__Sem_.yy",
+    "name": "spr_walll",
+    "path": "sprites/spr_walll/spr_walll.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
