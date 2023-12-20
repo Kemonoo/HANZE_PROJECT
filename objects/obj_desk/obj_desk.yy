@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "decorations",
-    "path": "folders/Objects/Audio Object/decorations.yy",
+    "path": "folders/Objects/decorations.yy",
   },
   "parentObjectId": {
     "name": "obj_plant_noEnter",

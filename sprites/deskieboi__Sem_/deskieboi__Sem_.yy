@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "deskieboi__Sem_",
-  "bbox_bottom": 256,
-  "bbox_left": 5,
-  "bbox_right": 380,
-  "bbox_top": 138,
+  "bbox_bottom": 204,
+  "bbox_left": 2,
+  "bbox_right": 382,
+  "bbox_top": 112,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "decorations",
-    "path": "folders/Sprites/background/decorations.yy",
+    "path": "folders/Sprites/decorations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

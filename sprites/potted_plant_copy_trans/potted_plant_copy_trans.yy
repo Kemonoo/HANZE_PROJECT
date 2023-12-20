@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "decorations",
-    "path": "folders/Sprites/background/decorations.yy",
+    "path": "folders/Sprites/decorations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
