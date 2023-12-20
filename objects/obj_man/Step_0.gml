@@ -213,3 +213,4 @@ if (place_meeting(x, y, obj_puzzle3) && keyboard_check_pressed(ord("E"))) {
 
 
 
+
