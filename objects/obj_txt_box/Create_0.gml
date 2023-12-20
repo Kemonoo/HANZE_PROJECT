@@ -15,7 +15,7 @@ text_font = fnt_text;
 text_color = c_white;
 text_speed = 0.6;
 text_x = padding;
-text_y = padding;
+text_y = padding * 3;
 text_width = width - padding * 2;
 
 portrait_x = padding;

@@ -73,7 +73,7 @@
     {"id":{"name":"spr_classdoor2","path":"sprites/spr_classdoor2/spr_classdoor2.yy",},},
     {"id":{"name":"spr_throw_nails","path":"sprites/spr_throw_nails/spr_throw_nails.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
-    {"id":{"name":"spr_npc1_mad","path":"sprites/spr_npc1_mad/spr_npc1_mad.yy",},},
+    {"id":{"name":"spr_npc_mad","path":"sprites/spr_npc_mad/spr_npc_mad.yy",},},
     {"id":{"name":"spr_name_box","path":"sprites/spr_name_box/spr_name_box.yy",},},
     {"id":{"name":"fnt_name","path":"fonts/fnt_name/fnt_name.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},

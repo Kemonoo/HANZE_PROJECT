@@ -51,7 +51,7 @@
     {"name":"spr_classdoor2","order":3,"path":"sprites/spr_classdoor2/spr_classdoor2.yy",},
     {"name":"spr_throw_nails","order":4,"path":"sprites/spr_throw_nails/spr_throw_nails.yy",},
     {"name":"obj_monster","order":2,"path":"objects/obj_monster/obj_monster.yy",},
-    {"name":"spr_npc1_mad","order":3,"path":"sprites/spr_npc1_mad/spr_npc1_mad.yy",},
+    {"name":"spr_npc_mad","order":3,"path":"sprites/spr_npc_mad/spr_npc_mad.yy",},
     {"name":"spr_name_box","order":6,"path":"sprites/spr_name_box/spr_name_box.yy",},
     {"name":"fnt_name","order":2,"path":"fonts/fnt_name/fnt_name.yy",},
     {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
