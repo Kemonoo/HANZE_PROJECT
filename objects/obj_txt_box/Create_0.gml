@@ -1,6 +1,8 @@
 confirm_key = vk_enter
+up_key = vk_up;
+down_key = vk_down;
 
-
+//position
 margin = 16;
 padding = 8;
 width = display_get_gui_width() - margin * 2;
@@ -10,22 +12,33 @@ height = sprite_height;
 x = (display_get_gui_width() - width) / 2;
 y = display_get_gui_height() - height - margin;
 
-
+//text
 text_font = fnt_text;
 text_color = c_white;
 text_speed = 0.6;
 text_x = padding;
 text_y = padding * 3;
 text_width = width - padding * 2;
-
+//portrait
 portrait_x = padding;
 portrait_y = padding;
 
-
+//speaker
 speaker_x = padding;
 speaker_y = 0;
 speaker_font = fnt_name;
 speaker_color = #464633;
+
+//options
+
+option_x = padding;
+option_y = padding * -12;
+option_spacing = 100;
+option_selection_indent = 24;
+option_width = 200;
+option_height = 80;
+option_text_x = 10;
+option_text_color = c_white;
 
 
 // do not chnage Vars
@@ -50,6 +63,9 @@ speaker_name = "";
 speaker_width = sprite_get_width(spr_name_box);
 speaker_height = sprite_get_height(spr_name_box);
 
+options = [];
+current_option = 0;
+option_count = 0;
 
 
 
