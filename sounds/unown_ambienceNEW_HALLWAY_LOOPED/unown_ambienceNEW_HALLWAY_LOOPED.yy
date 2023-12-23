@@ -8,7 +8,7 @@
   },
   "bitDepth": 1,
   "bitRate": 128,
-  "compression": 0,
+  "compression": 3,
   "conversionMode": 0,
   "duration": 172.0163,
   "parent": {
@@ -16,8 +16,8 @@
     "path": "folders/Sounds.yy",
   },
   "preload": false,
-  "sampleRate": 44100,
+  "sampleRate": 48000,
   "soundFile": "unown_ambienceNEW_HALLWAY_LOOPED.mp3",
-  "type": 0,
-  "volume": 1.0,
+  "type": 1,
+  "volume": 0.31,
 }
