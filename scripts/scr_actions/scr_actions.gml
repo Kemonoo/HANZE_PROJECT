@@ -63,8 +63,6 @@ function OptionAction(_text, _topic): DialogueAction() constructor {
 	}
 }
 
-
-
 function GotoAction(_topic): DialogueAction() constructor {
 	topic = _topic;
 	
