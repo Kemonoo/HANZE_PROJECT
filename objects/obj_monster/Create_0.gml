@@ -1,4 +1,4 @@
-zzzzzspeed = 0;
+speed = 0;
 move_towards_player = false;
 
 audio_emitter = audio_emitter_create();
