@@ -86,12 +86,12 @@ global.topics[$ "Example"] = [
 
 ];
 
-	global.topics[$ "...no"] = [ //22 end
+	global.topics[$ "Chose ...no"] = [ //22 end
 		GOTO("Chose ..don't think I want to") //end
 
 ];
 
-	global.topics[$ "..."] = [ // 22 end
+	global.topics[$ "Chose ..."] = [ // 22 end
 		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
 			CHOICE("Cat suddenly caught your tongue again??",
 				OPTION("Sorry?", "Chose Sorry?"), //end
@@ -100,17 +100,17 @@ global.topics[$ "Example"] = [
 
 ];
 
-	global.topics[$ "Sorry?"] = [ // 22 end
+	global.topics[$ "Chose Sorry?"] = [ // 22 end
 		GOTO("Ending 3") // end
 
 ];
 
-	global.topics[$ "I love cats"] = [ // 22 end
+	global.topics[$ "Chose I love cats"] = [ // 22 end
 		GOTO("Ending 4")// end
 
 ];
 
-	global.topics[$ ".."] = [ // 22 end
+	global.topics[$ "Chose .."] = [ // 22 end
 		GOTO("Ending 5") // end
 
 ];
@@ -148,7 +148,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose huh"] = [ //22.4 end
-GOTO("I think y-") //end
+GOTO("Chose I think y-") //end
 		
 		
 // END OF 22 BRANCH
@@ -167,7 +167,7 @@ global.topics[$ "Chose ..again?"] = [ //fuck ass start
 ];
 
 global.topics[$ "Chose ...."] = [ // end
-GOTO("...") //end
+GOTO("Chose ...") //end
 		
 ];
 
