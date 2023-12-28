@@ -32,8 +32,8 @@
   ],
   "solid": true,
   "spriteId": {
-    "name": "spr_monster1",
-    "path": "sprites/spr_monster1/spr_monster1.yy",
+    "name": "sound_maze_monsterrrrr",
+    "path": "sprites/sound_maze_monsterrrrr/sound_maze_monsterrrrr.yy",
   },
   "spriteMaskId": null,
   "visible": true,

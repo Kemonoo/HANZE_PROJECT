@@ -115,6 +115,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"room_class2","path":"rooms/room_class2/room_class2.yy",},},
     {"id":{"name":"obj_vision","path":"objects/obj_vision/obj_vision.yy",},},
+    {"id":{"name":"sound_maze_monsterrrrr","path":"sprites/sound_maze_monsterrrrr/sound_maze_monsterrrrr.yy",},},
     {"id":{"name":"room_puzzle2","path":"rooms/room_puzzle2/room_puzzle2.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_npc_oldman","path":"objects/obj_npc_oldman/obj_npc_oldman.yy",},},
