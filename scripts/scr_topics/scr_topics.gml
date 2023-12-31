@@ -239,7 +239,7 @@ GOTO("Chose ..yes") // end
 
 
 
-//ENDINGS JOCK
+//ENDINGS JOCK beginning
 
 global.topics[$ "Ending 1"] = [
 	TEXT("Since they're drying in the art room, I had to walk around on socks all day."),
@@ -297,6 +297,7 @@ global.topics[$ "Ending 9"] = [
 	
 ];
 
+//ENDING ENDINGS JOCK
 
 
 
@@ -304,11 +305,118 @@ global.topics[$ "Ending 9"] = [
 
 
 
-//old man dialogue
-global.topics[$ "npc old man"] = [
+
+//janitor dialogeyy
+global.topics[$ "npc old man"] = [ //working on it
 	SPEAKER("OLD MAN", spr_npc_mad, PORTRAIT_SIDE.LEFT),
-	TEXT("Crying noises"),
-	TEXT("My precious family heirloom. Someone tripped over it and now it's broken."),
-	TEXT("Some nails might fix it, but I don't want to leave her here alone to go to the art room.."),
-	SPEAKER("OLD MAN", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+		CHOICE("My poor mop", //he cries
+			OPTION("Are you okay?", "Chose Are you okay?"), //old man boyy wokring on
+			OPTION("Can I help you?", "Chose Can I help you?")) //unbranched
+
+];
+
+global.topics[$ "Chose Are you okay?"] = [ //old man nboyy end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("No",
+			OPTION("What happened", "Chose What happened"))//end
+	
+];
+
+global.topics[$ "Chose What happened?"] = [ //old man nboyy working
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("My family heirloom got broken",
+			OPTION("That's crazy", "Chose That's crazy"),// oldyy end
+			OPTION("Can I help", "Chose Can I help"),// working sodomy goto end
+			OPTION("Family heirloom?", "Chose Family heirloom?"))//unbranhced workingnggn goto kjek
+	
+];
+
+global.topics[$ "Chose That's crazy"] = [ //oldyy end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("Even crazier is the person who broke it. They ran off without saying a word",
+			OPTION("How rude of them", "Chose How rude of them"),// oldy 2 end
+			OPTION("......", "Chose ......"),//six dots0ldy 3 end
+			OPTION("Maybe they were in an hurry", "Chose Maybe they were in a hurry"))// oldy4 end
+	
+];
+
+global.topics[$ "Chose How rude of them"] = [ //oldy 2 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+GOTO("Ending janitor 1") //end
+	
+];
+
+global.topics[$ "Chose ......"] = [ //oldy 3 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+GOTO("Ending janitor 2") //end
+	
+];
+
+global.topics[$ "Chose Maybe they were in a hurry?"] = [ //oldy 4 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+GOTO("Ending janitor 3") //end
+	
+];
+
+global.topics[$ "Chose Can I help?"] = [ //sodomy //end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+GOTO("Ending janitor 4") //end
+	
+];
+
+global.topipx[$ "Chose Family heirloom?"] = [ //kjek
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("Yes, my mop. I treassured it a lot",
+			CHOICE("Can I help?", "Chose Can I help?"), //end kjek11
+			CHOICE("A mop?", "Chose A mop?"), //unbranched kjek22 goto !!!!!!!!!!!!HEREEE
+			CHOICE("Stop crying", "Chose stop crying")) //unbranched
+			
+];
+
+global.topipx[$ "Chose Can I help?"] = [ //kjek11 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+GOTO("Ending janitor 4")//end
+];
+	
+global.topipx[$ "Chose A mop?"] = [ //kjek22 working unbranched
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("Making mops was our family business 3000 years ago. This is the last one left",
+			CHOICE("A mop family business?", "Chose a mop family business?"),//unbranched
+			CHOICE("3000 years ago?", "Chose 3000 years ago?"), //ubranched
+			CHOICE("I can try to help you fix it?", "Chose I can try to help you fix it?")) //unbranched
+			
+];
+	
+
+
+
+
+
+
+//janitor endings
+
+global.topics[$ "Ending janitor 1"] = [
+	TEXT("They didn't even offer to help me find nails in the art room to fix my mop again"),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT) //he cries agian
+	
+];
+
+
+global.topics[$ "Ending janitor 2"] = [
+	TEXT("If only someone could get some nails from the art room for me to fix my mop"),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT) //he cries agian
+	
+];
+
+global.topics[$ "Ending janitor 3"] = [
+	TEXT("In a hurry to break my heart?"),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+
+];
+
+global.topics[$ "Ending janitor 4"] = [
+	TEXT("Maybe some nails from the art room could fix my precious family heirloom"),
+	TEXT("but not my heart"),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+
 ];
