@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hallwaymonster",
-    "path": "sprites/spr_hallwaymonster/spr_hallwaymonster.yy",
+    "name": "Hall_Monster_Walk__Right",
+    "path": "sprites/Hall_Monster_Walk__Right/Hall_Monster_Walk__Right.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -363,7 +363,7 @@ global.topics[$ "Chose Can I help?"] = [ //sodomy //end
 GOTO("Ending janitor 4") //end
 	
 ];
-
+/*  so the game runs and i dont have to delete anything
 global.topipx[$ "Chose Family heirloom?"] = [ //kjek
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes, my mop. I treassured it a lot",
@@ -388,7 +388,7 @@ global.topipx[$ "Chose A mop?"] = [ //kjek22 working unbranched
 ];
 	
 
-
+*/
 
 
 
