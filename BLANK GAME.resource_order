@@ -21,10 +21,10 @@
     {"name":"layers","order":5,"path":"folders/Sprites/layers.yy",},
     {"name":"0f431ba6-af17-4d21-8e9d-9851443435ab","order":1,"path":"folders/Sprites/layers/0f431ba6-af17-4d21-8e9d-9851443435ab.yy",},
     {"name":"npc_and_monsters","order":3,"path":"folders/Sprites/npc_and_monsters.yy",},
+    {"name":"hall monster walking","order":8,"path":"folders/Sprites/npc_and_monsters/hall monster walking.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"tiles","order":6,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
-    {"name":"hall monster walking","order":8,"path":"folders/Sprites/npc_and_monsters/hall monster walking.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
