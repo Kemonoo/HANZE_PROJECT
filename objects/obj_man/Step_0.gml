@@ -33,22 +33,22 @@ if (!is_dashing and !inside_object) {
 		//change sprite based on direction
 		if (vx > 0) 
 		{
-			sprite_index = spr_player_walking_right;
+			sprite_index = spr_Player_walk___right;
 			dir = 0;
 		}
 		if (vx < 0)
 		{
-			sprite_index = spr_player_walking_left;
+			sprite_index = spr_Player_walk___Left;
 			dir = 2;
 		}
 		if (vy > 0) 
 		{
-			sprite_index = spr_player_walking_down;
+			sprite_index = spr_Player_walk___Down;
 			dir = 3;
 		}
 		if (vy < 0) 
 		{
-			sprite_index = spr_player_walking_up;
+			sprite_index = spr_Player_walk___Up;
 			dir = 1;
 		}
 	}
