@@ -38,8 +38,8 @@
   ],
   "solid": true,
   "spriteId": {
-    "name": "spr_player_idle_down",
-    "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name": "spr_Player_idle",
+    "path": "sprites/spr_Player_idle/spr_Player_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -17,10 +17,10 @@ if (!is_dashing and !inside_object) {
 	{
 		switch dir
 		{
-			case 0: sprite_index = spr_player_idle_right; break;
-			case 1: sprite_index = spr_player_idle_up; break;
-			case 2: sprite_index = spr_player_idle_left; break;
-			case 3: sprite_index = spr_player_idle_down; break;
+			case 0: sprite_index = spr_Player_idle___right; break;
+			case 1: sprite_index = spr_Player_idle___up; break;
+			case 2: sprite_index = spr_Player_idle___left; break;
+			case 3: sprite_index = spr_Player_idle___down; break;
 		}
 	}
 
@@ -69,10 +69,10 @@ if !inside_object
 			switch dir
 			{
 				// replace spr_player_idle_(direction) with sprite for dashing in that direction
-				case 0: dash_direction = 0; sprite_index = spr_dash_idle_right; break;	
-				case 1: dash_direction = 90;  sprite_index = spr_dash_idle_up; break;
-				case 2: dash_direction = 180;  sprite_index = spr_dash_idle_left; break;
-				case 3: dash_direction = 270;  sprite_index = spr_dash_idle_down; break;
+				case 0: dash_direction = 0; sprite_index = spr_Player_dash_right; break;	
+				case 1: dash_direction = 90;  sprite_index = spr_Player_dash_up; break;
+				case 2: dash_direction = 180;  sprite_index = spr_Player_dash_left; break;
+				case 3: dash_direction = 270;  sprite_index = spr_Player_dash_down; break;
 			}
 
 	        var dash_x = lengthdir_x(dash_speed, dash_direction);
