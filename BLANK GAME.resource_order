@@ -13,6 +13,8 @@
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
     {"name":"Sounds","order":10,"path":"folders/Sounds.yy",},
+    {"name":"MUSIC","order":6,"path":"folders/Sounds/MUSIC.yy",},
+    {"name":"SFX","order":7,"path":"folders/Sounds/SFX.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"background","order":2,"path":"folders/Sprites/background.yy",},
     {"name":"decorations","order":8,"path":"folders/Sprites/decorations.yy",},
@@ -27,8 +29,6 @@
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
-    {"name":"MUSIC","order":6,"path":"folders/Sounds/MUSIC.yy",},
-    {"name":"SFX","order":7,"path":"folders/Sounds/SFX.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},

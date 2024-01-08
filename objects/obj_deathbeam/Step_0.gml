@@ -10,10 +10,10 @@ if (timer <= 0) {
 }
 
 // If the light is visible and collides with the player, restart the game
-if (visible && place_meeting(x, y, obj_man)) {
+//if (visible && place_meeting(x, y, obj_man)) {
     // Call the custom restart function from obj_controller
-    game_restart();
-}
+  //  game_restart();
+//}
 
 
 
