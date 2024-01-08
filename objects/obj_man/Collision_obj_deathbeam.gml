@@ -5,7 +5,7 @@
 global.death_count += 1;
 
 // Respawn in bedroom
-room_goto(room_bedroom);
+room_goto(room_class3);
 
 
 
