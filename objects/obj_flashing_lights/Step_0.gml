@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 // Check if it's time to toggle visibility
 if (timer <= 0) {
     visible = !visible; // Toggle visibility
@@ -20,6 +22,13 @@ if (visible && place_meeting(x, y, obj_man)) {
 
 
 }
+
+
+
+
+
+
+
 
 
 
