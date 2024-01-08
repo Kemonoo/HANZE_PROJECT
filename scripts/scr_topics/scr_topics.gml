@@ -58,7 +58,7 @@ global.topics[$ "Example"] = [
 
 	global.topics[$ "Chose ..don't think I want to"] = [ //wwjd
 		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT), 
-			CHOICE("You don-.. jesus christ",
+			CHOICE("You don-.. fucking dicks",
 				OPTION("..sorry?", "Chose ..sorry?"), // end
 				OPTION("swearing is bad","Chose swearing is bad")) // end
 	
@@ -268,7 +268,7 @@ global.topics[$ "Ending 4"] = [
 ];
 
 global.topics[$ "Ending 5"] = [
-	TEXT("Jesus, okay just get me my trainers from the art room. You owe that at least."),
+	TEXT("Fucking hell, okay just get me my trainers from the art room. You owe that at least."),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
