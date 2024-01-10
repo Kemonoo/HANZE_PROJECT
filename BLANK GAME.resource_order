@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"Jump scare","order":11,"path":"folders/Jump scare.yy",},
     {"name":"Main Menu","order":4,"path":"folders/Main Menu.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"AI_Players","order":1,"path":"folders/Objects/AI_Players.yy",},
@@ -32,7 +33,6 @@
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
-    {"name":"Jump scare","order":11,"path":"folders/Jump scare.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
