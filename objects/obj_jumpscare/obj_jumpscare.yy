@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Jump scare",
-    "path": "folders/Jump scare.yy",
+    "path": "folders/Objects/Jump scare.yy",
   },
   "parentObjectId": null,
   "persistent": false,

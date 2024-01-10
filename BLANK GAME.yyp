@@ -12,7 +12,7 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Jump scare","folderPath":"folders/Jump scare.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Jump scare","folderPath":"folders/Objects/Jump scare.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Main Menu","folderPath":"folders/Main Menu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AI_Players","folderPath":"folders/Objects/AI_Players.yy",},
