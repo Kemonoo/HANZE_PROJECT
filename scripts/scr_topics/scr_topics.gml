@@ -6,7 +6,8 @@ global.topics[$ "Example"] = [
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
 			OPTION("..again?", "Chose ..again?"),//FUCK ASS
-			OPTION("Give Nails Back", "Chose Give Nails Back"))
+			OPTION("my shoes?", "Chose Give shoes back"))
+			
 ];
 
 
@@ -93,6 +94,17 @@ global.topics[$ "finshed nail story"] = [
 	
 ];
 
+global.topics[$ "Chose Give shoes back"] = [
+	GIVE_SHOES_BACK(),
+	GOTO("finshed shoe story")
+];
+
+global.topics[$ "finshed shoe story"] = [
+	TEXT("Holy shit u found them ."),
+	TEXT("Thank you so much god bless."),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
 
 
 

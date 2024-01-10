@@ -5,7 +5,7 @@
 #macro GOTO new GotoAction
 
 #macro GIVE_NAILS_BACK new GiveNailsBackAction
-
+#macro GIVE_SHOES_BACK new GiveShoesBackAction
 
 
 
@@ -96,7 +96,14 @@ function GiveNailsBackAction() : DialogueAction() constructor {
 
 
 
-
+function GiveShoesBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            obj_man.player_speed = 3;
+        }
+    }
+}
 
 
 
