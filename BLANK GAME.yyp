@@ -48,7 +48,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tiles","folderPath":"folders/Sprites/tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"jumpscare test.webm","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"jumpscare_eye_test.mp4","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -92,6 +95,7 @@
     {"id":{"name":"spr_puzzledoor2","path":"sprites/spr_puzzledoor2/spr_puzzledoor2.yy",},},
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"lAmp","path":"sprites/lAmp/lAmp.yy",},},
+    {"id":{"name":"jumpscare_sound_final","path":"sounds/jumpscare_sound_final/jumpscare_sound_final.yy",},},
     {"id":{"name":"spr_classdoor2","path":"sprites/spr_classdoor2/spr_classdoor2.yy",},},
     {"id":{"name":"spr_throw_nails","path":"sprites/spr_throw_nails/spr_throw_nails.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
@@ -109,6 +113,7 @@
     {"id":{"name":"spr_press_e","path":"sprites/spr_press_e/spr_press_e.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_Player_dash_left","path":"sprites/spr_Player_dash_left/spr_Player_dash_left.yy",},},
+    {"id":{"name":"room_jumpscare","path":"rooms/room_jumpscare/room_jumpscare.yy",},},
     {"id":{"name":"spr_jock_but_better","path":"sprites/spr_jock_but_better/spr_jock_but_better.yy",},},
     {"id":{"name":"spr_Player_dash_up","path":"sprites/spr_Player_dash_up/spr_Player_dash_up.yy",},},
     {"id":{"name":"obj_jumpscare","path":"objects/obj_jumpscare/obj_jumpscare.yy",},},
@@ -240,6 +245,7 @@
     {"roomId":{"name":"room_puzzle1","path":"rooms/room_puzzle1/room_puzzle1.yy",},},
     {"roomId":{"name":"room_puzzle2","path":"rooms/room_puzzle2/room_puzzle2.yy",},},
     {"roomId":{"name":"room_puzzle3","path":"rooms/room_puzzle3/room_puzzle3.yy",},},
+    {"roomId":{"name":"room_jumpscare","path":"rooms/room_jumpscare/room_jumpscare.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
