@@ -5,7 +5,8 @@ global.topics[$ "Example"] = [
 		CHOICE("It's you again..", //start
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
-			OPTION("..again?", "Chose ..again?"))//FUCK ASS
+			OPTION("..again?", "Chose ..again?"),//FUCK ASS
+			OPTION("Give Nails Back", "Chose Give Nails Back"))
 ];
 
 
@@ -74,6 +75,30 @@ global.topics[$ "Example"] = [
 		
 //END OF WWJD BRANCH
 ];
+
+
+//julian messing arounf here 
+
+global.topics[$ "Chose Give Nails Back"] = [
+	GIVE_NAILS_BACK(),
+	GOTO("finshed nail story")
+    
+	
+];
+
+global.topics[$ "finshed nail story"] = [
+	TEXT("Holy shit u found them ."),
+	TEXT("Thank you so much god bless."),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+
+
+
+//end of julian messing around 
+
+
 
 //START OF 22 RBANCH
 
@@ -303,7 +328,8 @@ global.topics[$ "Ending 9"] = [
 
 
 
-
+selectedDialogOption = "";
+giveNailsBackOptionChosen = false;
 
 
 //janitor dialogeyy
@@ -311,7 +337,8 @@ global.topics[$ "npc old man"] = [ //end
 	SPEAKER("OLD MAN", spr_npc_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("My poor mop", //he cries
 			OPTION("Are you okay?", "Chose Are you okay?"), //end
-			OPTION("Can I help you?", "Chose Can I help you?")) //end
+			OPTION("Can I help you?", "Chose Can I help you?"), //end
+			OPTION("Give Nails Back", "Chose Give Nails Back"))
 
 ];
 

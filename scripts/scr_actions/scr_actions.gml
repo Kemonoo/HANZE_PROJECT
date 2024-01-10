@@ -4,6 +4,10 @@
 #macro OPTION new OptionAction
 #macro GOTO new GotoAction
 
+#macro GIVE_NAILS_BACK new GiveNailsBackAction
+
+
+
 
 function DialogueAction() constructor {
 	act = function() { };
@@ -73,8 +77,21 @@ function GotoAction(_topic): DialogueAction() constructor {
 
 
 
+function GiveNailsBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+        // Destroy the obj_nail instance
+        if (instance_exists(obj_nails)) {
+            instance_destroy(obj_nails);
+        }
+		
+		 if (instance_exists(obj_throw_nails)) {
+            instance_destroy(obj_throw_nails);
+        }
+		
 
-
+        // Optionally, you can perform additional actions here
+    }
+}
 
 
 

@@ -43,3 +43,7 @@ function type(x, y, text, progress, width){
 		}
 	}
 }
+
+
+
+
