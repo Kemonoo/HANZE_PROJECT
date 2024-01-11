@@ -3,14 +3,16 @@ var target_x = obj_man.x;
 var target_y = obj_man.y;
 
 
+
+
 if (move_towards_player) {
     var dir_to_player = point_direction(x, y, target_x, target_y);
-    var move_speed = 9; // Adjust the speed as needed
+    var move_speed = 9; // the speed
 
     // Check for collisions with walls
     if (place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall)) {
   
-        var step = 45; // Adjust the step angle based on your needs
+        var step = 45; 
 
         for (var i = 0; i < 360 / step; i++) {
             dir_to_player += step;
