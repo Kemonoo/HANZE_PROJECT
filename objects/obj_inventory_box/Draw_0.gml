@@ -19,4 +19,9 @@ draw_sprite(grayBoxSprite, 0, obj_man.x + 100, obj_man.y - 380);
 	   
    }
    
+   if (inst_man.has_jacket) {
+	   draw_sprite(spr_jacket, 0, obj_man.x + 380, obj_man.y - 380);
+	   
+   }
+   
    
