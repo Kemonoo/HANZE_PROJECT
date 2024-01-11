@@ -158,6 +158,7 @@ if (instance_exists(obj_monster)) {
 
     if (place_meeting(x, y, obj_item_shoes)) {
 		player_speed = 6;
+		has_shoes = true;
     } 
     
 	//move audio listener with me

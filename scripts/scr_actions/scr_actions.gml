@@ -82,6 +82,7 @@ function GiveNailsBackAction() : DialogueAction() constructor {
         // Destroy the obj_nail instance
         if (instance_exists(obj_nails)) {
             instance_destroy(obj_nails);
+			inst_man.has_nails = false;
         }
 		
 		 if (instance_exists(obj_throw_nails)) {
@@ -101,6 +102,7 @@ function GiveShoesBackAction() : DialogueAction() constructor {
 		
 		 if (instance_exists(obj_man)) {
             obj_man.player_speed = 3;
+			inst_man.has_shoes = false;
         }
     }
 }

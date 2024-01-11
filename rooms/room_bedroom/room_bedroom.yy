@@ -13,7 +13,7 @@
     {"name":"inst_4198F13C","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_76B85C31","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_732D749D","path":"rooms/room_bedroom/room_bedroom.yy",},
-    {"name":"inst_2532AE5D","path":"rooms/room_bedroom/room_bedroom.yy",},
+    {"name":"inst_man","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_6368D619","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_44F78461","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_1A43FB52","path":"rooms/room_bedroom/room_bedroom.yy",},
@@ -28,7 +28,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76B85C31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":0.125,"scaleY":2.375,"x":1360.0,"y":656.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_732D749D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":3.125,"scaleY":0.125,"x":1360.0,"y":960.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_22CBE82B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallwaydoor","path":"objects/obj_hallwaydoor/obj_hallwaydoor.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.1640625,"x":1760.0,"y":960.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2532AE5D","colour":4288249241,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_man","path":"objects/obj_man/obj_man.yy",},"properties":[],"rotation":0.0,"scaleX":1.375,"scaleY":1.25,"x":1744.0,"y":832.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_man","colour":4288249241,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_man","path":"objects/obj_man/obj_man.yy",},"properties":[],"rotation":0.0,"scaleX":1.375,"scaleY":1.25,"x":1744.0,"y":832.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78ADB44D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_inventory_box","path":"objects/obj_inventory_box/obj_inventory_box.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1520.0,"y":736.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"particle_test","assets":[

@@ -152,6 +152,7 @@
     {"id":{"name":"Attic_box_2","path":"sprites/Attic_box_2/Attic_box_2.yy",},},
     {"id":{"name":"Attic_box","path":"sprites/Attic_box/Attic_box.yy",},},
     {"id":{"name":"spr_item_shoe","path":"sprites/spr_item_shoe/spr_item_shoe.yy",},},
+    {"id":{"name":"spr_Pickup_Nails","path":"sprites/spr_Pickup_Nails/spr_Pickup_Nails.yy",},},
     {"id":{"name":"The_Art_Room__FINAL_MIX_INGAME_VERSION_","path":"sounds/The_Art_Room__FINAL_MIX_INGAME_VERSION_/The_Art_Room__FINAL_MIX_INGAME_VERSION_.yy",},},
     {"id":{"name":"room_puzzle1","path":"rooms/room_puzzle1/room_puzzle1.yy",},},
     {"id":{"name":"Sprite90","path":"sprites/Sprite90/Sprite90.yy",},},
