@@ -347,7 +347,7 @@ giveNailsBackOptionChosen = false;
 
 //START OF THE JANITOR DIALOGUE
 //janitor dialogeyy
-global.topics[$ "npc old man"] = [ //end
+global.topics[$ "npc janitor"] = [ //end
 	SPEAKER("OLD MAN", spr_npc_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("My poor mop", //he cries
 			OPTION("Are you okay?", "Chose Are you okay?"), //end
@@ -669,28 +669,29 @@ global.topics[$ "Ending janitor defenitive"] = [
 
 
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
 //START OF THE TEACHER DIALOGUUEEE
-//jock dialogue
-global.topics[$ "Example"] = [
+//START teacher dialogue
+global.topics[$ "npc teacher"] = [
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's freezing in here", //start
-			OPTION("huh", "Chose huh"), //confused  working
-			OPTION("Is it?", "Chose Is it?"), //ignorance  unbranched
-			OPTION("Wear a coat", "Chose Wear a coat"),//smart ass  unbranched
-			OPTION("Did you manage to find the jacket?", "Chose Give shoes back"))//giving items back unbranched
+			OPTION("huh", "Chose huh"), //confused  end
+			OPTION("Is it?", "Chose Is it?"), //ignorance  END
+			OPTION("Wear a coat", "Chose Wear a coat"),//smart ass  end
+			OPTION("Item options", "Chose Item options"))//giving items back unbranched
 			
 ];
 
-global.topics[$ "Chose huh"] = [ //confused working
+//START OF CONFUSED BRANCH
+global.topics[$ "Chose huh"] = [ //confused end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's very cold without a jacket in here",
 			OPTION("Seems like your problem", "Chose Seems like your problem"), //88 end
 			OPTION("Why don't you wear one", "Chose Why don't you wear one"), // 99 END
-			OPTION("It's not", "Chose It's not")) //00WORKING
+			OPTION("It's not", "Chose It's not")) //00 end
 ];
 
 global.topics[$ "Chose Seems like your problem"] = [ //88 end
@@ -775,12 +776,12 @@ GOTO("Ending teacher 8")//end
 
 ];
 
-global.topics[$ "Chose It's not"] = [ //00
+global.topics[$ "Chose It's not"] = [ //00 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("You're wearing a sweater",
 			OPTION("Wear a jacket", "Chose Wear a jacket"), //00.1 end
-			OPTION("yes?", "Chose yes?"), // 00.2 working
-			OPTION("Where is yours", "Chose Where is yours")) //00.3 unbranched
+			OPTION("yes?", "Chose yes?"), // 00.2 end
+			OPTION("Where is yours", "Chose Where is yours")) //00.3 end
 			
 ];
 
@@ -789,7 +790,7 @@ GOTO("Chose Why don't you wear one")//end
 
 ];
 
-global.topics[$ "Chose yes?"] = [ //00.2
+global.topics[$ "Chose yes?"] = [ //00.2 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Well, I am not. Conclusion: I'm cold",
 			OPTION("Your problem", "Chose Your problem"), //00.21 end
@@ -813,8 +814,147 @@ GOTO("Ending teacher 7")//end
 
 ];
 
+global.topics[$ "Chose Where is yours"] = [ //00.3end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		TEXT("Don't have a sweater"),
+			CHOICE("I prefer to wear jackets, but that's no longer an option now",
+				OPTION("Okay?", "Chose Okay?"), //00.31 end
+				OPTION("Did something happen to it?", "Chose Did something happen to it?"), // 00.32 end
+				OPTION("What??", "Chose What??")) //00.33 end
+			
+];
+
+global.topics[$ "Chose Okay?"] = [ //00.31 end
+GOTO("Ending teacher 1")//end	
+
+];
+
+global.topics[$ "Chose Did something happend to it?"] = [ //00.32 end
+GOTO("Chose Something happened to it?")//end
+
+];
+
+global.topics[$ "Chose What??"] = [ //00.33 end
+GOTO("Chose Something happened to it?")//end
+
+];
 
 
+//START OF IGNORANCE BRANCH
+
+global.topics[$ "Chose Is it?"] = [//end
+GOTO("Chose It's not")	//end
+];
+
+
+
+//START OF SMART ASS BRANCH
+
+global.topics[$ "Chose Wear a coat"] = [//end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("Someone did a hit and run on it", 
+			OPTION("A hit and run?", "Chose A hit and run?"), //c55 end
+			OPTION("In school?", "Chose In school?"), //c66 end
+			OPTION("Interesting", "Chose Interesting"))//c77 end
+			
+];
+
+global.topics[$ "Chose A hit and run?"] = [//c55 end
+GOTO("Chose Something happened to it?")	//end
+
+];
+
+global.topics[$ "Chose In school?"] = [//c66 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("In front of me even", 
+			OPTION("Shouldn't you have stopped it?", "Chose Shouldn't you have stopped it?"), //c55 end
+			OPTION("How?", "Chose How?"), //c66 end
+			OPTION("Interesting", "Chose Interesting"))//c77 end
+			
+];
+
+global.topics[$ "Chose Shouldn't you have stopped it?"] = [//c55 end
+GOTO("Ending teacher 10")	//end
+
+];
+
+global.topics[$ "Chose How?"] = [//c66 end
+GOTO("Chose Something happened to it? ") //end
+
+];
+
+global.topics[$ "Chose Interesting"] = [//c77 end
+	TEXT("You think so? I believe it's rather rude"), //end
+	GOTO("Ending teacher 9")//end
+
+];
+
+
+//START OF GIVING ITEMS BACK BRACH
+global.topics[$ "Chose Item options"] = [
+	CHOICE("Do you want to give the item back or not? Choose wisely",
+			OPTION("Return item", "Chose Return item"), //good
+			OPTION("Don't return item", "Chose Don't return item"), //bad
+			OPTION("Wear a coat", "Chose Wear a coat"),//smart ass  end
+			OPTION("Did you manage to find the jacket?", "Chose Give shoes back"))//giving items back unbranched
+			
+];
+
+global.topics[$ "Chose Don't return item"] = [//bad end
+	TEXT("It really is your problem that you're cold"), //end
+
+];
+
+global.topics[$ "Chose Return item"] = [//good
+	TEXT("I found a lab coat for you to wear as a jacket"),//this is noah speaking
+	CHOICE("You did? How kind of you to do. Now I can finish my paperwork in time", //teacher
+		OPTION("Small apology", "Chose Small apology"),
+		OPTION("Mediocre apology", "Chose Mediocre apology"),
+		OPTION("Big apology", "Chose Big apology"))
+
+];
+
+global.topics[$ "Chose Small apology"] = [//good
+	TEXT("I'm sorry for the coat thing I did"),//this is noah speaking
+	TEXT("Oh it was you?"),
+	TEXT("Yes"), //NOAH
+	TEXT("Well thank you for apologizing."),
+	TEXT("I should have helped you along more as well, so I apologize for that"), //TEACHER SPEAKING
+		
+];
+
+global.topics[$ "Chose Mediocre apology"] = [//good
+	TEXT("I'm sorry for setting your coat on fire and running off. My thoughts were all over the place"),//this is noah speaking
+	TEXT("Oh it's quite alright. Everybody has a scattered mind every now and then"), 
+	TEXT("If there's anything you want to talk about, I'm always here."), //TEACHER SPEAKING
+
+];
+
+global.topics[$ "Chose Big apology"] = [//good
+	TEXT("I'm sorry for setting your coat on fire and just running away"),
+	TEXT("I haven't been feeling so well mentaly lately and something happened before I got to your class which messed with my head more"),//this is noah speaking
+		CHOICE("Oh dear. Would you like to talk to me after class about it?"), 
+			OPTION("That would be nice", "Chose That would be nice"),
+			OPTION("Yes please", "Chose Yes please"),
+			OPTION("That's not nececary", "Chose That's not nececary"),
+
+];
+
+global.topics[$ "Chose That would be nice"] = [//good
+	TEXT("You can pretend to pack your stuff very slowly and wait for everyone to leave the room if that would make you feel more at ease"),
+
+];
+
+global.topics[$ "Chose Yes please"] = [//good
+GOTO("Chose That would be nice")
+
+];
+
+global.topics[$ "Chose That's not nececary"] = [//good
+	TEXT("It might be nice to get some stuff of your chest"),
+	TEXT("You can always talk to me if you change your mind")
+
+];
 
 
 
@@ -870,7 +1010,20 @@ global.topics[$ "Ending teacher 7"] = [
 
 global.topics[$ "Ending teacher 8"] = [
 	TEXT("To make it worse, I don't remember who it was"),
-	TEXT("Also can't think in this cold, maybe I should get a jacket from the attic"), 
+	TEXT("Finishing these papers in this cold is also undoable, maybe I should get a jacket from the attic"), 
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+
+];
+
+global.topics[$ "Ending teacher 9"] = [
+	TEXT("Because of them I probably have to go to the attic to stop my shivers"),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+
+];
+
+global.topics[$ "Ending teacher 10"] = [
+	TEXT("I should have, but I don't want to think about that right now. I should finish my paperwork first."),
+	TEXT("Which is hard to do since I can't concentrate in this cold, there might be a coat in the attic I can use"), 
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
