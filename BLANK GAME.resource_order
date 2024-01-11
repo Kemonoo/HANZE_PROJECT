@@ -32,6 +32,7 @@
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
+    {"name":"Walking sound","order":13,"path":"folders/Walking sound.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
@@ -166,6 +167,7 @@
     {"name":"obj_flashing_lights","order":5,"path":"objects/obj_flashing_lights/obj_flashing_lights.yy",},
     {"name":"spr_Player_walk___Up","order":3,"path":"sprites/spr_Player_walk___Up/spr_Player_walk___Up.yy",},
     {"name":"hallway_monster_not_waling","order":4,"path":"sprites/hallway_monster_not_waling/hallway_monster_not_waling.yy",},
+    {"name":"Sequence1","order":1,"path":"sequences/Sequence1/Sequence1.yy",},
     {"name":"obj_press_e","order":6,"path":"objects/obj_press_e/obj_press_e.yy",},
     {"name":"Hall_Monster_Walk__Left","order":1,"path":"sprites/Hall_Monster_Walk__Left/Hall_Monster_Walk__Left.yy",},
     {"name":"spr_stoppoint_beam","order":7,"path":"sprites/spr_stoppoint_beam/spr_stoppoint_beam.yy",},
