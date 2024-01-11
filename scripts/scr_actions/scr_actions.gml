@@ -6,6 +6,7 @@
 
 #macro GIVE_NAILS_BACK new GiveNailsBackAction
 #macro GIVE_SHOES_BACK new GiveShoesBackAction
+#macro GIVE_JACKET_BACK new GiveJacketBackAction
 
 
 
@@ -103,6 +104,17 @@ function GiveShoesBackAction() : DialogueAction() constructor {
 		 if (instance_exists(obj_man)) {
             obj_man.player_speed = 3;
 			inst_man.has_shoes = false;
+        }
+    }
+}
+
+
+function GiveJacketBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.has_jacket = false;
         }
     }
 }

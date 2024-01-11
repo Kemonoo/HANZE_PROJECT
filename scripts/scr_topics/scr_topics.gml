@@ -906,6 +906,7 @@ global.topics[$ "Chose Don't return item"] = [//bad end
 ];
 
 global.topics[$ "Chose Return item"] = [//good
+	GIVE_JACKET_BACK(),
 	TEXT("I found a lab coat for you to wear as a jacket"),//this is noah speaking
 	CHOICE("You did? How kind of you to do. Now I can finish my paperwork in time", //teacher
 		OPTION("Small apology", "Chose Small apology"),
