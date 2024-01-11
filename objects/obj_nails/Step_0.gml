@@ -20,9 +20,16 @@ if (!is_picked_up) {
     y = obj_man.y;
 	 
     if (mouse_check_button_pressed(mb_left)) {
-		
-        var nails_instance = instance_create_layer(x, y, "Instances", obj_throw_nails);
-        nails_instance.speed = shooting_speed;
-        nails_instance.direction = point_direction(x, y, mouse_x, mouse_y);
+		if(num_nails<3) { 
+			var nails_instance = instance_create_layer(x, y, "Instances", obj_throw_nails);
+			nails_instance.speed = shooting_speed;
+			nails_instance.direction = point_direction(x, y, mouse_x, mouse_y);
+			num_nails++;
+			alarm[0] = 100;
+		}
     }
 }
+
+
+
+
