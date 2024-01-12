@@ -244,6 +244,7 @@
     {"id":{"name":"obj_puzzle1","path":"objects/obj_puzzle1/obj_puzzle1.yy",},},
     {"id":{"name":"spr_player_idle_left","path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},},
     {"id":{"name":"Trash","path":"sprites/Trash/Trash.yy",},},
+    {"id":{"name":"Main_Menu_Theme__Game_Version_","path":"sounds/Main_Menu_Theme__Game_Version_/Main_Menu_Theme__Game_Version_.yy",},},
     {"id":{"name":"spr_option_arrow","path":"sprites/spr_option_arrow/spr_option_arrow.yy",},},
     {"id":{"name":"room_class3","path":"rooms/room_class3/room_class3.yy",},},
     {"id":{"name":"obj_plant_noEnter","path":"objects/obj_plant_noEnter/obj_plant_noEnter.yy",},},

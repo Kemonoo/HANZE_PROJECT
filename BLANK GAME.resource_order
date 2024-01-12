@@ -197,6 +197,7 @@
     {"name":"obj_puzzle1","order":5,"path":"objects/obj_puzzle1/obj_puzzle1.yy",},
     {"name":"spr_player_idle_left","order":10,"path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},
     {"name":"Trash","order":1,"path":"sprites/Trash/Trash.yy",},
+    {"name":"Main_Menu_Theme__Game_Version_","order":6,"path":"sounds/Main_Menu_Theme__Game_Version_/Main_Menu_Theme__Game_Version_.yy",},
     {"name":"spr_option_arrow","order":7,"path":"sprites/spr_option_arrow/spr_option_arrow.yy",},
     {"name":"room_class3","order":3,"path":"rooms/room_class3/room_class3.yy",},
     {"name":"obj_plant_noEnter","order":3,"path":"objects/obj_plant_noEnter/obj_plant_noEnter.yy",},
