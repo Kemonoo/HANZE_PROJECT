@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Ventilation_ambience__Ingame_Version_.mp3",
   "type": 2,
-  "volume": 0.59,
+  "volume": 0.13,
 }
