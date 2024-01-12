@@ -78,7 +78,7 @@ if !inside_object
 
 	        var dash_x = lengthdir_x(dash_speed, dash_direction);
 	        var dash_y = lengthdir_y(dash_speed, dash_direction);
-
+			instance_create_layer(obj_man.x - 450, obj_man.y - 330, "Instances", obj_dash_cooldown);
 			
 				x += dash_x;
 				y += dash_y;
@@ -90,6 +90,7 @@ if !inside_object
 				num_dash++;
 				alarm[2] = 100;
 			}
+				
 	    }
 	}
 }

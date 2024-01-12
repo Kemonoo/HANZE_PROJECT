@@ -1,11 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-num_dash = 0; 
-
-
-
+x = obj_man.x - 450;
+y = obj_man.y - 330;
 
 
 

@@ -25,3 +25,5 @@ draw_sprite(grayBoxSprite, 0, obj_man.x + 100, obj_man.y - 380);
    }
    
    
+   
+   

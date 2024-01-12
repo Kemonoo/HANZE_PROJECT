@@ -2,13 +2,9 @@
 // You can write your code in this editor
 
 
-num_dash = 0; 
+depth -= 101;
 
-
-
-
-
-
+image_speed = .700;
 
 
 
