@@ -35,7 +35,6 @@
     {"name":"inst_6D623628","path":"rooms/room_puzzle3/room_puzzle3.yy",},
     {"name":"inst_339224F7","path":"rooms/room_puzzle3/room_puzzle3.yy",},
     {"name":"inst_31B412D3","path":"rooms/room_puzzle3/room_puzzle3.yy",},
-    {"name":"inst_51D26CE8","path":"rooms/room_puzzle3/room_puzzle3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -52,7 +51,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_282140F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_eye","path":"objects/obj_eye/obj_eye.yy",},"properties":[],"rotation":0.0,"scaleX":1.25,"scaleY":1.375,"x":1328.0,"y":1776.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10E28D27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_eyebeam","path":"objects/obj_eyebeam/obj_eyebeam.yy",},"properties":[],"rotation":0.0,"scaleX":14.625,"scaleY":0.4140625,"x":2256.0,"y":1770.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50FFC079","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_jacket","path":"objects/obj_jacket/obj_jacket.yy",},"properties":[],"rotation":0.0,"scaleX":0.703125,"scaleY":0.6484375,"x":1368.0,"y":2304.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51D26CE8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_locker","path":"objects/obj_locker/obj_locker.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1122.0,"y":743.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_background","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_306FEED9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":20.500002,"scaleY":2.125,"x":608.0,"y":240.0,},
