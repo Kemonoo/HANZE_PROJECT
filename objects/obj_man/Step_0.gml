@@ -58,6 +58,7 @@ if !inside_object
 {
 	if (keyboard_check_pressed(vk_space)) {
 	    if (!is_dashing) {
+			if(num_dash<1) {
         
 	        var dash_speed = 150; 
 	        var dash_duration = 10; 
@@ -78,14 +79,17 @@ if !inside_object
 	        var dash_x = lengthdir_x(dash_speed, dash_direction);
 	        var dash_y = lengthdir_y(dash_speed, dash_direction);
 
-        
-	        x += dash_x;
-	        y += dash_y;
+			
+				x += dash_x;
+				y += dash_y;
 
-	        is_dashing = true; 
-	        image_speed = 2; 
-	        image_index = 0; 
-	        alarm[0] = dash_duration; 
+				is_dashing = true; 
+				image_speed = 2; 
+				image_index = 0; 
+				alarm[0] = dash_duration;
+				num_dash++;
+				alarm[2] = 100;
+			}
 	    }
 	}
 }

@@ -1,7 +1,8 @@
 // Create Event
 image_angle = 0; 
 direction = 0;   
-is_dashing = false; 
+is_dashing = false;
+num_dash = 0;
 
 depth -= 101;
 
