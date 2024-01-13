@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "monster_lullaby.mp3",
   "type": 2,
-  "volume": 0.56,
+  "volume": 0.65,
 }

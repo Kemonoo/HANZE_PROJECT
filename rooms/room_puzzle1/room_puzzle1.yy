@@ -39,7 +39,7 @@
         {"name":"g_MaskStart","type":0,"value":"1",},
         {"name":"g_MaskEnd","type":0,"value":"0.325",},
         {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
-      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4899B7A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"properties":[],"rotation":0.0,"scaleX":1.4503471,"scaleY":1.5367157,"x":3040.0,"y":1632.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A411C1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_item_shoes","path":"objects/obj_item_shoes/obj_item_shoes.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":3120.0,"y":2116.0,},

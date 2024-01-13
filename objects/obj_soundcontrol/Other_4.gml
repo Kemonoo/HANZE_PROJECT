@@ -7,7 +7,7 @@ switch (room) {
         audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
 		
 		//stop the monster lullaby sound
-		audio_stop_sound(monster_lullaby);
+		audio_stop_sound(sfx_Attic_mimic_sound);
 		
 		//stop the attic
 		audio_stop_sound(Attic_Ambience_FINAL_MIX_INGAME);
@@ -61,7 +61,7 @@ switch (room) {
     } break;
 }
 
-//CLASSROOM 1 MUSIC
+//CLASSROOM 2 MUSIC
 switch (room) {
     case room_class2: {
         // Stop the sound for other rooms

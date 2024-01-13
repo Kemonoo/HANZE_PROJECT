@@ -175,6 +175,7 @@
     {"id":{"name":"spr_player_walking_left","path":"sprites/spr_player_walking_left/spr_player_walking_left.yy",},},
     {"id":{"name":"spr_Player_idle___down","path":"sprites/spr_Player_idle___down/spr_Player_idle___down.yy",},},
     {"id":{"name":"Hall_Monster_Walk__Down","path":"sprites/Hall_Monster_Walk__Down/Hall_Monster_Walk__Down.yy",},},
+    {"id":{"name":"sfx_Attic_mimic_sound","path":"sounds/sfx_Attic_mimic_sound/sfx_Attic_mimic_sound.yy",},},
     {"id":{"name":"spr_dash_idle_up","path":"sprites/spr_dash_idle_up/spr_dash_idle_up.yy",},},
     {"id":{"name":"spr_Player_dash_down","path":"sprites/spr_Player_dash_down/spr_Player_dash_down.yy",},},
     {"id":{"name":"spr_Player_idle","path":"sprites/spr_Player_idle/spr_Player_idle.yy",},},
