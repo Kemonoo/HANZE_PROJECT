@@ -602,7 +602,7 @@ global.topics[$ "Ending janitor 2"] = [
 ];
 
 global.topics[$ "Ending janitor 3"] = [
-	TEXT("In a hurry to break my heart?"),
+	TEXT("In a hurry to break my heart and not offer to help get nails from the art room to fix her?"),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -623,12 +623,13 @@ global.topics[$ "Ending janitor 5"] = [
 
 global.topics[$ "Ending janitor 6"] = [
 	TEXT("Our glory is forever lost, but maybe I can fix this mop with some nails."),
+	TEXT("There should be some in the art room"),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 7"] = [
-	TEXT("If you can find me some nails, my mop can be fixed"),
+	TEXT("If you can find me some nails from the art room, my mop can be fixed"),
 	TEXT("Find whoever broke my mop and it might fix my heart"),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
@@ -647,13 +648,15 @@ global.topics[$ "Ending janitor 9"] = [
 ];
 
 global.topics[$ "Ending janitor 10"] = [
-	TEXT("Then why did you ask to help"), //crying
+	TEXT("I just need nails from the art room please"), //crying
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 11"] = [
 	TEXT("How can I when the only memory of my familiy is broken"), //crying
+	TEXT("When I can no longer connect with them like before"),
+	TEXT("When I don't even have nails to fix her"),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
