@@ -48,6 +48,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tiles","folderPath":"folders/Sprites/tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walking sound","folderPath":"folders/Walking sound.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Achievement","folderPath":"folders/Achievement.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"jumpscare test.webm","CopyToMask":-1,"filePath":"datafiles",},
@@ -60,6 +61,7 @@
   },
   "resources": [
     {"id":{"name":"obj_puzzle2","path":"objects/obj_puzzle2/obj_puzzle2.yy",},},
+    {"id":{"name":"obj_achievement_controller","path":"objects/obj_achievement_controller/obj_achievement_controller.yy",},},
     {"id":{"name":"Sprite89","path":"sprites/Sprite89/Sprite89.yy",},},
     {"id":{"name":"obj_eyebeam","path":"objects/obj_eyebeam/obj_eyebeam.yy",},},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},},
@@ -214,6 +216,7 @@
     {"id":{"name":"spr_player_walking_up","path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},},
     {"id":{"name":"spr_puzzledoor3","path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},},
     {"id":{"name":"Poster_3","path":"sprites/Poster_3/Poster_3.yy",},},
+    {"id":{"name":"obj_achievement","path":"sprites/obj_achievement/obj_achievement.yy",},},
     {"id":{"name":"spr_Player_idle___up","path":"sprites/spr_Player_idle___up/spr_Player_idle___up.yy",},},
     {"id":{"name":"obj_global_controller","path":"objects/obj_global_controller/obj_global_controller.yy",},},
     {"id":{"name":"obj_deathbeam","path":"objects/obj_deathbeam/obj_deathbeam.yy",},},

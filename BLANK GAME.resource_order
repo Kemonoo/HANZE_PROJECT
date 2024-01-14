@@ -33,6 +33,7 @@
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
     {"name":"Walking sound","order":12,"path":"folders/Walking sound.yy",},
+    {"name":"Achievement","order":14,"path":"folders/Achievement.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
@@ -169,6 +170,7 @@
     {"name":"spr_player_walking_up","order":16,"path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},
     {"name":"spr_puzzledoor3","order":7,"path":"sprites/spr_puzzledoor3/spr_puzzledoor3.yy",},
     {"name":"Poster_3","order":19,"path":"sprites/Poster_3/Poster_3.yy",},
+    {"name":"obj_achievement","order":1,"path":"sprites/obj_achievement/obj_achievement.yy",},
     {"name":"spr_Player_idle___up","order":9,"path":"sprites/spr_Player_idle___up/spr_Player_idle___up.yy",},
     {"name":"obj_global_controller","order":7,"path":"objects/obj_global_controller/obj_global_controller.yy",},
     {"name":"obj_deathbeam","order":4,"path":"objects/obj_deathbeam/obj_deathbeam.yy",},
