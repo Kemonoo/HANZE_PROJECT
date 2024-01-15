@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_other",
-    "path": "folders/Objects/obj_other.yy",
+    "name": "Deathcount",
+    "path": "folders/Deathcount.yy",
   },
   "parentObjectId": null,
   "persistent": true,

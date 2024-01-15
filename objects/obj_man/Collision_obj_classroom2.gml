@@ -6,10 +6,3 @@ if (!instance_exists(obj_press_e)){
 
 
 alarm [1] = 2;
-
-
-
-
-
-
-

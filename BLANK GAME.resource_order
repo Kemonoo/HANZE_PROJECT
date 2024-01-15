@@ -34,6 +34,7 @@
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
     {"name":"Walking sound","order":12,"path":"folders/Walking sound.yy",},
+    {"name":"Deathcount","order":15,"path":"folders/Deathcount.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},
@@ -177,7 +178,6 @@
     {"name":"obj_achievement","order":1,"path":"sprites/obj_achievement/obj_achievement.yy",},
     {"name":"obj_endingdoor","order":10,"path":"objects/obj_endingdoor/obj_endingdoor.yy",},
     {"name":"spr_Player_idle___up","order":9,"path":"sprites/spr_Player_idle___up/spr_Player_idle___up.yy",},
-    {"name":"obj_global_controller","order":7,"path":"objects/obj_global_controller/obj_global_controller.yy",},
     {"name":"obj_deathbeam","order":4,"path":"objects/obj_deathbeam/obj_deathbeam.yy",},
     {"name":"spr_bedroomdoor","order":1,"path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},
     {"name":"spr_walll","order":2,"path":"sprites/spr_walll/spr_walll.yy",},
