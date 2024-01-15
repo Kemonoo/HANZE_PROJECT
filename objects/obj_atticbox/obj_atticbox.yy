@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_atticbox",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -10,8 +10,8 @@
     "path": "folders/Objects/decorations.yy",
   },
   "parentObjectId": {
-    "name": "obj_plant_noEnter",
-    "path": "objects/obj_plant_noEnter/obj_plant_noEnter.yy",
+    "name": "obj_desk",
+    "path": "objects/obj_desk/obj_desk.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -27,10 +27,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "deskieboi__Sem_",
-    "path": "sprites/deskieboi__Sem_/deskieboi__Sem_.yy",
+    "name": "Attic_box",
+    "path": "sprites/Attic_box/Attic_box.yy",
   },
   "spriteMaskId": null,
   "visible": true,
