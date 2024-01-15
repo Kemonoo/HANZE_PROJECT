@@ -6,6 +6,8 @@ direction = 0;
 is_dashing = false;
 num_dash = 0;
 
+//jacket
+shield_active = true;
 
 
 

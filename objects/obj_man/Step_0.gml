@@ -232,6 +232,7 @@ if (place_meeting(x, y, obj_endingdoor) && keyboard_check_pressed(ord("E")) && g
     room_goto(room_ending_good);
 }
 
+
     
  
 
