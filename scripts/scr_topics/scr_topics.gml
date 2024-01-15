@@ -756,7 +756,7 @@ global.topics[$ "Chose Why don't you wear one"] = [ //99 END
 		CHOICE("I HAD a jacket but..",
 			OPTION("but..", "Chose but.."), //99.1 end
 			OPTION("You forgot?", "Chose You forgot?"), // 99.2 end
-			OPTION("Something happened to it?", "Chose Something happened to it")) //99.3 END
+			OPTION("Something happened to it?", "Chose Something happened to it?")) //99.3 END
 ];
 
 global.topics[$ "Chose but.."] = [ //99.1 end

@@ -6,6 +6,7 @@ if (place_meeting(x, y, nearest_enemy) && (shield_active == true)){
     x += lengthdir_x(player_speed*40, knockback_direction);
     y += lengthdir_y(player_speed*40, knockback_direction);
 	alarm[3] = 1;
+	alarm[5] = 7;
 	alarm[4] = 100;
 }
 
