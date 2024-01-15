@@ -88,7 +88,7 @@ if !inside_object
 				image_index = 0; 
 				alarm[0] = dash_duration;
 				num_dash++;
-				alarm[2] = 100;
+				alarm[2] = 1; //set to 100 for demo 
 			}
 				
 	    }
@@ -160,9 +160,10 @@ if (instance_exists(obj_monster)) {
 	
 
 
-    if (place_meeting(x, y, obj_item_shoes)) {
+    if (place_meeting(x, y, obj_item_shoes) && keyboard_check_pressed(ord("E"))) {
 		player_speed = 6;
 		has_shoes = true;
+		instance_destroy(obj_item_shoes);
     } 
 	
 	
@@ -219,6 +220,20 @@ if (place_meeting(x, y, obj_puzzle3) && keyboard_check_pressed(ord("E"))) {
 }
 
 
+//ending good room
+
+if (place_meeting(x, y, obj_endingdoor) && keyboard_check_pressed(ord("E")) && kept_jacket && kept_nails && kept_shoes) {
+    
+    room_goto(room_ending_bad);
+}
+
+if (place_meeting(x, y, obj_endingdoor) && keyboard_check_pressed(ord("E")) && gave_jacket && gave_nails && gave_shoes) {
+    
+    room_goto(room_ending_good);
+}
+
+    
+ 
 
 
 

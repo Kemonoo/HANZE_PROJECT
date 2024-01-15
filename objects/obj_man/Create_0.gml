@@ -1,15 +1,20 @@
 // Create Event
 image_angle = 0; 
 direction = 0;   
+
+//dash cooldown
 is_dashing = false;
 num_dash = 0;
 
+
+
+
+
+
 depth -= 101;
-
-
 alarm[0] = -1; 
 
-
+//hallway spawn point when u leave bed room
 hallwayx = 7326
 hallway = 1315
 

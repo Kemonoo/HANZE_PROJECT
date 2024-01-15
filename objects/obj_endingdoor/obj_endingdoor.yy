@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_item_shoes",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_endingdoor",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "items",
-    "path": "folders/Objects/items.yy",
+    "name": "doors",
+    "path": "folders/Objects/doors.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_shoe",
-    "path": "sprites/spr_item_shoe/spr_item_shoe.yy",
+    "name": "spr_endingdoor",
+    "path": "sprites/spr_endingdoor/spr_endingdoor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

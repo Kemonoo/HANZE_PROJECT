@@ -78,13 +78,25 @@ global.topics[$ "Example"] = [
 ];
 
 
-//julian messing arounf here 
+//giving and keeping item dialog 
 
-global.topics[$ "Chose Give Nails Back"] = [
-	GIVE_NAILS_BACK(),
-	GOTO("finshed nail story")
-    
-	
+//shoe give back keep
+global.topics[$ "Chose Give shoes back"] = [
+	CHOICE("Item opions make a wise choice",
+			OPTION("really u got them" ,"Chose really u got them"), 
+			OPTION("(lie) not yet","Chose (lie) not yet"),
+			OPTION("Item options", "Item options jerk"),
+			OPTION("fuck you", "Chose fuck you"))
+   
+];
+
+global.topics[$ "Chose Item options jerk"] = [
+	GIVE_SHOES_BACK(),
+	GOTO("finshed shoe story")
+];
+
+global.topics[$ "Chose (lie) not yet"] = [
+	 KEEP_SHOES()
 ];
 
 global.topics[$ "finshed nail story"] = [
@@ -93,14 +105,32 @@ global.topics[$ "finshed nail story"] = [
 	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
 	
 ];
+//end of shoe give back keep
+//nail give back keep
 
-global.topics[$ "Chose Give shoes back"] = [
-	GIVE_SHOES_BACK(),
-	GOTO("finshed shoe story")
+global.topics[$ "Chose Item options old man"] = [
+	CHOICE("Item opions make a wise choice",
+			OPTION("really u got them" ,"Chose really u got them"), 
+			OPTION("(lie) not yet","Chose (lie) not yet 2"),
+			OPTION("here you go", "Chose here you go 2"),
+			OPTION("fuck you", "Chose fuck you"))
+	 
 ];
 
-global.topics[$ "finshed shoe story"] = [
-	TEXT("Holy shit u found them ."),
+
+global.topics[$ "Chose here you go 2"] = [
+	GIVE_NAILS_BACK(),
+	GOTO("finshed nail story")
+];
+
+global.topics[$ "Chose (lie) not yet 2"] = [
+	 KEEP_NAILS()
+];
+
+
+
+global.topics[$ "finshed nail story"] = [
+	TEXT("Holy shit u got them ."),
 	TEXT("Thank you so much god bless."),
 	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT)
 	
@@ -108,7 +138,8 @@ global.topics[$ "finshed shoe story"] = [
 
 
 
-//end of julian messing around 
+//end of nail give bavk keep
+//end of giving and keeping dialog
 
 
 
@@ -352,7 +383,7 @@ global.topics[$ "npc janitor"] = [ //end
 		CHOICE("My poor mop", //he cries
 			OPTION("Are you okay?", "Chose Are you okay?"), //end
 			OPTION("Can I help you?", "Chose Can I help you?"), //end
-			OPTION("Give Nails Back", "Chose Give Nails Back"))
+			OPTION("Item options", "Chose Item options old man"))
 
 ];
 
@@ -904,6 +935,7 @@ global.topics[$ "Chose Item options"] = [
 ];
 
 global.topics[$ "Chose Don't return item"] = [//bad end
+	KEEP_JACKET(),
 	TEXT("It really is your problem that you're cold"), //end
 
 ];

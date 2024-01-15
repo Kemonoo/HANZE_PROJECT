@@ -8,6 +8,10 @@
 #macro GIVE_SHOES_BACK new GiveShoesBackAction
 #macro GIVE_JACKET_BACK new GiveJacketBackAction
 
+#macro KEEP_NAILS new KeepNailsBackAction
+#macro KEEP_SHOES new KeepShoesBackAction
+#macro KEEP_JACKET new KeepJacketBackAction
+
 
 
 function DialogueAction() constructor {
@@ -84,14 +88,13 @@ function GiveNailsBackAction() : DialogueAction() constructor {
         if (instance_exists(obj_nails)) {
             instance_destroy(obj_nails);
 			inst_man.has_nails = false;
+			inst_man.gave_nails = true;
         }
 		
 		 if (instance_exists(obj_throw_nails)) {
             instance_destroy(obj_throw_nails);
         }
 		
-
-        // Optionally, you can perform additional actions here
     }
 }
 
@@ -104,6 +107,7 @@ function GiveShoesBackAction() : DialogueAction() constructor {
 		 if (instance_exists(obj_man)) {
             obj_man.player_speed = 3;
 			inst_man.has_shoes = false;
+			inst_man.gave_shoes = true;
         }
     }
 }
@@ -115,9 +119,49 @@ function GiveJacketBackAction() : DialogueAction() constructor {
 		 if (instance_exists(obj_man)) {
             
 			inst_man.has_jacket = false;
+			inst_man.gave_jacket = true;
         }
     }
 }
+
+
+
+function KeepNailsBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+        // Destroy the obj_nail instance
+        if (instance_exists(obj_nails)) {
+			
+			inst_man.kept_nails = true;
+        }
+    }
+}
+
+
+
+
+function KeepShoesBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.kept_shoes = true;
+        }
+    }
+}
+
+
+function KeepJacketBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.kept_jacket = true;
+        }
+    }
+}
+
+
+
 
 
 
