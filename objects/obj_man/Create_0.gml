@@ -10,6 +10,9 @@ num_dash = 0;
 shield_active = true;
 
 
+// Create Event of obj_player
+//initial_hue = ; // Set to the desired initial hue value
+
 
 
 

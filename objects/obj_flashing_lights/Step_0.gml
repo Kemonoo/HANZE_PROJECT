@@ -11,21 +11,18 @@ if (timer <= 0) {
     timer--;
 }
 
-// If the light is visible and collides with the player, restart the game
+
+
 if (visible && place_meeting(x, y, obj_man)) {
 
 	global.death_count += 1;
 
 
-	room_goto(room_bedroom);
+	room_goto(room_jumpscare);
 
 
 
 }
-
-
-
-
 
 
 

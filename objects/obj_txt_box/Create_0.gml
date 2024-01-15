@@ -15,7 +15,7 @@ y = display_get_gui_height() - height - margin;
 //text
 text_font = fnt_text;
 text_color = c_white;
-text_speed = 0.6;
+text_speed = 0.4;
 text_x = padding;
 text_y = padding * 3;
 text_width = width - padding * 2;
@@ -35,7 +35,7 @@ option_x = padding;
 option_y = padding * -12;
 option_spacing = 100;
 option_selection_indent = 24;
-option_width = 300;
+option_width = 600;
 option_height = 80;
 option_text_x = 10;
 option_text_color = c_white;

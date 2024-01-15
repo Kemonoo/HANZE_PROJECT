@@ -273,7 +273,7 @@ global.topics[$ "Chose ..yes"] = [ //fuckass 3 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("YOU rand into my boyfriend, which made him SPILL his drink all over my FAVORITE trainers",
 			OPTION(".....", "Chose ....."), //end
-			OPTION("Still clueless..", "Chose Still clueless"), //end
+			OPTION("Still clueless..", "Chose Still clueless.."), //end
 			OPTION("..oh.", "Chose ..oh."),// end
 			OPTION("I see", "Chose I see"))// end
 ];
@@ -408,7 +408,7 @@ global.topics[$ "Chose That's crazy"] = [ //oldyy end
 		CHOICE("Even crazier is the person who broke it. They ran off without saying a word",
 			OPTION("How rude of them", "Chose How rude of them"),// oldy 2 end
 			OPTION("......", "Chose ......"),//six dots0ldy 3 end
-			OPTION("Maybe they were in an hurry", "Chose Maybe they were in a hurry"))// oldy4 end
+			OPTION("Maybe they were in a hurry?", "Chose Maybe they were in a hurry?"))// oldy4 end
 	
 ];
 
@@ -741,7 +741,7 @@ GOTO("Ending teacher 1")//END
 
 ];
 
-global.topics[$ "Chose Shouldn't you have been supervising?"] = [ //88.2 end
+global.topics[$ "Chose Shouldn't you have been supervising"] = [ //88.2 end
 GOTO("Ending teacher 2")// end
 
 ];

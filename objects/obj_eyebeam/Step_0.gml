@@ -8,12 +8,13 @@ if (place_meeting(x, y, obj_stoppoint_beam)) {
     direction = -direction;
 }
 
-if (place_meeting(x, y, obj_man)) {
+if (visible && place_meeting(x, y, obj_man)) {
 
 	global.death_count += 1;
 
 
-	room_goto(room_bedroom);
+	room_goto(room_jumpscare);
+
 
 
 }

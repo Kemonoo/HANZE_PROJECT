@@ -1,5 +1,20 @@
 // Add one to deathcount
-global.death_count += 1;
 
-// Respawn in bedroom
-room_goto(room_jumpscare);
+nearest_enemy = instance_nearest(x, y, obj_hallway_monster);
+if (place_meeting(x, y, nearest_enemy) && (shield_active == true)){
+    knockback_direction = point_direction(nearest_enemy.x, nearest_enemy.y, x, y);
+    x += lengthdir_x(player_speed*40, knockback_direction);
+    y += lengthdir_y(player_speed*40, knockback_direction);
+	alarm[3] = 1;
+	alarm[4] = 100;
+}
+
+
+
+
+
+if (shield_active == false) && (place_meeting(x, y, obj_hallway_monster)){
+	global.death_count += 1;
+
+	room_goto(room_jumpscare);
+}
