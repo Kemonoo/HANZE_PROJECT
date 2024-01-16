@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+
+var newTaskMessage = argument0;
 
 
 
@@ -8,6 +8,20 @@ if (keyboard_check_pressed(ord("T"))) {
 }
 
 
+if (inst_man.talked_npc1 == true) {
+    new_task_added = true;
+    
+}
+
+if (inst_man.talked_npc2 == true) {
+    new_task_added = true;
+    
+}
+
+if (inst_man.talked_npc3 == true) {
+    new_task_added = true;
+    
+}
 
 
 
