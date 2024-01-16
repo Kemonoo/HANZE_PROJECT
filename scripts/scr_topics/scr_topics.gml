@@ -310,14 +310,14 @@ GOTO("Chose ..yes") // end
 //ENDINGS JOCK beginning
 
 global.topics[$ "Ending 1"] = [
-	TEXT("Since they're drying in the art room, I had to walk around on socks all day."),
+	TEXT("Since they're drying in the attic, I had to walk around on socks all day."),
 	TEXT("That was cold as shit and you haven't even said sorry yet."),
 	SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 2"] = [
-	TEXT("That.. doesn't matter... Just get my trainers from the art room, you owe me that."),
+	TEXT("That.. doesn't matter... Just get my trainers from the attic, you owe me that."),
 	TALK_JERK(),
 	SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
@@ -326,48 +326,48 @@ global.topics[$ "Ending 2"] = [
 
 global.topics[$ "Ending 3"] = [
 	TEXT("You probably don't even remember what you should be apoligizing for"),
-	TEXT("Get my trainers from the art room, that should help jog your memory"),
+	TEXT("Get my trainers from the attic, that should help jog your memory"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 4"] = [
-	TEXT("Then I have a propesition for you. Get me my trainers or I kill your cat"),
+	TEXT("Then I have a propesition for you. Get me my trainers from the attic, or I kill your cat"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 5"] = [
-	TEXT("Fucking hell, okay just get me my trainers from the art room. You owe that at least."),
+	TEXT("Fucking hell, okay just get me my trainers from the attic. You owe that at least."),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 6"] = [
-	TEXT("I don't believe a single hair on your body. Get my trainers from the art room and prove it then"),
+	TEXT("I don't believe a single hair on your body. Get my trainers from the attic and prove it then"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 7"] = [
-	TEXT("Unbelievable. Maybe you remember my shoes then, they're in the art room"),
+	TEXT("Unbelievable. Maybe you remember my shoes then, they're in the attic"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 8"] = [
-	TEXT("Get my trainers from the art room, maybe that'll jog your memory"),
+	TEXT("Get my trainers from the attic, maybe that'll jog your memory"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 global.topics[$ "Ending 9"] = [
-	TEXT("Yes. I had to walk around on socks all day because my trainers had to dry in the art room"),
+	TEXT("Yes. I had to walk around on socks all day because my trainers had to dry in the attic"),
 	TEXT("Fucking cold that was"),
 	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
@@ -399,11 +399,15 @@ global.topics[$ "npc janitor"] = [ //end
 global.topics[$ "Chose Are you okay?"] = [ //old man nboyy end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("No",
-			OPTION("What happened", "Chose What happened"))//end
+			OPTION("What happened", "Chose What happened"),//YEEHAW BRANCH END
+			OPTION("Ohh no", "Chose Ohh no"),// BILLIBOEM END
+			OPTION("Nevermind", "Chose Nevermind"))// BANANANANAN END
 	
 ];
 
-global.topics[$ "Chose What happened"] = [ //end
+//START OF YEEHAW BRANCH
+
+global.topics[$ "Chose What happened"] = [ //YEEHAW BRANCH END
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Someone broke my family heirloom",
 			OPTION("That's crazy", "Chose That's crazy"),// oldyy end
@@ -439,7 +443,7 @@ GOTO("Ending janitor 3") //end
 	
 ];
 
-global.topics[$ "Chose Can I help?"] = [ //sodomy //end
+global.topics[$ "Chose Can I help"] = [ //sodomy //end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 GOTO("Ending janitor 4") //end
 	
@@ -448,13 +452,13 @@ GOTO("Ending janitor 4") //end
 global.topics[$ "Chose Family heirloom?"] = [ //end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes, my mop. I treassured it a lot",
-			OPTION("Can I help?", "Chose Can I help?"), //end kjek11
+			OPTION("Can I help", "Chose Can I help"), //end kjek11
 			OPTION("A mop?", "Chose A mop?"), //end
 			OPTION("Stop crying", "Chose Stop crying")) //end
 			
 ];
 
-global.topics[$ "Chose Can I help?"] = [ //kjek11 end
+global.topics[$ "Chose Can I help"] = [ //kjek11 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 GOTO("Ending janitor 4")//end
 ];
@@ -491,7 +495,7 @@ global.topics[$ "Chose You didn't take any revenge?"] = [ //end
 		CHOICE("There were too many of them and only one of me in the end",
 			OPTION("You should have done something", "Chose You should have done something"),//end							
 			OPTION("How horrific", "Chose How horrific"), //end
-			OPTION("Can What a pity", "Chose What a pity")) //end
+			OPTION("What a pity", "Chose What a pity")) //end
 			
 ];
 
@@ -510,7 +514,7 @@ GOTO("Ending janitor defenitive")//end
 			
 ];
 
-global.topics[$ "Chose omg?"] = [ //end
+global.topics[$ "Chose omg"] = [ //end
 GOTO("Ending janitor defenitive")//end
 			
 ];
@@ -619,7 +623,107 @@ GOTO("Ending janitor 10")//end
 			
 ];
 
+//END OF YEEHAW BRANCH
 
+
+
+
+//START OF BILLIBOEM BRANCH
+
+
+global.topics[$ "Chose Ohh no"] = [ //BILLIEBOEM BRANCH
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("She's dying", //insert crying
+			OPTION("Who's dying?", "Chose Who dying?"),// 441 end
+			OPTION("What ails her", "Chose What ails her"),//working 777 
+			OPTION("Dying?!", "Chose Dying?!"))////unbranched 
+	
+];
+
+global.topics[$ "Chose Who's dying?"] = [ //441 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("My one and only member left of the family", //insert crying
+			OPTION("Sorry for your loss", "Chose Sorry for your loss"),//442 end
+			OPTION("What happened to her?", "Chose What happened to her?"),//443 end
+			OPTION("Where is she now?", "Chose Where is she now?"))//444 end
+	
+];
+
+global.topics[$ "Chose Sorry for your loss"] = [ //442 end
+GOTO("Ending janitor 12")//end
+
+];
+
+global.topics[$ "Chose What happened to her?"] = [ //443 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		TEXT("Someone tripped over her"), 
+		CHOICE("My poor, poor mop",
+			OPTION("Can I help", "Chose Can I help"),//4431 >> this prompt should take you to line 446 (end)
+			OPTION("Can we save her?", "Chose Can we save her?"),//4432 end
+			OPTION("Your mop?", "Chose Your mop?"))//4433 end
+	
+];
+
+global.topics[$ "Chose Can we save her?"] = [ //4432 end
+GOTO("Ending janitor 13")//end
+
+];
+
+global.topics[$ "Chose Your mop?"] = [ //4433 end
+GOTO("Chose Family heirloom?")//end
+
+];
+
+global.topics[$ "Chose Where is she now?"] = [ //444 end
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("She's lying in my hands right here", //insert crying
+			OPTION("Will she make it?", "Chose Will she make it?"),//44441 end
+			OPTION("A mop?", "Chose A mop?"),//(end) >> Should go to line 466
+			OPTION("What happened to her?", "Chose What happened to her?"))// (end) >> shoud go to line 657
+	
+];
+
+global.topics[$ "Chose Will she make it?"] = [ //44441 end
+GOTO("Ending janitor 14")//end
+
+];
+
+global.topics[$ "Chose What ails her"] = [ //777
+	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+		CHOICE("A broken neck", //insert crying
+			OPTION("Uh?", "Chose Uh?"),// 7771 end
+			OPTION("How?", "Chose How?"),// 7772 end
+			OPTION("Will she get better?", "Chose Will she get better?"))// 7773 work 
+			
+];
+
+global.topics[$ "Chose Uh?"] = [ //7771 end
+GOTO("Chose What happened to her?")//end
+
+];
+
+global.topics[$ "Chose How?"] = [ //7772 end
+GOTO("Chose What happened to her?")//end
+
+];
+
+global.topics[$ "Chose Will she get better?"] = [ //7773 end
+GOTO("Ending janitor 14")//end
+
+];
+
+//END OF BILLIBOEM BRANCH
+
+
+//START OF BANANANNAA BRANCH
+
+
+global.topics[$ "Chose Nevermind"] = [ //BAAANANNANNA end
+GOTO("Ending janitor 10") //end
+];
+
+
+//END OF BANANNANA BRANCH
 
 
 
@@ -712,6 +816,28 @@ global.topics[$ "Ending janitor 11"] = [
 
 ];
 
+global.topics[$ "Ending janitor 12"] = [
+	TEXT("She is not fully gone yet!"), //crying
+	TEXT(" If i find some nails i might be able to bring her back to life"),
+	TEXT("I'm just too scared to leave her alone"),
+	TALK_OLDMAN(),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+ 
+];
+
+global.topics[$ "Ending janitor 13"] = [
+	TEXT("I'm praying for nails from the art room, but my answers have not yet been heard"), //crying
+	TALK_OLDMAN(),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+ 
+];
+
+global.topics[$ "Ending janitor 14"] = [
+	TEXT("We might be able to help her with some nails from the art room"), //crying
+	TALK_OLDMAN(),
+	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+ 
+];
 global.topics[$ "Ending janitor defenitive"] = [
 	TEXT("Well it is all in the past now"),
 	TEXT("Just like my mop"), //crying
@@ -725,6 +851,10 @@ global.topics[$ "Ending janitor defenitive"] = [
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 
 
 
