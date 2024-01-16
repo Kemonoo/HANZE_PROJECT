@@ -318,49 +318,58 @@ global.topics[$ "Ending 1"] = [
 
 global.topics[$ "Ending 2"] = [
 	TEXT("That.. doesn't matter... Just get my trainers from the art room, you owe me that."),
+	TALK_JERK(),
 	SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	
 	
 ];
 
 global.topics[$ "Ending 3"] = [
 	TEXT("You probably don't even remember what you should be apoligizing for"),
 	TEXT("Get my trainers from the art room, that should help jog your memory"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 4"] = [
 	TEXT("Then I have a propesition for you. Get me my trainers or I kill your cat"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 5"] = [
 	TEXT("Fucking hell, okay just get me my trainers from the art room. You owe that at least."),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 6"] = [
 	TEXT("I don't believe a single hair on your body. Get my trainers from the art room and prove it then"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 7"] = [
 	TEXT("Unbelievable. Maybe you remember my shoes then, they're in the art room"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 8"] = [
 	TEXT("Get my trainers from the art room, maybe that'll jog your memory"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 global.topics[$ "Ending 9"] = [
 	TEXT("Yes. I had to walk around on socks all day because my trainers had to dry in the art room"),
 	TEXT("Fucking cold that was"),
+	TALK_JERK(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
@@ -621,6 +630,7 @@ GOTO("Ending janitor 10")//end
 
 global.topics[$ "Ending janitor 1"] = [
 	TEXT("They didn't even offer to help me find nails in the art room to fix my mop again"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT) //he cries agian
 	
 ];
@@ -628,18 +638,21 @@ global.topics[$ "Ending janitor 1"] = [
 
 global.topics[$ "Ending janitor 2"] = [
 	TEXT("If only someone could get some nails from the art room for me to fix my mop"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT) //he cries agian
 	
 ];
 
 global.topics[$ "Ending janitor 3"] = [
 	TEXT("In a hurry to break my heart and not offer to help get nails from the art room to fix her?"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 4"] = [
 	TEXT("Maybe some nails from the art room could fix my precious family heirloom"),
+	TALK_OLDMAN(),
 	TEXT("but not my heart"),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
@@ -648,6 +661,7 @@ global.topics[$ "Ending janitor 4"] = [
 global.topics[$ "Ending janitor 5"] = [
 	TEXT("..yes."),
 	TEXT("I could really use some nails. There might be some in the art room."),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -655,6 +669,7 @@ global.topics[$ "Ending janitor 5"] = [
 global.topics[$ "Ending janitor 6"] = [
 	TEXT("Our glory is forever lost, but maybe I can fix this mop with some nails."),
 	TEXT("There should be some in the art room"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -662,24 +677,28 @@ global.topics[$ "Ending janitor 6"] = [
 global.topics[$ "Ending janitor 7"] = [
 	TEXT("If you can find me some nails from the art room, my mop can be fixed"),
 	TEXT("Find whoever broke my mop and it might fix my heart"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 8"] = [
 	TEXT("There might be a cure for my heart in the art room"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 9"] = [
 	TEXT("Only nails could fix her now"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 10"] = [
-	TEXT("I just need nails from the art room please"), //crying
+	TEXT("I just need nails from the art room please"),
+	TALK_OLDMAN(),//crying
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -688,6 +707,7 @@ global.topics[$ "Ending janitor 11"] = [
 	TEXT("How can I when the only memory of my familiy is broken"), //crying
 	TEXT("When I can no longer connect with them like before"),
 	TEXT("When I don't even have nails to fix her"),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -696,6 +716,7 @@ global.topics[$ "Ending janitor defenitive"] = [
 	TEXT("Well it is all in the past now"),
 	TEXT("Just like my mop"), //crying
 	TEXT("Nails would maybe fix my mop, could you help me find some. I'm too scared to leave her here all alone."),
+	TALK_OLDMAN(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -1003,12 +1024,14 @@ global.topics[$ "Chose That's not nececary"] = [//good
 global.topics[$ "Ending teacher 1"] = [
 	TEXT("yea, anyways. There's jacket in the attic I believe."), 
 	TEXT("Would you be willing to help me out? I can't leave my office behind unsupervised"),
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 2"] = [
 	TEXT("Whatever, instead of thinking about that I could really use a jacket from the attic to finish these papers faster"), 
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -1016,30 +1039,35 @@ global.topics[$ "Ending teacher 2"] = [
 global.topics[$ "Ending teacher 3"] = [
 	TEXT("It seemed, that they didn't pay attention last class and thought they could just do it right first try without explanation."),
 	TEXT("But enough of that, I should grab a jacket from the attic"), 
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 4"] = [
 	TEXT("Still pissed about it, because now I need to get a jacket from the attic"),
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 5"] = [
 	TEXT("One of my students hates me and managed to turn it into ashes. I'm sure there's a replacement in the attic, but i'm stuck in the cold with this paperwork"),
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 6"] = [
 	TEXT("If you could find a jacket in the attic for me? I'd be much faster with all this paperwork"), 
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 7"] = [
 	TEXT("In the attic somewhere, but I can't leave this office before I've completed my work"),
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -1047,12 +1075,14 @@ global.topics[$ "Ending teacher 7"] = [
 global.topics[$ "Ending teacher 8"] = [
 	TEXT("To make it worse, I don't remember who it was"),
 	TEXT("Finishing these papers in this cold is also undoable, maybe I should get a jacket from the attic"), 
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending teacher 9"] = [
 	TEXT("Because of them I probably have to go to the attic to stop my shivers"),
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];
@@ -1060,6 +1090,7 @@ global.topics[$ "Ending teacher 9"] = [
 global.topics[$ "Ending teacher 10"] = [
 	TEXT("I should have, but I don't want to think about that right now. I should finish my paperwork first."),
 	TEXT("Which is hard to do since I can't concentrate in this cold, there might be a coat in the attic I can use"), 
+	TALK_TEACHER(),
 	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
 
 ];

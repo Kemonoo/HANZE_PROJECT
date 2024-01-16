@@ -158,6 +158,7 @@
     {"id":{"name":"scr_typing","path":"scripts/scr_typing/scr_typing.yy",},},
     {"id":{"name":"deskieboi__Sem_","path":"sprites/deskieboi__Sem_/deskieboi__Sem_.yy",},},
     {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
+    {"id":{"name":"spr_task_box","path":"sprites/spr_task_box/spr_task_box.yy",},},
     {"id":{"name":"b0rd_attid","path":"sprites/b0rd_attid/b0rd_attid.yy",},},
     {"id":{"name":"spr_npc_idle","path":"sprites/spr_npc_idle/spr_npc_idle.yy",},},
     {"id":{"name":"hanging_plant","path":"sprites/hanging_plant/hanging_plant.yy",},},

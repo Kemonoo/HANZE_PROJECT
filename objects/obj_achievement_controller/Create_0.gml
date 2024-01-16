@@ -1,4 +1,6 @@
-global.achievement_first_night = false; // achievement status when you begin
 
 
+depth -= 101;
 
+// Create Event
+global.showTaskBar = false;

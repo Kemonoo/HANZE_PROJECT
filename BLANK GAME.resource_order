@@ -123,6 +123,7 @@
     {"name":"art_room_board","order":9,"path":"sprites/art_room_board/art_room_board.yy",},
     {"name":"deskieboi__Sem_","order":6,"path":"sprites/deskieboi__Sem_/deskieboi__Sem_.yy",},
     {"name":"Sprite36","order":1,"path":"sprites/Sprite36/Sprite36.yy",},
+    {"name":"spr_task_box","order":9,"path":"sprites/spr_task_box/spr_task_box.yy",},
     {"name":"b0rd_attid","order":11,"path":"sprites/b0rd_attid/b0rd_attid.yy",},
     {"name":"spr_npc_idle","order":5,"path":"sprites/spr_npc_idle/spr_npc_idle.yy",},
     {"name":"hanging_plant","order":5,"path":"sprites/hanging_plant/hanging_plant.yy",},

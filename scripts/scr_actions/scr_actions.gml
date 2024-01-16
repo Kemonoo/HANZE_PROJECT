@@ -12,6 +12,10 @@
 #macro KEEP_SHOES new KeepShoesBackAction
 #macro KEEP_JACKET new KeepJacketBackAction
 
+#macro TALK_JERK new TalkedJerkBackAction
+#macro TALK_OLDMAN new TalkedOldmanBackAction
+#macro TALK_TEACHER new TalkedTeacherBackAction
+
 
 
 function DialogueAction() constructor {
@@ -156,6 +160,40 @@ function KeepJacketBackAction() : DialogueAction() constructor {
 		 if (instance_exists(obj_man)) {
             
 			inst_man.kept_jacket = true;
+        }
+    }
+}
+
+
+
+function TalkedJerkBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.talked_npc1 = true;
+        }
+    }
+}
+
+function TalkedOldmanBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.talked_npc2 = true;
+        }
+    }
+}
+
+
+
+function TalkedTeacherBackAction() : DialogueAction() constructor {
+    act = function(textbox) {
+		
+		 if (instance_exists(obj_man)) {
+            
+			inst_man.talked_npc3 = true;
         }
     }
 }

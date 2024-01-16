@@ -1,10 +1,17 @@
-if (!global.achievement_first_night) {
-	if (instance_exists(obj_man)){
-		if (room == room_bedroom){
-			if (obj_man == room == room_hallway){
-			global.achievement_first_night = true;
-			show_message("You started your first night!");
-			}
-		}
-	}
+/// @description Insert description here
+// You can write your code in this editor
+
+
+
+if (keyboard_check_pressed(ord("T"))) {
+    global.showTaskBar = !global.showTaskBar;
 }
+
+
+
+
+
+
+
+
+
