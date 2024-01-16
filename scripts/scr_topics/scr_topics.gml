@@ -271,7 +271,7 @@ GOTO("Chose Before?") //end
 
 global.topics[$ "Chose ..yes"] = [ //fuckass 3 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
-		CHOICE("YOU rand into my boyfriend, which made him SPILL his drink all over my FAVORITE trainers",
+		CHOICE("YOU ran into my boyfriend, which made him SPILL his drink all over my FAVORITE trainers",
 			OPTION(".....", "Chose ....."), //end
 			OPTION("Still clueless..", "Chose Still clueless.."), //end
 			OPTION("..oh.", "Chose ..oh."),// end
@@ -411,7 +411,7 @@ global.topics[$ "Chose What happened"] = [ //YEEHAW BRANCH END
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Someone broke my family heirloom",
 			OPTION("That's crazy", "Chose That's crazy"),// oldyy end
-			OPTION("Can I help", "Chose Can I help"),// end
+			OPTION("Can I help?", "Chose Can I help?"),// end
 			OPTION("Family heirloom?", "Chose Family heirloom?"))//end
 	
 ];
@@ -443,7 +443,7 @@ GOTO("Ending janitor 3") //end
 	
 ];
 
-global.topics[$ "Chose Can I help"] = [ //sodomy //end
+global.topics[$ "Chose Can I help?"] = [ //sodomy //end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 GOTO("Ending janitor 4") //end
 	
@@ -452,13 +452,13 @@ GOTO("Ending janitor 4") //end
 global.topics[$ "Chose Family heirloom?"] = [ //end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes, my mop. I treassured it a lot",
-			OPTION("Can I help", "Chose Can I help"), //end kjek11
+			OPTION("Can I help?", "Chose Can I help?"), //end kjek11
 			OPTION("A mop?", "Chose A mop?"), //end
 			OPTION("Stop crying", "Chose Stop crying")) //end
 			
 ];
 
-global.topics[$ "Chose Can I help"] = [ //kjek11 end
+global.topics[$ "Chose Can I help?"] = [ //kjek11 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 GOTO("Ending janitor 4")//end
 ];
@@ -563,7 +563,7 @@ global.topics[$ "Chose I can try to help you fix it?"] = [ //end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT), //crying
 		CHOICE("My heart or my mop?",
 			OPTION("Your heart", "Chose Your heart"),//end
-			OPTION("Your mop", "Your mop"), //end
+			OPTION("Your mop", "Chose Your mop"), //end
 			OPTION("Both", "Chose Both"), //end
 			OPTION("Neither", "Chose Neither"))//emd
 			
@@ -579,7 +579,7 @@ GOTO("Ending janitor 8") //end
 
 ];
 
-global.topics[$ "Chose Your heart"] = [ //end
+global.topics[$ "Chose Your mop"] = [ //end
 GOTO("Ending janitor 9") //end
 
 ];
@@ -609,6 +609,8 @@ GOTO("Chose What happened")//end
 ];
 
 global.topics[$ "Chose Did someone break your heart?"] = [ //end
+SPEAKER("OLD MAN", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+	TEXT("Yes"),	
 GOTO("Chose What happened")//end
 			
 ];
@@ -634,7 +636,7 @@ GOTO("Ending janitor 10")//end
 global.topics[$ "Chose Ohh no"] = [ //BILLIEBOEM BRANCH
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("She's dying", //insert crying
-			OPTION("Who's dying?", "Chose Who dying?"),// 441 end
+			OPTION("Who's dying?", "Chose Who's dying?"),// 441 end
 			OPTION("What ails her", "Chose What ails her"),//working 777 
 			OPTION("Dying?!", "Chose Dying?!"))////unbranched 
 	
@@ -658,7 +660,7 @@ global.topics[$ "Chose What happened to her?"] = [ //443 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		TEXT("Someone tripped over her"), 
 		CHOICE("My poor, poor mop",
-			OPTION("Can I help", "Chose Can I help"),//4431 >> this prompt should take you to line 446 (end)
+			OPTION("Can I help?", "Chose Can I help?"),//4431 >> this prompt should take you to line 446 (end)
 			OPTION("Can we save her?", "Chose Can we save her?"),//4432 end
 			OPTION("Your mop?", "Chose Your mop?"))//4433 end
 	
@@ -863,7 +865,7 @@ global.topics[$ "Ending janitor defenitive"] = [
 global.topics[$ "npc teacher"] = [
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's freezing in here", //start
-			OPTION("huh", "Chose huh"), //confused  end
+			OPTION("huh?", "Chose huh?"), //confused  end
 			OPTION("Is it?", "Chose Is it?"), //ignorance  END
 			OPTION("Wear a coat", "Chose Wear a coat"),//smart ass  end
 			OPTION("Item options", "Chose Item options"))//giving items back unbranched
@@ -871,7 +873,7 @@ global.topics[$ "npc teacher"] = [
 ];
 
 //START OF CONFUSED BRANCH
-global.topics[$ "Chose huh"] = [ //confused end
+global.topics[$ "Chose huh?"] = [ //confused end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's very cold without a jacket in here",
 			OPTION("Seems like your problem", "Chose Seems like your problem"), //88 end
@@ -942,7 +944,7 @@ global.topics[$ "Chose Something happened to it?"] = [ //99.3 END
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("jacket got put on fire during a test and the student ran off without saying a word",
 			OPTION("oh shit", "Chose oh shit"), //99.31 end
-			OPTION("Can I help?", "Chose Can I help?"), // 99.32 end
+			OPTION("Can I help?", "Chose Can I help"), // 99.32 end
 			OPTION("Nasty of them", "Chose Nasty of them")) //99.33 end
 ];
 
@@ -951,7 +953,7 @@ GOTO("Ending teacher 1")//end
 
 ];
 
-global.topics[$ "Chose Can I help?"] = [ //99.32 end
+global.topics[$ "Chose Can I help"] = [ //99.32 end
 GOTO("Ending teacher 6")//end
 
 ];
@@ -979,7 +981,7 @@ global.topics[$ "Chose yes?"] = [ //00.2 end
 	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
 		CHOICE("Well, I am not. Conclusion: I'm cold",
 			OPTION("Your problem", "Chose Your problem"), //00.21 end
-			OPTION("Can I help?", "Chose Can I help?"), // 00.22 end
+			OPTION("Can I help?", "Chose Can I help"), // 00.22 end
 			OPTION("Aren't there extra lab coats?", "Chose Aren't there extra lab coats?")) //00.23 end
 			
 ];
@@ -1014,7 +1016,7 @@ GOTO("Ending teacher 1")//end
 
 ];
 
-global.topics[$ "Chose Did something happend to it?"] = [ //00.32 end
+global.topics[$ "Chose Did something happen to it?"] = [ //00.32 end
 GOTO("Chose Something happened to it?")//end
 
 ];
