@@ -3,5 +3,8 @@
 follow_distance = 320; 
 
 
+sp = 4;
 
-path_start(Path1, 6, path_action_restart, false);
+path_start(Path1, sp, path_action_restart, false);
+
+
