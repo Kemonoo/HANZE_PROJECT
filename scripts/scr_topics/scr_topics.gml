@@ -1,3 +1,5 @@
+
+
 global.topics = {};
 //jock dialogue
 global.topics[$ "Example"] = [
