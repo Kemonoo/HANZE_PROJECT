@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description shield cooldown
+
 
 shield_active = false
 

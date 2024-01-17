@@ -14,13 +14,14 @@ if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) {
 
 
 
-if (direction > 90 && direction < 270) {
+
+if (speed == 0){
+	sprite_index = spr_follow_bones;
+} else if (direction > 90 && direction < 270) {
     sprite_index = spr_bones_right;
 } else if (direction <= 90 || direction >= 270) {
     sprite_index = spr_bones_left;
-} else if (sp== 0) { 
-    sprite_index = spr_follow_bones;
-}
+} 
 
 
 

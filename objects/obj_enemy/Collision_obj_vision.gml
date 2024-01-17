@@ -5,7 +5,7 @@
 speed= 0
 
 
-
+sprite_index = spr_follow_bones;
 
 
 

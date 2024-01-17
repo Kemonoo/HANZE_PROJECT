@@ -1,1 +1,1 @@
-draw_text(obj_man.x - 430, obj_man.y - 220, "");
+new_task_added = false;
