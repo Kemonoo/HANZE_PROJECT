@@ -4,14 +4,20 @@
 #macro OPTION new OptionAction
 #macro GOTO new GotoAction
 
+
+// to unlock exit once you give items back 
 #macro GIVE_NAILS_BACK new GiveNailsBackAction
 #macro GIVE_SHOES_BACK new GiveShoesBackAction
 #macro GIVE_JACKET_BACK new GiveJacketBackAction
 
+
+// to unlock exit if player keeps all items 
 #macro KEEP_NAILS new KeepNailsBackAction
 #macro KEEP_SHOES new KeepShoesBackAction
 #macro KEEP_JACKET new KeepJacketBackAction
 
+
+// to let new task pop up
 #macro TALK_JERK new TalkedJerkBackAction
 #macro TALK_OLDMAN new TalkedOldmanBackAction
 #macro TALK_TEACHER new TalkedTeacherBackAction

@@ -1,0 +1,1 @@
+draw_text(obj_man.x - 430, obj_man.y - 220, "");

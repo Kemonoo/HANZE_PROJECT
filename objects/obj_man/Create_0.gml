@@ -7,7 +7,7 @@ is_dashing = false;
 num_dash = 0;
 
 //jacket
-shield_active = true;
+shield_active = false;
 
 
 // Create Event of obj_player

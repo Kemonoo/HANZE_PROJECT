@@ -9,7 +9,7 @@ if (!is_picked_up) {
           
             is_picked_up = true;
 			player_collision.has_jacket = true;
-			shield_active = true;
+			inst_man.shield_active = true;
             image_alpha = 0;
             
         }
