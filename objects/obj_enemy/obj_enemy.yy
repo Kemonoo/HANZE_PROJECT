@@ -30,8 +30,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_follow_bones",
-    "path": "sprites/spr_follow_bones/spr_follow_bones.yy",
+    "name": "Skelly_2_right_Idle",
+    "path": "sprites/Skelly_2_right_Idle/Skelly_2_right_Idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

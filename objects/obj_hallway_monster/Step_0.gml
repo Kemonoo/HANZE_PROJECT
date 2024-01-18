@@ -2,23 +2,30 @@ var target_x = obj_man.x;
 var target_y = obj_man.y;
 
 
-
-if (image_angle > 0)
+if (old_x < x)
 {
     sprite_index = Hall_Monster_Walk__Right;
 }
-else if (image_angle > 270)
-{
-    sprite_index = Hall_Monster_Walk__Up;
-}
-else if (image_angle > 90)
-{
-    sprite_index = Hall_Monster_Walk__Down;
-}
-else if (image_angle > 0)
+
+else if (old_x > x)
 {
     sprite_index = Hall_Monster_Walk__Left;
 }
+
+else if (old_y > y)
+{
+    sprite_index = Hall_Monster_Walk__Up;
+}
+else if (old_y < y)
+{
+    sprite_index = Hall_Monster_Walk__Down;
+}
+
+
+
+
+old_x = x;
+old_y = y;
 
 
 if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) && follow_path {
@@ -32,8 +39,9 @@ if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) && follow_path
 
 
 if (move_towards_player) {
-    var dir_to_player = point_direction(x, y, target_x, target_y);
+   
     var move_speed = 4; // the speed
+	var dir_to_player = point_direction(x, y, target_x, target_y);
 
     // Check for collisions with walls
     if (place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall)) {

@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_bedroomdoor",
-    "path": "sprites/spr_bedroomdoor/spr_bedroomdoor.yy",
+    "name": "Hall_Monster_Walk__Up",
+    "path": "sprites/Hall_Monster_Walk__Up/Hall_Monster_Walk__Up.yy",
   },
   "spriteMaskId": null,
   "visible": true,

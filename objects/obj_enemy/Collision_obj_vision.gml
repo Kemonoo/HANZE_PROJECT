@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 
-speed= 0
+speed= 0;
 
 
-sprite_index = spr_follow_bones;
+sprite_index = Skelly_2_right;
 
 
 
