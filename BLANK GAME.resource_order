@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings": [
-    {"name":"taskbar","order":14,"path":"folders/taskbar.yy",},
+    {"name":"gameUI","order":14,"path":"folders/gameUI.yy",},
     {"name":"Deathcount","order":15,"path":"folders/Deathcount.yy",},
     {"name":"Fonts","order":9,"path":"folders/Fonts.yy",},
     {"name":"Main Menu","order":6,"path":"folders/Main Menu.yy",},
@@ -194,7 +194,7 @@
     {"name":"spr_locker","order":1,"path":"sprites/spr_locker/spr_locker.yy",},
     {"name":"Classroom_table","order":13,"path":"sprites/Classroom_table/Classroom_table.yy",},
     {"name":"obj_atticbox3","order":12,"path":"objects/obj_atticbox3/obj_atticbox3.yy",},
-    {"name":"obj_inventory_box","order":8,"path":"objects/obj_inventory_box/obj_inventory_box.yy",},
+    {"name":"obj_inventory_box","order":2,"path":"objects/obj_inventory_box/obj_inventory_box.yy",},
     {"name":"obj_clotheshanger2","order":16,"path":"objects/obj_clotheshanger2/obj_clotheshanger2.yy",},
     {"name":"obj_control_SoundMaze","order":1,"path":"objects/obj_control_SoundMaze/obj_control_SoundMaze.yy",},
     {"name":"spr_player_walking_up","order":16,"path":"sprites/spr_player_walking_up/spr_player_walking_up.yy",},

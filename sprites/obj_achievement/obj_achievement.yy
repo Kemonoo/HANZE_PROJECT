@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "taskbar",
-    "path": "folders/taskbar.yy",
+    "name": "gameUI",
+    "path": "folders/gameUI.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

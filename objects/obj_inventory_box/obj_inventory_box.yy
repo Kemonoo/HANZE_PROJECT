@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_other",
-    "path": "folders/Objects/obj_other.yy",
+    "name": "gameUI",
+    "path": "folders/gameUI.yy",
   },
   "parentObjectId": null,
   "persistent": true,

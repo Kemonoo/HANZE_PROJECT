@@ -11,7 +11,7 @@
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"taskbar","folderPath":"folders/taskbar.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameUI","folderPath":"folders/gameUI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deathcount","folderPath":"folders/Deathcount.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Main Menu","folderPath":"folders/Main Menu.yy",},

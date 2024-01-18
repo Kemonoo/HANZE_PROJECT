@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "taskbar",
-    "path": "folders/taskbar.yy",
+    "name": "gameUI",
+    "path": "folders/gameUI.yy",
   },
   "parentObjectId": null,
   "persistent": true,
