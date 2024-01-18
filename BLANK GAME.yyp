@@ -11,7 +11,7 @@
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Achievement","folderPath":"folders/Achievement.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"taskbar","folderPath":"folders/taskbar.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deathcount","folderPath":"folders/Deathcount.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Main Menu","folderPath":"folders/Main Menu.yy",},
@@ -37,6 +37,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Art Room","folderPath":"folders/Sprites/decorations/Art Room.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Attic","folderPath":"folders/Sprites/decorations/Attic.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bedroom","folderPath":"folders/Sprites/decorations/Bedroom.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Classroom","folderPath":"folders/Sprites/decorations/Classroom.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"dialogue","folderPath":"folders/Sprites/dialogue.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"doors","folderPath":"folders/Sprites/doors.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"iteams","folderPath":"folders/Sprites/iteams.yy",},
@@ -50,7 +51,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tiles","folderPath":"folders/Sprites/tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walking sound","folderPath":"folders/Walking sound.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Classroom","folderPath":"folders/Sprites/decorations/Classroom.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"jumpscare test.webm","CopyToMask":-1,"filePath":"datafiles",},

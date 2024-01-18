@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings": [
-    {"name":"Achievement","order":14,"path":"folders/Achievement.yy",},
+    {"name":"taskbar","order":14,"path":"folders/taskbar.yy",},
     {"name":"Deathcount","order":15,"path":"folders/Deathcount.yy",},
     {"name":"Fonts","order":9,"path":"folders/Fonts.yy",},
     {"name":"Main Menu","order":6,"path":"folders/Main Menu.yy",},
@@ -23,6 +23,7 @@
     {"name":"Art Room","order":17,"path":"folders/Sprites/decorations/Art Room.yy",},
     {"name":"Attic","order":15,"path":"folders/Sprites/decorations/Attic.yy",},
     {"name":"Bedroom","order":16,"path":"folders/Sprites/decorations/Bedroom.yy",},
+    {"name":"Classroom","order":25,"path":"folders/Sprites/decorations/Classroom.yy",},
     {"name":"dialogue","order":7,"path":"folders/Sprites/dialogue.yy",},
     {"name":"iteams","order":6,"path":"folders/Sprites/iteams.yy",},
     {"name":"layers","order":4,"path":"folders/Sprites/layers.yy",},
@@ -35,7 +36,6 @@
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
     {"name":"Walking sound","order":12,"path":"folders/Walking sound.yy",},
-    {"name":"Classroom","order":25,"path":"folders/Sprites/decorations/Classroom.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_puzzle2","order":6,"path":"objects/obj_puzzle2/obj_puzzle2.yy",},

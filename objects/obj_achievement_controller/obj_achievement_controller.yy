@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Achievement",
-    "path": "folders/Achievement.yy",
+    "name": "taskbar",
+    "path": "folders/taskbar.yy",
   },
   "parentObjectId": null,
   "persistent": true,

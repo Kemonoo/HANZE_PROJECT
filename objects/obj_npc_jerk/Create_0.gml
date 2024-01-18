@@ -3,7 +3,7 @@
 
 
 radius = 20; 
-
+press_e = true;
 
 
 

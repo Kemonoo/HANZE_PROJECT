@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Achievement",
-    "path": "folders/Achievement.yy",
+    "name": "taskbar",
+    "path": "folders/taskbar.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
