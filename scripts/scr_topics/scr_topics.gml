@@ -8,7 +8,7 @@ global.topics[$ "Example"] = [
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
 			OPTION("..again?", "Chose ..again?"),//FUCK ASS
-			OPTION("my shoes?", "Chose Give shoes back"))
+			OPTION("item options", "Chose iteam option69"))
 			
 ];
 
@@ -83,18 +83,18 @@ global.topics[$ "Example"] = [
 //giving and keeping item dialog 
 
 //shoe give back keep
-global.topics[$ "Chose Give shoes back"] = [
+global.topics[$ "Chose iteam option69"] = [
 	CHOICE("Item opions make a wise choice",
 			OPTION("really u got them" ,"Chose really u got them"), 
 			OPTION("(lie) not yet","Chose (lie) not yet"),
-			OPTION("Item options", "Item options jerk"),
+			OPTION("Here are your shoes","Chose Here are your shoes"),
 			OPTION("fuck you", "Chose fuck you"))
    
 ];
 
-global.topics[$ "Chose Item options jerk"] = [
+global.topics[$ "Chose Here are your shoes"] = [
 	GIVE_SHOES_BACK(),
-	GOTO("finshed shoe story")
+	GOTO("finshed nail story")
 ];
 
 global.topics[$ "Chose (lie) not yet"] = [
