@@ -32,6 +32,7 @@ if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) && follow_path
 	move_towards_player = true 
 	path_end()
 	follow_path = false;
+	audio_play_sound(CHASE_SOUND_HALLWAY, 1, false);
 	
 }
 
@@ -40,7 +41,7 @@ if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) && follow_path
 
 if (move_towards_player) {
    
-    var move_speed = 4; // the speed
+    var move_speed = 6; // the speed
 	var dir_to_player = point_direction(x, y, target_x, target_y);
 
     // Check for collisions with walls

@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Main_Menu_Theme__Game_Version_.mp3",
   "type": 1,
-  "volume": 0.25,
+  "volume": 0.35,
 }

@@ -7,7 +7,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 //draw new task added
 if (new_task_added == true) {
-    draw_text(obj_man.x - 430, obj_man.y - 220, "new task added");
+    draw_text(obj_man.x - 430, obj_man.y - 220, "New task added!");
 	
 	
 }

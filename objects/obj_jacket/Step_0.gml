@@ -1,6 +1,7 @@
 
 if (!is_picked_up) {
    
+   
     var player_collision = instance_place(x, y, obj_man);
 
     if (player_collision != noone) {
@@ -17,6 +18,7 @@ if (!is_picked_up) {
 					player_collision.has_jacket = true;
 					inst_man.shield_active = true;
 					image_alpha = 0;
+					audio_play_sound(Item_pickup, 1, false);
 			
 				}
 			} 

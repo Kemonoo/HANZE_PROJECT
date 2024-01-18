@@ -11,6 +11,7 @@
 			inst_man.player_speed = 6;
 			inst_man.has_shoes = true;
 			instance_destroy(self);
+			audio_play_sound(Item_pickup, 1, false);
     } 
 }
 
