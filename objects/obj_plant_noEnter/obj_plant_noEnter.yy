@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "potted_plant_copy_trans",
-    "path": "sprites/potted_plant_copy_trans/potted_plant_copy_trans.yy",
+    "name": "spr_plantt",
+    "path": "sprites/spr_plantt/spr_plantt.yy",
   },
   "spriteMaskId": null,
   "visible": true,

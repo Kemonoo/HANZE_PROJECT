@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
-    {"name":"gameUI","order":14,"path":"folders/gameUI.yy",},
     {"name":"Deathcount","order":15,"path":"folders/Deathcount.yy",},
     {"name":"Fonts","order":9,"path":"folders/Fonts.yy",},
+    {"name":"gameUI","order":14,"path":"folders/gameUI.yy",},
     {"name":"Main Menu","order":6,"path":"folders/Main Menu.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"AI_Players","order":7,"path":"folders/Objects/AI_Players.yy",},
@@ -184,6 +184,7 @@
     {"name":"obj_npc_oldman","order":6,"path":"objects/obj_npc_oldman/obj_npc_oldman.yy",},
     {"name":"obj_teacher","order":8,"path":"objects/obj_teacher/obj_teacher.yy",},
     {"name":"spr_player_walking_down","order":13,"path":"sprites/spr_player_walking_down/spr_player_walking_down.yy",},
+    {"name":"spr_plantt","order":7,"path":"sprites/spr_plantt/spr_plantt.yy",},
     {"name":"spr_player_walking_right","order":15,"path":"sprites/spr_player_walking_right/spr_player_walking_right.yy",},
     {"name":"obj_locker1","order":19,"path":"objects/obj_locker1/obj_locker1.yy",},
     {"name":"monster_lullaby","order":1,"path":"sounds/monster_lullaby/monster_lullaby.yy",},

@@ -11,9 +11,9 @@
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameUI","folderPath":"folders/gameUI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deathcount","folderPath":"folders/Deathcount.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameUI","folderPath":"folders/gameUI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Main Menu","folderPath":"folders/Main Menu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AI_Players","folderPath":"folders/Objects/AI_Players.yy",},
@@ -227,6 +227,7 @@
     {"id":{"name":"all_seeing","path":"sprites/all_seeing/all_seeing.yy",},},
     {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"spr_player_walking_down","path":"sprites/spr_player_walking_down/spr_player_walking_down.yy",},},
+    {"id":{"name":"spr_plantt","path":"sprites/spr_plantt/spr_plantt.yy",},},
     {"id":{"name":"spr_player_walking_right","path":"sprites/spr_player_walking_right/spr_player_walking_right.yy",},},
     {"id":{"name":"obj_locker1","path":"objects/obj_locker1/obj_locker1.yy",},},
     {"id":{"name":"monster_lullaby","path":"sounds/monster_lullaby/monster_lullaby.yy",},},
