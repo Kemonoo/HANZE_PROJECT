@@ -159,17 +159,14 @@ if (instance_exists(obj_monster)) {
 
 	
 
+		
 
-    if (place_meeting(x, y, obj_item_shoes) && keyboard_check_pressed(ord("E"))) {
-		player_speed = 6;
-		has_shoes = true;
-		instance_destroy(obj_item_shoes);
-    } 
+
 	
 	
     
 	//move audio listener with me
-	audio_listener_set_position(0,x,y,0);
+audio_listener_set_position(0,x,y,0);
 	
  //doors
 if (place_meeting(x, y, obj_bedroom) && keyboard_check_pressed(ord("E"))) {
