@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Attic_box",
-    "path": "sprites/Attic_box/Attic_box.yy",
+    "name": "One_locker",
+    "path": "sprites/One_locker/One_locker.yy",
   },
   "spriteMaskId": null,
   "visible": true,

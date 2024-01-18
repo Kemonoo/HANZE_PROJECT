@@ -144,6 +144,7 @@
     {"id":{"name":"spr_Player_dash_left","path":"sprites/spr_Player_dash_left/spr_Player_dash_left.yy",},},
     {"id":{"name":"room_jumpscare","path":"rooms/room_jumpscare/room_jumpscare.yy",},},
     {"id":{"name":"Science_flask_2","path":"sprites/Science_flask_2/Science_flask_2.yy",},},
+    {"id":{"name":"Object71","path":"objects/Object71/Object71.yy",},},
     {"id":{"name":"_3_lockers","path":"sprites/_3_lockers/_3_lockers.yy",},},
     {"id":{"name":"spr_jock_but_better","path":"sprites/spr_jock_but_better/spr_jock_but_better.yy",},},
     {"id":{"name":"Attic_Ambience_FINAL_MIX_INGAME","path":"sounds/Attic_Ambience_FINAL_MIX_INGAME/Attic_Ambience_FINAL_MIX_INGAME.yy",},},

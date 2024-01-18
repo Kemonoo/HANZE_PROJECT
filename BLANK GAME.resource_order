@@ -112,6 +112,7 @@
     {"name":"spr_Player_dash_left","order":7,"path":"sprites/spr_Player_dash_left/spr_Player_dash_left.yy",},
     {"name":"room_jumpscare","order":9,"path":"rooms/room_jumpscare/room_jumpscare.yy",},
     {"name":"Science_flask_2","order":2,"path":"sprites/Science_flask_2/Science_flask_2.yy",},
+    {"name":"Object71","order":29,"path":"objects/Object71/Object71.yy",},
     {"name":"_3_lockers","order":23,"path":"sprites/_3_lockers/_3_lockers.yy",},
     {"name":"spr_jock_but_better","order":1,"path":"sprites/spr_jock_but_better/spr_jock_but_better.yy",},
     {"name":"Attic_Ambience_FINAL_MIX_INGAME","order":5,"path":"sounds/Attic_Ambience_FINAL_MIX_INGAME/Attic_Ambience_FINAL_MIX_INGAME.yy",},

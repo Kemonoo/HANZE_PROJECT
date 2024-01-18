@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_locker3",
+  "name": "Object71",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "decorations",
     "path": "folders/Objects/decorations.yy",
   },
-  "parentObjectId": {
-    "name": "obj_desk",
-    "path": "objects/obj_desk/obj_desk.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "_3_lockers",
-    "path": "sprites/_3_lockers/_3_lockers.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
