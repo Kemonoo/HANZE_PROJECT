@@ -22,6 +22,7 @@
     {"name":"inst_26D11096","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_223AD8E5","path":"rooms/room_bedroom/room_bedroom.yy",},
     {"name":"inst_758AEB5E","path":"rooms/room_bedroom/room_bedroom.yy",},
+    {"name":"inst_71F053DF","path":"rooms/room_bedroom/room_bedroom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -42,6 +43,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4365E15A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_closet","path":"objects/obj_closet/obj_closet.yy",},"properties":[],"rotation":0.0,"scaleX":1.125,"scaleY":1.125,"x":1840.0,"y":600.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26D11096","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_desk2","path":"objects/obj_desk2/obj_desk2.yy",},"properties":[],"rotation":0.0,"scaleX":1.1875,"scaleY":1.1875,"x":1696.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_223AD8E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_trash","path":"objects/obj_trash/obj_trash.yy",},"properties":[],"rotation":0.0,"scaleX":1.1875,"scaleY":1.3125,"x":1776.0,"y":592.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71F053DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soundcontrol","path":"objects/obj_soundcontrol/obj_soundcontrol.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1520.0,"y":536.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"particle_test","assets":[
         {"resourceType":"GMRParticleSystem","resourceVersion":"1.0","name":"particle_15FD9C","colour":4294967295,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"particleSystemId":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},"rotation":0.0,"scaleX":0.15625,"scaleY":0.21875,"x":1696.0,"y":736.0,},

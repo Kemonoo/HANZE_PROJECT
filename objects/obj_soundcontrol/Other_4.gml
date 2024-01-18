@@ -1,6 +1,33 @@
 // Assuming this code is in the "Audio Object"
 
-// HALLWAY SOUND. Switch room is checking what room you're in so it can play the correct sound.
+// Switch room is checking what room you're in so it can play the correct sound.
+switch (room) {
+    case rm_title_screen: {
+        // Start playing the menu theme
+        audio_play_sound(Main_Menu_Theme__Game_Version_, 0, 1);
+    } break;
+
+    case room_bedroom: {
+        // Stop the sound for other rooms
+        audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
+		
+		// Stop the monster lullaby sound
+		audio_stop_sound(sfx_Attic_mimic_sound);
+		
+		// Stop the attic
+		audio_stop_sound(Attic_Ambience_FINAL_MIX_INGAME);
+		
+		// Stop the menu theme
+		audio_stop_sound(Main_Menu_Theme__Game_Version_);
+		
+        // Start playing the bedroom sound
+        audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
+		
+    } break;
+
+    // Add more cases for other rooms as needed
+}
+
 switch (room) {
     case room_hallway: {
         // Stop the sound for other rooms
@@ -69,15 +96,9 @@ switch (room) {
         // Start playing the art room music
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
         // Exit the switch statement
-        break;
+	} break;
     }
 	
- default: {
-        // Stop the hallway sound when entering a room that is not classroom
-        audio_stop_sound(Noah_s_theme_Lullaby);
-    } break;
-}
-
 //CLASSROOM 3 MUSIC
 switch (room) {
     case room_class3: {
@@ -86,14 +107,9 @@ switch (room) {
         // Start playing the art room music
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
         // Exit the switch statement
-        break;
+	} break;
     }
 	
- default: {
-        // Stop the hallway sound when entering a room that is not classroom
-        audio_stop_sound(Noah_s_theme_Lullaby);
-    } break;
-}
 
 //ATTIC ROOM LEVEL MUSIC
 switch (room) {

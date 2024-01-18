@@ -10,8 +10,9 @@ if (keyboard_check_pressed(ord("T"))) {
 //task bar ui
 if ((inst_man.talked_npc1 == true) and !task1_notified) {
 	task1_notified = true;
-	new_task_added = true; 
-	
+	new_task_added = true;
+	audio_play_sound(new_task_sound, 1, false)
+
 	alarm[0] = 180;
 
 }
@@ -19,14 +20,14 @@ if ((inst_man.talked_npc1 == true) and !task1_notified) {
 if ((inst_man.talked_npc2 == true) and !task2_notified) {
 	task2_notified = true;
     new_task_added = true;
-	
+	audio_play_sound(new_task_sound, 1, false)
     alarm[0] = 180;
 }
 
 if ((inst_man.talked_npc3 == true) and !task3_notified) {
 	task3_notified = true;
     new_task_added = true;
-	
+	audio_play_sound(new_task_sound, 1, false)
     alarm[0] = 180;
 }
 
