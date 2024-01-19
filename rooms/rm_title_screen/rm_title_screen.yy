@@ -14,7 +14,7 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5052B407","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.09502135,"scaleY":0.11696816,"spriteId":{"name":"NOAH_logo_Game_Version","path":"sprites/NOAH_logo_Game_Version/NOAH_logo_Game_Version.yy",},"x":608.0,"y":63.999992,},
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7F82279D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.11430729,"scaleY":0.114307284,"spriteId":{"name":"NOAH_logo_Game_Version","path":"sprites/NOAH_logo_Game_Version/NOAH_logo_Game_Version.yy",},"x":531.1672,"y":76.0,},
       ],"depth":0,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":"_effect_glow","gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3086E657","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":100.0,"y":60.0,},
@@ -31,7 +31,7 @@
         {"name":"g_RipplesPosition","type":0,"value":"0",},
         {"name":"g_RipplesPosition","type":0,"value":"0",},
         {"name":"g_RipplesSpeed","type":0,"value":"0.6",},
-        {"name":"g_RipplesWidth","type":0,"value":"157",},
+        {"name":"g_RipplesWidth","type":0,"value":"192",},
         {"name":"g_RipplesAmplitude","type":0,"value":"0.55",},
         {"name":"g_RipplesRadius","type":0,"value":"1841",},
       ],"spriteId":{"name":"Sprite150","path":"sprites/Sprite150/Sprite150.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
