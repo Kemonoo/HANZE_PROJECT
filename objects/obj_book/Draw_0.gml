@@ -3,7 +3,7 @@
 
 
 if (global.showBook) {
-    draw_sprite(spr_book, 0, obj_Noah.x, obj_Noah.y);
+    draw_sprite(the_boook_writings, 0, obj_Noah.x, obj_Noah.y);
 	
 }
 

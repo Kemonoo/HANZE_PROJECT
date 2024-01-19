@@ -58,6 +58,7 @@
     {"name":"Classroom_table_with_coat","order":7,"path":"sprites/Classroom_table_with_coat/Classroom_table_with_coat.yy",},
     {"name":"obj_puzzle3","order":7,"path":"objects/obj_puzzle3/obj_puzzle3.yy",},
     {"name":"spr_broken_mop","order":10,"path":"sprites/spr_broken_mop/spr_broken_mop.yy",},
+    {"name":"the_boook_writings","order":15,"path":"sprites/the_boook_writings/the_boook_writings.yy",},
     {"name":"obj_bed","order":5,"path":"objects/obj_bed/obj_bed.yy",},
     {"name":"scr_topics","order":2,"path":"scripts/scr_topics/scr_topics.yy",},
     {"name":"spr_Player_dash_right","order":4,"path":"sprites/spr_Player_dash_right/spr_Player_dash_right.yy",},
