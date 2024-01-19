@@ -1,4 +1,4 @@
-draw_set_font(global.font_main);
+draw_set_font(fnt_menufont);
 
 //dynamically get width and height of the menu
 var _new_w = 0;
