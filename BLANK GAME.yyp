@@ -281,6 +281,7 @@
     {"id":{"name":"Hall_Monster_Walk__Left","path":"sprites/Hall_Monster_Walk__Left/Hall_Monster_Walk__Left.yy",},},
     {"id":{"name":"obj_unused_table","path":"objects/obj_unused_table/obj_unused_table.yy",},},
     {"id":{"name":"spr_stoppoint_beam","path":"sprites/spr_stoppoint_beam/spr_stoppoint_beam.yy",},},
+    {"id":{"name":"Sprite150","path":"sprites/Sprite150/Sprite150.yy",},},
     {"id":{"name":"obj_txt_box","path":"objects/obj_txt_box/obj_txt_box.yy",},},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
     {"id":{"name":"_3_lockers_w_eyes","path":"sprites/_3_lockers_w_eyes/_3_lockers_w_eyes.yy",},},

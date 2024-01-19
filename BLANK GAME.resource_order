@@ -231,6 +231,7 @@
     {"name":"Hall_Monster_Walk__Left","order":1,"path":"sprites/Hall_Monster_Walk__Left/Hall_Monster_Walk__Left.yy",},
     {"name":"obj_unused_table","order":27,"path":"objects/obj_unused_table/obj_unused_table.yy",},
     {"name":"spr_stoppoint_beam","order":7,"path":"sprites/spr_stoppoint_beam/spr_stoppoint_beam.yy",},
+    {"name":"Sprite150","order":8,"path":"sprites/Sprite150/Sprite150.yy",},
     {"name":"spr_table","order":3,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"_3_lockers_w_eyes","order":22,"path":"sprites/_3_lockers_w_eyes/_3_lockers_w_eyes.yy",},
     {"name":"tile_hallway_tiles2","order":1,"path":"tilesets/tile_hallway_tiles2/tile_hallway_tiles2.yy",},
