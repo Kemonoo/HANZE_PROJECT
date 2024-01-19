@@ -17,5 +17,11 @@ option[1, 1] = "Brightness"
 option[1, 2] = "Controls"
 option[1, 3] = "Back"
 
+//control option
+option[2, 0] = "Walking: W,A,S,D" 
+option[2, 1] = "Dashing: SPACE" 
+option[2, 2] = "Interact: E"
+option[2, 3] = "Back"
+
 op_length = 0;
 menu_level = 0;
