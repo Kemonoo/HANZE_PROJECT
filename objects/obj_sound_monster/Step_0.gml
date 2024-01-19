@@ -28,14 +28,14 @@ if (move_towards_player) {
     var move_speed = 9; // the speed
 
     // Check for collisions with walls
-    if (place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall)) {
+    if (place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall && obj_atticbox && obj_atticbox2 && obj_atticbox3 && obj_atticbox4)) {
   
         var step = 45; 
 
         for (var i = 0; i < 360 / step; i++) {
             dir_to_player += step;
 
-            if (!place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall)) {
+            if (!place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall && obj_atticbox && obj_atticbox2 && obj_atticbox3 && obj_atticbox4)) {
                 // If a direction is found without a wall, set the new target position
                 target_x = x + lengthdir_x(move_speed, dir_to_player);
                 target_y = y + lengthdir_y(move_speed, dir_to_player);

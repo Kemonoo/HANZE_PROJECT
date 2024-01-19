@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sidewase_beam",
-    "path": "sprites/spr_sidewase_beam/spr_sidewase_beam.yy",
+    "name": "spr_lightbeam_ani4",
+    "path": "sprites/spr_lightbeam_ani4/spr_lightbeam_ani4.yy",
   },
   "spriteMaskId": null,
   "visible": true,

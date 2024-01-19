@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Attic_box_2",
     "path": "sprites/Attic_box_2/Attic_box_2.yy",

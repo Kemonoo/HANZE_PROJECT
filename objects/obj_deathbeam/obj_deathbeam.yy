@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_deathlight",
-    "path": "sprites/spr_deathlight/spr_deathlight.yy",
+    "name": "spr_lightbeam_ani4",
+    "path": "sprites/spr_lightbeam_ani4/spr_lightbeam_ani4.yy",
   },
   "spriteMaskId": null,
   "visible": true,

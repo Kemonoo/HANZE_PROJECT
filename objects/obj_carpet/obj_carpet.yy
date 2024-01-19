@@ -24,7 +24,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "Player_Carpet",
     "path": "sprites/Player_Carpet/Player_Carpet.yy",

@@ -14,7 +14,7 @@ if (!is_picked_up) {
           
 				is_picked_up = true;
 				player_collision.has_nails = true;
-				press_e = false
+				press_e = false;
 				image_alpha = 0;
 				audio_play_sound(Item_pickup, 1, false);
 			}

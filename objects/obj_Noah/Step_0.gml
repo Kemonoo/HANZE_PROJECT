@@ -9,7 +9,7 @@ if (!is_dashing and !inside_object) {
 	// calculate movemnt
 	vx = ((move_right - move_left) * player_speed);
 	vy = ((move_down - move_up) * player_speed);
-	
+
 
 
 	// set idle sprite
@@ -33,26 +33,29 @@ if (!is_dashing and !inside_object) {
 		//change sprite based on direction
 		if (vx > 0) 
 		{
-			sprite_index = spr_Player_walk___right;
+			sprite_index = Player_walk___right;
 			dir = 0;
 		}
 		if (vx < 0)
 		{
-			sprite_index = spr_Player_walk___Left;
+			sprite_index = Player_walk___Left;
 			dir = 2;
 		}
 		if (vy > 0) 
 		{
-			sprite_index = spr_Player_walk___Down;
+			sprite_index = Player_walk__down;
 			dir = 3;
 		}
 		if (vy < 0) 
 		{
-			sprite_index = spr_Player_walk___Up;
+			sprite_index = Player_walk___Up;
 			dir = 1;
 		}
 	}
 }
+
+
+
  
 if !inside_object
 {

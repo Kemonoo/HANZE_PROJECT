@@ -63,8 +63,8 @@
   ],
   "solid": true,
   "spriteId": {
-    "name": "spr_Player_idle",
-    "path": "sprites/spr_Player_idle/spr_Player_idle.yy",
+    "name": "spr_Player_idle___down",
+    "path": "sprites/spr_Player_idle___down/spr_Player_idle___down.yy",
   },
   "spriteMaskId": null,
   "visible": true,
