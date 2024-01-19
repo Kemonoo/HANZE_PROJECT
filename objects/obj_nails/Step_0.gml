@@ -34,6 +34,7 @@ if (!is_picked_up) {
 			nails_instance.direction = point_direction(x, y, mouse_x, mouse_y);
 			num_nails++;
 			alarm[0] = 100;
+			audio_play_sound(nail_throw_final, 1, false)
 		}
     }
 }

@@ -11,6 +11,7 @@ image_angle = direction;
 if (place_meeting(x, y, obj_wall)) {
     
     instance_destroy();
+	audio_play_sound(nail_hit_final, 1, false)
 } else {
   
     x += lengthdir_x(normal_speed, direction);
@@ -24,6 +25,7 @@ if (place_meeting(x, y, obj_wall)) {
         var knockback_direction = point_direction(collision_obj.x, collision_obj.y, x, y);
         collision_obj.x += lengthdir_x(knockback_distance, knockback_direction);
         collision_obj.y += lengthdir_y(knockback_distance, knockback_direction);
+		audio_play_sound(nail_hit_final, 1 , false)
         
        
         if (variable_instance_exists(collision_obj, "sp")) {
@@ -60,6 +62,7 @@ if (place_meeting(x, y, obj_wall)) {
         var knockback_direction = point_direction(collision_obj.x, collision_obj.y, x, y);
         collision_obj.x += lengthdir_x(knockback_distance, knockback_direction);
         collision_obj.y += lengthdir_y(knockback_distance, knockback_direction);
+		audio_play_sound(nail_hit_final, 1 , false)
         
        
         if (variable_instance_exists(collision_obj, "sp")) {
@@ -93,6 +96,7 @@ if (place_meeting(x, y, obj_wall)) {
         var knockback_direction = point_direction(collision_obj.x, collision_obj.y, x, y);
         collision_obj.x += lengthdir_x(knockback_distance, knockback_direction);
         collision_obj.y += lengthdir_y(knockback_distance, knockback_direction);
+		audio_play_sound(nail_hit_final, 1 , false)
         
        
         if (variable_instance_exists(collision_obj, "sp")) {
