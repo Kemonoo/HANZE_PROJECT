@@ -19,7 +19,7 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E559409","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_npc_jerk","path":"objects/obj_npc_jerk/obj_npc_jerk.yy",},"properties":[],"rotation":0.0,"scaleX":0.7241202,"scaleY":0.8222295,"x":1488.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E559409","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_npc_jcok","path":"objects/obj_npc_jcok/obj_npc_jcok.yy",},"properties":[],"rotation":0.0,"scaleX":1.0209951,"scaleY":0.9003546,"x":1258.0,"y":358.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A590B6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hallwaydoor","path":"objects/obj_hallwaydoor/obj_hallwaydoor.yy",},"properties":[],"rotation":0.0,"scaleX":0.125,"scaleY":0.5,"x":1792.0,"y":448.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"instances_background","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -55,7 +55,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":1000,"hport":1600,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_man","path":"objects/obj_man/obj_man.yy",},"vborder":1000,"visible":true,"vspeed":-1,"wport":2560,"wview":1024,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":1000,"hport":1600,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_Noah","path":"objects/obj_Noah/obj_Noah.yy",},"vborder":1000,"visible":true,"vspeed":-1,"wport":2560,"wview":1024,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

@@ -114,8 +114,8 @@ function GiveNailsBackAction() : DialogueAction() constructor {
 function GiveShoesBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
-            obj_man.player_speed = 3;
+		 if (instance_exists(obj_Noah)) {
+            obj_Noah.player_speed = 3;
 			inst_man.has_shoes = false;
 			inst_man.gave_shoes = true;
         }
@@ -126,7 +126,7 @@ function GiveShoesBackAction() : DialogueAction() constructor {
 function GiveJacketBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.has_jacket = false;
 			inst_man.gave_jacket = true;
@@ -152,7 +152,7 @@ function KeepNailsBackAction() : DialogueAction() constructor {
 function KeepShoesBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.kept_shoes = true;
         }
@@ -163,7 +163,7 @@ function KeepShoesBackAction() : DialogueAction() constructor {
 function KeepJacketBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.kept_jacket = true;
         }
@@ -175,7 +175,7 @@ function KeepJacketBackAction() : DialogueAction() constructor {
 function TalkedJerkBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.talked_npc1 = true;
         }
@@ -185,7 +185,7 @@ function TalkedJerkBackAction() : DialogueAction() constructor {
 function TalkedOldmanBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.talked_npc2 = true;
         }
@@ -197,7 +197,7 @@ function TalkedOldmanBackAction() : DialogueAction() constructor {
 function TalkedTeacherBackAction() : DialogueAction() constructor {
     act = function(textbox) {
 		
-		 if (instance_exists(obj_man)) {
+		 if (instance_exists(obj_Noah)) {
             
 			inst_man.talked_npc3 = true;
         }

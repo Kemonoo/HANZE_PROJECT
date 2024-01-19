@@ -3,9 +3,9 @@ var follow_distance = 320;
 
 
 
-if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) {
+if (point_distance(x, y, obj_Noah.x, obj_Noah.y) < follow_distance) {
   
-	move_towards_point(obj_man.x, obj_man.y, sp); 
+	move_towards_point(obj_Noah.x, obj_Noah.y, sp); 
 } else {
     
 	sp = irandom_range(min_speed, max_speed);

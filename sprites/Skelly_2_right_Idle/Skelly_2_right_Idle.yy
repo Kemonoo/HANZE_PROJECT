@@ -48,8 +48,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "npc_and_monsters",
-    "path": "folders/Sprites/npc_and_monsters.yy",
+    "name": "Skellies",
+    "path": "folders/Sprites/npc_and_monsters/Skellies.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

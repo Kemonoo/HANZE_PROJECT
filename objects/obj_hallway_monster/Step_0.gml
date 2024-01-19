@@ -1,5 +1,5 @@
-var target_x = obj_man.x;
-var target_y = obj_man.y;
+var target_x = obj_Noah.x;
+var target_y = obj_Noah.y;
 
 
 if (old_x < x)
@@ -28,7 +28,7 @@ old_x = x;
 old_y = y;
 
 
-if (point_distance(x, y, obj_man.x, obj_man.y) < follow_distance) && follow_path {
+if (point_distance(x, y, obj_Noah.x, obj_Noah.y) < follow_distance) && follow_path {
 	move_towards_player = true 
 	path_end()
 	follow_path = false;
@@ -61,14 +61,14 @@ if (move_towards_player) {
         }
     } else {
         // If no wall is in the way, set the target position to the player
-        target_x = obj_man.x;
-        target_y = obj_man.y;
+        target_x = obj_Noah.x;
+        target_y = obj_Noah.y;
     }
 
   
     move_towards_point(target_x, target_y, move_speed);
 	
-} else if  ((point_distance(x, y, obj_man.x, obj_man.y) > 600) && !follow_path) {
+} else if  ((point_distance(x, y, obj_Noah.x, obj_Noah.y) > 600) && !follow_path) {
 		x = 8319;
 		y = 3457;
 		path_start(Path1, 4, path_action_restart, false);  

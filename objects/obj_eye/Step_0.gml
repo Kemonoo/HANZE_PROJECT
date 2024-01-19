@@ -8,7 +8,7 @@ if (place_meeting(x, y, obj_stoppoint_beam)) {
     direction = -direction;
 }
 
-if (place_meeting(x, y, obj_man)) {
+if (place_meeting(x, y, obj_Noah)) {
 
 	global.death_count += 1;
 

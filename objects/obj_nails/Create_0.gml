@@ -16,4 +16,4 @@ num_nails = 0;
 radius = 20; 
 press_e = true;
 
-player = instance_nearest(x, y, obj_man);
+player = instance_nearest(x, y, obj_Noah);

@@ -4,22 +4,22 @@
 
 if instance_exists(obj_locker)
 {
-	if abs(obj_man.x - x) < outside_detect_radius and abs(obj_man.y - y) < outside_detect_radius
+	if abs(obj_Noah.x - x) < outside_detect_radius and abs(obj_Noah.y - y) < outside_detect_radius
 	{
 		if keyboard_check_pressed(ord("E"))
 		{
-			if obj_man.inside_object
+			if obj_Noah.inside_object
 			{
-				obj_man.inside_object = false;
-				obj_man.visible = true;
-				camera_set_view_target(view_camera[0], obj_man.id);
+				obj_Noah.inside_object = false;
+				obj_Noah.visible = true;
+				camera_set_view_target(view_camera[0], obj_Noah.id);
 				inside_time_limit = 0;
 			}
 			else
 			{
 			
-				obj_man.inside_object = true;
-				obj_man.visible = false;
+				obj_Noah.inside_object = true;
+				obj_Noah.visible = false;
 				camera_set_view_target(view_camera[0], id);
 				inside_time_limit = 5;	// seconds
 				alarm_set(0, 60)

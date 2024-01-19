@@ -2,11 +2,11 @@
 if (!is_picked_up) {
    
    
-    var player_collision = instance_place(x, y, obj_man);
+    var player_collision = instance_place(x, y, obj_Noah);
 
     if (player_collision != noone) {
 		
-		if instance_exists(obj_man) {
+		if instance_exists(obj_Noah) {
 		
 
 			if (player != noone && distance_to_object(player) < radius) {
@@ -26,8 +26,8 @@ if (!is_picked_up) {
     }
 } else {
   
-    x = obj_man.x;
-    y = obj_man.y;
+    x = obj_Noah.x;
+    y = obj_Noah.y;
 }
 
 

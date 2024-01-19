@@ -10,7 +10,7 @@ if (timer <= 0) {
 }
 
 
-if (visible && place_meeting(x, y, obj_man)) {
+if (visible && place_meeting(x, y, obj_Noah)) {
 
 	global.death_count += 1;
 

@@ -1,2 +1,2 @@
-obj_man.x = 1758;
-obj_man.y = 484;
+obj_Noah.x = 1758;
+obj_Noah.y = 484;

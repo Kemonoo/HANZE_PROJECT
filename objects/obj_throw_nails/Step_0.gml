@@ -53,7 +53,7 @@ if (place_meeting(x, y, obj_wall)) {
 
 
  
-    var collision_obj = instance_place(x, y, obj_monster); 
+    var collision_obj = instance_place(x, y, obj_sound_monster); 
     
     if (collision_obj != noone) {
        
