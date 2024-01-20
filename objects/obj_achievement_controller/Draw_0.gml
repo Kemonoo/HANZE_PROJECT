@@ -13,19 +13,19 @@ if (new_task_added == true) {
 }
 //draw achieve,ents 
 if (achievement1_show == true) {
-    draw_text(obj_Noah.x - 340, obj_Noah.y - 220, " Achievement(You got the nails. Click to throw and slow down enemies!) ");
+    draw_text(obj_Noah.x - 180, obj_Noah.y - 220, " Achievement(You got the nails. Click to throw and slow down enemies!) ");
 	
 	
 }
 
 if (achievement2_show == true) {
-    draw_text(obj_Noah.x - 340, obj_Noah.y - 220, " Achievement(you got the shoes. You speed is now double!) ");
+    draw_text(obj_Noah.x - 250, obj_Noah.y - 220, " Achievement(you got the shoes. You speed is now double!) ");
 	
 	
 }
 
 if (achievement3_show == true) {
-    draw_text(obj_Noah.x - 340, obj_Noah.y - 220, " Achievement(you got the coat. You now have a extra life!) ");
+    draw_text(obj_Noah.x - 250, obj_Noah.y - 220, " Achievement(you got the coat. You now have a extra life!) ");
 	
 	
 }

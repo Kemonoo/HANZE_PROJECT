@@ -14,7 +14,7 @@ if ((player != noone && distance_to_object(player) < radius) && (press_e == true
 
 if (draw_cooldown == true){
 	depth -= 102;
-	image_alpha = 0.1;
+	
 	draw_sprite(spr_cool_down_bar, 0, obj_Noah.x + 100, obj_Noah.y - 380);
 	
 }
