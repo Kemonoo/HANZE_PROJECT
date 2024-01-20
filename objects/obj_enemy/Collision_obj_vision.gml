@@ -5,7 +5,7 @@
 speed= 0;
 
 
-sprite_index = Skelly_2_right;
+sprite_index = Skelly_2_right_Idle;
 
 
 
