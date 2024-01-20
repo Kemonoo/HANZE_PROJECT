@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "Classroom_table",
-    "path": "sprites/Classroom_table/Classroom_table.yy",
+    "name": "UNUSED_TABLE",
+    "path": "sprites/UNUSED_TABLE/UNUSED_TABLE.yy",
   },
   "spriteMaskId": null,
   "visible": true,
