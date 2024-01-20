@@ -263,6 +263,7 @@
     {"id":{"name":"Bat_Monster_right","path":"sprites/Bat_Monster_right/Bat_Monster_right.yy",},},
     {"id":{"name":"obj_endingdoor","path":"objects/obj_endingdoor/obj_endingdoor.yy",},},
     {"id":{"name":"why","path":"sprites/why/why.yy",},},
+    {"id":{"name":"spr_cool_down_bar","path":"sprites/spr_cool_down_bar/spr_cool_down_bar.yy",},},
     {"id":{"name":"obj_global_controller","path":"objects/obj_global_controller/obj_global_controller.yy",},},
     {"id":{"name":"obj_deathbeam","path":"objects/obj_deathbeam/obj_deathbeam.yy",},},
     {"id":{"name":"spr_bedroomdoor","path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},},

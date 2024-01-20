@@ -214,6 +214,7 @@
     {"name":"Bat_Monster_right","order":1,"path":"sprites/Bat_Monster_right/Bat_Monster_right.yy",},
     {"name":"obj_endingdoor","order":10,"path":"objects/obj_endingdoor/obj_endingdoor.yy",},
     {"name":"why","order":3,"path":"sprites/why/why.yy",},
+    {"name":"spr_cool_down_bar","order":18,"path":"sprites/spr_cool_down_bar/spr_cool_down_bar.yy",},
     {"name":"obj_deathbeam","order":4,"path":"objects/obj_deathbeam/obj_deathbeam.yy",},
     {"name":"spr_bedroomdoor","order":1,"path":"sprites/spr_bedroomdoor/spr_bedroomdoor.yy",},
     {"name":"spr_walll","order":2,"path":"sprites/spr_walll/spr_walll.yy",},
