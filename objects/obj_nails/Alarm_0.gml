@@ -3,7 +3,7 @@
 
 num_nails = 0; 
 
-
+draw_cooldown = false;
 
 
 

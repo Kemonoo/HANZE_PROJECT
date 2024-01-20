@@ -8,6 +8,7 @@ num_dash = 0;
 
 //jacket
 shield_active = false;
+shield_cooldown = false;
 
 
 // Create Event of obj_player

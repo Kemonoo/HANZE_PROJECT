@@ -33,6 +33,7 @@ if (!is_picked_up) {
 			nails_instance.speed = shooting_speed;
 			nails_instance.direction = point_direction(x, y, mouse_x, mouse_y);
 			num_nails++;
+			draw_cooldown = true;
 			alarm[0] = 100;
 			audio_play_sound(nail_throw_final, 1, false)
 		}

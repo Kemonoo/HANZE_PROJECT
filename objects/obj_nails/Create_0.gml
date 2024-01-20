@@ -12,7 +12,7 @@ image_alpha = 1;
 
 num_nails = 0;
 
-
+draw_cooldown = false;
 radius = 20; 
 press_e = true;
 

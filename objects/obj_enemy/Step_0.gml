@@ -15,14 +15,7 @@ if (point_distance(x, y, obj_Noah.x, obj_Noah.y) < follow_distance) {
 
 
 
-/*if (speed == 0){
-	sprite_index = Skelly_2_right_Idle;
-} else if (direction > 90 && direction < 270) {
-    sprite_index = Skelly_2_right;
-} else if (direction <= 90 || direction >= 270) {
-    sprite_index = spr_bones_left;
-} 
-*/
+
 
 
 if (speed == 0) {

@@ -8,7 +8,7 @@ if (!instance_exists(obj_inventory_box)) {
 
 }
 
-// Initialize variables
+
 grayBoxSprite = spr_inventory_box; 
 
 // Set the positions for the gray boxes

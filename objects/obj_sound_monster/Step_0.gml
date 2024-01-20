@@ -57,21 +57,5 @@ if (move_towards_player) {
 
 
 
-/*if (speed == 0){
-	sprite_index = ;
-} else if (direction > 90 && direction < 270) {
-    sprite_index = spr_bones_right;
-} else if (direction <= 90 || direction >= 270) {
-    sprite_index = spr_bones_left;
-} 
-
-
-*/
-
-
-
-
-
-
 
 audio_emitter_position(audio_emitter, x, y, 0);
