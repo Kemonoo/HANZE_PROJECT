@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SIgns","folderPath":"folders/SIgns.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MUSIC","folderPath":"folders/Sounds/MUSIC.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SFX","folderPath":"folders/Sounds/SFX.yy",},
@@ -54,7 +55,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tiles","folderPath":"folders/Sprites/tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Walking sound","folderPath":"folders/Walking sound.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SIgns","folderPath":"folders/SIgns.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"jumpscare test.webm","CopyToMask":-1,"filePath":"datafiles",},

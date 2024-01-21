@@ -16,6 +16,7 @@
     {"name":"Particles","order":11,"path":"folders/Particles.yy",},
     {"name":"Paths","order":8,"path":"folders/Paths.yy",},
     {"name":"Scripts","order":7,"path":"folders/Scripts.yy",},
+    {"name":"SIgns","order":16,"path":"folders/SIgns.yy",},
     {"name":"Sounds","order":10,"path":"folders/Sounds.yy",},
     {"name":"SFX","order":1,"path":"folders/Sounds/SFX.yy",},
     {"name":"Sprites","order":4,"path":"folders/Sprites.yy",},
@@ -39,7 +40,6 @@
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
     {"name":"Walking sound","order":12,"path":"folders/Walking sound.yy",},
-    {"name":"SIgns","order":16,"path":"folders/SIgns.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Player_walk___Left","order":1,"path":"sprites/Player_walk___Left/Player_walk___Left.yy",},
