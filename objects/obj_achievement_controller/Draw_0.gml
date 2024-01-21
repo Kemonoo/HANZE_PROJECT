@@ -7,7 +7,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 //draw new task added
 if (new_task_added == true) {
-    draw_text(obj_Noah.x - 430, obj_Noah.y - 220, "New task added!");
+    draw_text(obj_Noah.x - 320, obj_Noah.y - 220, "New task added! (Press tab to see)");
 	
 	
 }
