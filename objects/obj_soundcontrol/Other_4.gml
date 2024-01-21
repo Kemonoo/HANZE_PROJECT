@@ -20,6 +20,9 @@ switch (room) {
 		// Stop the menu theme
 		audio_stop_sound(Main_Menu_Theme__Game_Version_);
 		
+			// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
+		
         // Start playing the bedroom sound
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
 		
@@ -38,6 +41,10 @@ switch (room) {
 		
 		//stop the attic
 		audio_stop_sound(Attic_Ambience_FINAL_MIX_INGAME);
+		
+			//stop the attic
+		audio_stop_sound(Noah_s_theme_Lullaby);
+
 
         // Start playing the hallway sound
         audio_play_sound(unown_ambienceNEW_HALLWAY_LOOPED, 0, 1);
@@ -59,6 +66,10 @@ switch (room) {
         // Start playing the art room music
         audio_play_sound(The_Art_Room__FINAL_MIX_INGAME_VERSION_, 0, 1);
         // Exit the switch statement
+		
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
+		
         break;
     }
 	
@@ -78,14 +89,11 @@ switch (room) {
         audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
         // Start playing the art room music
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
         // Exit the switch statement
         break;
     }
-	
- default: {
-        // Stop the hallway sound when entering a room that is not classroom
-        audio_stop_sound(Noah_s_theme_Lullaby);
-    } break;
 }
 
 //CLASSROOM 2 MUSIC
@@ -96,6 +104,8 @@ switch (room) {
         // Start playing the art room music
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
         // Exit the switch statement
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
 	} break;
     }
 	
@@ -106,6 +116,8 @@ switch (room) {
         audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
         // Start playing the art room music
         audio_play_sound(Noah_s_theme_Lullaby, 0, 1);
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
         // Exit the switch statement
 	} break;
     }
@@ -118,6 +130,8 @@ switch (room) {
         audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
         // Start playing the art room music
         audio_play_sound(Attic_Ambience_FINAL_MIX_INGAME, 0, 1);
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
         // Exit the switch statement
 	} break;
 }

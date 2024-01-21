@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Noah_s_theme_Lullaby.mp3",
   "type": 1,
-  "volume": 0.31,
+  "volume": 0.21,
 }
