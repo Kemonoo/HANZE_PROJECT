@@ -3,7 +3,7 @@ var newTaskMessage = argument0;
 
 
 
-if (keyboard_check_pressed(ord("T"))) {
+if (keyboard_check_pressed(vk_tab)) {
     global.showTaskBar = !global.showTaskBar;
 }
 
