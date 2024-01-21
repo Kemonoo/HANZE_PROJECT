@@ -305,6 +305,7 @@
     {"id":{"name":"nail_throw_final","path":"sounds/nail_throw_final/nail_throw_final.yy",},},
     {"id":{"name":"Main_Menu_Theme__Game_Version_","path":"sounds/Main_Menu_Theme__Game_Version_/Main_Menu_Theme__Game_Version_.yy",},},
     {"id":{"name":"spr_option_arrow","path":"sprites/spr_option_arrow/spr_option_arrow.yy",},},
+    {"id":{"name":"tile_eyeroom","path":"tilesets/tile_eyeroom/tile_eyeroom.yy",},},
     {"id":{"name":"room_class3","path":"rooms/room_class3/room_class3.yy",},},
     {"id":{"name":"obj_plant_noEnter","path":"objects/obj_plant_noEnter/obj_plant_noEnter.yy",},},
     {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},},

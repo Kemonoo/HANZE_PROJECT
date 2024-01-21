@@ -253,6 +253,7 @@
     {"name":"nail_throw_final","order":8,"path":"sounds/nail_throw_final/nail_throw_final.yy",},
     {"name":"Main_Menu_Theme__Game_Version_","order":6,"path":"sounds/Main_Menu_Theme__Game_Version_/Main_Menu_Theme__Game_Version_.yy",},
     {"name":"spr_option_arrow","order":7,"path":"sprites/spr_option_arrow/spr_option_arrow.yy",},
+    {"name":"tile_eyeroom","order":5,"path":"tilesets/tile_eyeroom/tile_eyeroom.yy",},
     {"name":"room_class3","order":3,"path":"rooms/room_class3/room_class3.yy",},
     {"name":"obj_plant_noEnter","order":3,"path":"objects/obj_plant_noEnter/obj_plant_noEnter.yy",},
     {"name":"spr_option","order":8,"path":"sprites/spr_option/spr_option.yy",},

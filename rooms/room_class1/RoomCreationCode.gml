@@ -1,2 +1,2 @@
-obj_Noah.x = 1758;
-obj_Noah.y = 484;
+obj_Noah.x = 1599;
+obj_Noah.y = 586;
