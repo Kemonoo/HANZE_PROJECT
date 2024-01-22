@@ -20,7 +20,7 @@
   "height": 150,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a810c621-f656-4c00-86c9-cd0e847cd7fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a810c621-f656-4c00-86c9-cd0e847cd7fc","blendMode":0,"displayName":"COCK ","isLocked":false,"opacity":24.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,

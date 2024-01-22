@@ -10,7 +10,7 @@ draw_sprite(grayBoxSprite, 0, obj_Noah.x + 80, obj_Noah.y - 380);
 
 
    if (inst_man.has_nails) {
-	   draw_sprite(spr_nails, 0, obj_Noah.x + 90, obj_Noah.y - 380);
+	   draw_sprite(spr_nails, 0, obj_Noah.x + 90, obj_Noah.y - 370);
 	   
    }
    
