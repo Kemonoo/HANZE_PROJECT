@@ -3,7 +3,7 @@
 global.topics = {};
 //jock dialogue
 global.topics[$ "Example"] = [
-	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's you again..", //start
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
@@ -16,7 +16,7 @@ global.topics[$ "Example"] = [
 //START OF WWJD BRANCH
 
 	global.topics[$ "Chose What did I do?"] = [ //wwjd
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT), //should be skeptical face here
+		SPEAKER("Jerk", jock_neutral, PORTRAIT_SIDE.LEFT), //should be skeptical face here
 			CHOICE("You don't remember? ",
 				OPTION("No..?", "Chose No..?"), //did
 				OPTION("..don't think I want to", "Chose ..don't think I want to")) // did
@@ -24,7 +24,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose No..?"] = [ //wwjd
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
 			CHOICE("Because of you, my favorite trainers got all messed up",
 				OPTION("What..?", "Chose What..?"),
 				OPTION("..oh ", "Chose ..oh"), 
@@ -43,7 +43,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose What..?"] = [ //wwjd
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT), 
+		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT), 
 			CHOICE("Yes, you ran into my boyfriend and made him spill his ..drink all over my trainers ",
 				OPTION("oh..", "Chose oh.."), // end
 				OPTION("..dink?", "Chose ..drink?")) // end
@@ -61,7 +61,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose ..don't think I want to"] = [ //wwjd
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT), 
+		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT), 
 			CHOICE("You don-.. fucking dicks",
 				OPTION("..sorry?", "Chose ..sorry?"), // end
 				OPTION("swearing is bad","Chose swearing is bad")) // end
@@ -85,7 +85,7 @@ global.topics[$ "Example"] = [
 //START OF 22 RBANCH
 
 	global.topics[$ "Chose Sorry..?"] = [ //22 end
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("Oh so now you can apologize?",
 				OPTION("...no", "Chose ...no"), //end
 				OPTION("... ", "Chose ..."), // end
@@ -99,7 +99,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose ..."] = [ // 22 end
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 			CHOICE("Cat suddenly caught your tongue again??",
 				OPTION("Sorry?", "Chose Sorry?"), //end
 				OPTION("I love cats", "Chose I love cats"), //end
@@ -123,7 +123,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose Yes..?"] = [ //22
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("You just didn't feel like saying sorry before then?", 
 				OPTION("What do you mean?", "Chose What do you mean?"), // end 22.2
 				OPTION("Before?", "Chose Before?"),// end22.3
@@ -137,7 +137,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose Before?"] = [//22.3 end
-		SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("Woww, you really are self centered aren't you",
 				OPTION("If you say so", "Chose If you say so"), //end 
 				OPTION("I'm not..?", "Chose I'm not..?")) //end
@@ -166,7 +166,7 @@ GOTO("Chose I think y-") //end
 
 
 global.topics[$ "Chose ..again?"] = [ //fuck ass start
-	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes again", 
 			OPTION("....", "Chose ...."), //end
 			OPTION("I think y-", "Chose I think y-"), // end
@@ -179,7 +179,7 @@ GOTO("Chose ...") //end
 ];
 
 global.topics[$ "Chose I think y-"] = [ //fuck ass end
-	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("Cut the crap, you can't forget the person you've run into",
 			OPTION("I can..", "Chose I can.."), //end
 			OPTION("I really don't remember", "Chose I really don't remember"))//end
@@ -196,7 +196,7 @@ GOTO("Ending 8")// end
 ];
 
 global.topics[$ "Chose ..not following"] = [ //fuckasss 3
-	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("Want to know why you got me agitated then?",
 			OPTION("..no", "Chose ..no"), //end
 			OPTION("..yes", "Chose ..yes"), //end
@@ -209,7 +209,7 @@ GOTO("Chose Before?") //end
 ];
 
 global.topics[$ "Chose ..yes"] = [ //fuckass 3 end
-	SPEAKER("Jerk", spr_npc_idle, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("YOU ran into my boyfriend, which made him SPILL his drink all over my FAVORITE trainers",
 			OPTION(".....", "Chose ....."), //end
 			OPTION("Still clueless..", "Chose Still clueless.."), //end
@@ -251,14 +251,14 @@ GOTO("Chose ..yes") // end
 global.topics[$ "Ending 1"] = [
 	TEXT("Since they're drying in the attic, I had to walk around on socks all day."),
 	TEXT("That was cold as shit and you haven't even said sorry yet."),
-	SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 2"] = [
 	TEXT("That.. doesn't matter... Just get my trainers from the attic, you owe me that."),
 	TALK_JERK(),
-	SPEAKER("Jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 	
 ];
@@ -267,49 +267,49 @@ global.topics[$ "Ending 3"] = [
 	TEXT("You probably don't even remember what you should be apoligizing for"),
 	TEXT("Get my trainers from the attic, that should help jog your memory"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 4"] = [
 	TEXT("Then I have a propesition for you. Get me my trainers from the attic, or I kill your cat"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 5"] = [
 	TEXT("Fucking hell, okay just get me my trainers from the attic. You owe that at least."),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 6"] = [
 	TEXT("I don't believe a single hair on your body. Get my trainers from the attic and prove it then"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 7"] = [
 	TEXT("Unbelievable. Maybe you remember my shoes then, they're in the attic"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 8"] = [
 	TEXT("Get my trainers from the attic, maybe that'll jog your memory"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 global.topics[$ "Ending 9"] = [
 	TEXT("Yes. I had to walk around on socks all day because my trainers had to dry in the attic"),
 	TEXT("Fucking cold that was"),
 	TALK_JERK(),
-	SPEAKER("jerk", spr_npc_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
@@ -320,6 +320,7 @@ global.topics[$ "Ending 9"] = [
 //ITEM GIVE BACK OPTIONS DIALOGYE JOCK
 
 global.topics[$ "Chose iteam option69"] = [
+SPEAKER("jerk", jock_suprised, PORTRAIT_SIDE.LEFT),	
 	CHOICE("And? Found my trainers yet?",
 			OPTION("Give the shoes back" ,"Chose give shoes"), //end
 			OPTION("Keep the shoes","Chose lie shoes"))//END
