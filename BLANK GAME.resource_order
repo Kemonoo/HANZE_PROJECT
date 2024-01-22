@@ -132,6 +132,7 @@
     {"name":"Cafeteria","order":6,"path":"sprites/Cafeteria/Cafeteria.yy",},
     {"name":"Player_walk___Up","order":3,"path":"sprites/Player_walk___Up/Player_walk___Up.yy",},
     {"name":"Exit","order":5,"path":"sprites/Exit/Exit.yy",},
+    {"name":"tile_hallwaywalls","order":9,"path":"tilesets/tile_hallwaywalls/tile_hallwaywalls.yy",},
     {"name":"room_hallway","order":4,"path":"rooms/room_hallway/room_hallway.yy",},
     {"name":"Hall_Monster_Walk__Up","order":2,"path":"sprites/Hall_Monster_Walk__Up/Hall_Monster_Walk__Up.yy",},
     {"name":"obj_classroom1","order":2,"path":"objects/obj_classroom1/obj_classroom1.yy",},

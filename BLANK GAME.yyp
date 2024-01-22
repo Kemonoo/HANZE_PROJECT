@@ -169,6 +169,7 @@
     {"id":{"name":"Cafeteria","path":"sprites/Cafeteria/Cafeteria.yy",},},
     {"id":{"name":"Player_walk___Up","path":"sprites/Player_walk___Up/Player_walk___Up.yy",},},
     {"id":{"name":"Exit","path":"sprites/Exit/Exit.yy",},},
+    {"id":{"name":"tile_hallwaywalls","path":"tilesets/tile_hallwaywalls/tile_hallwaywalls.yy",},},
     {"id":{"name":"obj_item_shoes","path":"objects/obj_item_shoes/obj_item_shoes.yy",},},
     {"id":{"name":"room_hallway","path":"rooms/room_hallway/room_hallway.yy",},},
     {"id":{"name":"Hall_Monster_Walk__Up","path":"sprites/Hall_Monster_Walk__Up/Hall_Monster_Walk__Up.yy",},},
