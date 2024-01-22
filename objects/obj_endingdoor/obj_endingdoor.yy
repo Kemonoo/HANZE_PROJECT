@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_endingdoor",
-    "path": "sprites/spr_endingdoor/spr_endingdoor.yy",
+    "name": "Door_Down",
+    "path": "sprites/Door_Down/Door_Down.yy",
   },
   "spriteMaskId": null,
   "visible": true,

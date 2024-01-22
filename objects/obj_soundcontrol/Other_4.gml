@@ -136,3 +136,15 @@ switch (room) {
 	} break;
 }
 
+//ATTIC ROOM LEVEL MUSIC
+switch (room) {
+    case room_puzzle3: {
+        // Stop the sound for other rooms
+        audio_stop_sound(unown_ambienceNEW_HALLWAY_LOOPED);
+        // Start playing the art room music
+        audio_play_sound(Attic_Ambience_FINAL_MIX_INGAME, 0, 1);
+				// Stop the hallway monster
+		audio_stop_sound(Hallcrawler_INGAME_LOOP);
+        // Exit the switch statement
+	} break;
+}

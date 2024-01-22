@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bedroomdoor",
-    "path": "sprites/spr_bedroomdoor/spr_bedroomdoor.yy",
+    "name": "Door",
+    "path": "sprites/Door/Door.yy",
   },
   "spriteMaskId": null,
   "visible": true,

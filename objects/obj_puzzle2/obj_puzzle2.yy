@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_classdoor2",
-    "path": "sprites/spr_classdoor2/spr_classdoor2.yy",
+    "name": "Door_left",
+    "path": "sprites/Door_left/Door_left.yy",
   },
   "spriteMaskId": null,
   "visible": true,

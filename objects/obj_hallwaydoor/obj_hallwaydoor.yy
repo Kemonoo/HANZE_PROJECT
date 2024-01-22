@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hallwaydoor_2",
-    "path": "sprites/spr_hallwaydoor_2/spr_hallwaydoor_2.yy",
+    "name": "Door_Down",
+    "path": "sprites/Door_Down/Door_Down.yy",
   },
   "spriteMaskId": null,
   "visible": true,

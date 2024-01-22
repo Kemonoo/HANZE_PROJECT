@@ -153,6 +153,24 @@ switch dir
 if (instance_exists(obj_sound_monster)) {
     if (place_meeting(x, y, obj_collsionblock1)) {
         obj_sound_monster.move_towards_player = true;
+		// Randomize sound selection
+        var randomSoundIndex = irandom(4); // Assumes you have 4 sounds (0 to 3)
+        
+        // Play the selected sound
+        switch (randomSoundIndex) {
+            case 0:
+                audio_play_sound(water_step1, 1, false);
+                break;
+            case 1:
+                audio_play_sound(water_step2, 1, false);
+                break;
+            case 2:
+                audio_play_sound(water_step3, 1, false);
+                break;
+            case 3:
+                audio_play_sound(water_step4, 1, false);
+                break;
+        }
     } else {
         obj_sound_monster.move_towards_player = false;
     }

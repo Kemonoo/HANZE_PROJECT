@@ -1,5 +1,5 @@
 // Create Event
-video = video_open("noah_new_eye_jumpscare.mp4");
+video = video_open("noah_jumpscare_eye_final.mp4");
 audio = audio_play_sound(jumpscare_sound_final, 1, false);
 
 timer = 0;
