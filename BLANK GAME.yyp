@@ -149,6 +149,7 @@
     {"id":{"name":"spr_classdoor2","path":"sprites/spr_classdoor2/spr_classdoor2.yy",},},
     {"id":{"name":"Skelly_1_Idle","path":"sprites/Skelly_1_Idle/Skelly_1_Idle.yy",},},
     {"id":{"name":"NOAH_logo_Game_Version","path":"sprites/NOAH_logo_Game_Version/NOAH_logo_Game_Version.yy",},},
+    {"id":{"name":"spr_COAT_FINIT","path":"sprites/spr_COAT_FINIT/spr_COAT_FINIT.yy",},},
     {"id":{"name":"spr_throw_nails","path":"sprites/spr_throw_nails/spr_throw_nails.yy",},},
     {"id":{"name":"obj_sound_monster","path":"objects/obj_sound_monster/obj_sound_monster.yy",},},
     {"id":{"name":"Hall_Monster_Walk__Right","path":"sprites/Hall_Monster_Walk__Right/Hall_Monster_Walk__Right.yy",},},

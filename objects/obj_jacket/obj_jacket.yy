@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_jacket",
-    "path": "sprites/spr_jacket/spr_jacket.yy",
+    "name": "spr_COAT_FINIT",
+    "path": "sprites/spr_COAT_FINIT/spr_COAT_FINIT.yy",
   },
   "spriteMaskId": null,
   "visible": true,
