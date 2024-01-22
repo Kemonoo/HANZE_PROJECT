@@ -60,9 +60,6 @@
     {"name":"inst_48918BFD","path":"rooms/room_puzzle2/room_puzzle2.yy",},
     {"name":"inst_E08AFC2","path":"rooms/room_puzzle2/room_puzzle2.yy",},
     {"name":"inst_FFA0D53","path":"rooms/room_puzzle2/room_puzzle2.yy",},
-    {"name":"inst_2B4AE2EF","path":"rooms/room_puzzle2/room_puzzle2.yy",},
-    {"name":"inst_3598EC2","path":"rooms/room_puzzle2/room_puzzle2.yy",},
-    {"name":"inst_760FC1A3","path":"rooms/room_puzzle2/room_puzzle2.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -98,10 +95,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C7B0CF2","colour":4288255638,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.6761556,"scaleY":1.6761558,"x":1900.1187,"y":1444.2644,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48918BFD","colour":4288256409,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Skellie_3","path":"objects/obj_Skellie_3/obj_Skellie_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.7265625,"scaleY":1.7109375,"x":1028.0264,"y":1773.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E08AFC2","colour":4289901234,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Skellie_3","path":"objects/obj_Skellie_3/obj_Skellie_3.yy",},"properties":[],"rotation":0.0,"scaleX":1.6601562,"scaleY":1.6601562,"x":2534.0,"y":1310.1985,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_FFA0D53","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Skellie_1","path":"objects/obj_Skellie_1/obj_Skellie_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.789471,"scaleY":1.7532468,"x":1046.8337,"y":1345.0369,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2B4AE2EF","colour":4288255638,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.6761556,"scaleY":1.6761558,"x":1051.4243,"y":1797.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3598EC2","colour":4288255638,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.6761556,"scaleY":1.6761558,"x":1094.0,"y":1358.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_760FC1A3","colour":4288255638,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.6761556,"scaleY":1.6761558,"x":2481.0,"y":1281.0132,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_FFA0D53","colour":4291611852,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_Skellie_1","path":"objects/obj_Skellie_1/obj_Skellie_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.789471,"scaleY":1.7532468,"x":1046.8337,"y":1345.0369,},
       ],"layers":[],"properties":[
         {"name":"g_VignetteEdges","type":0,"value":"0.35",},
         {"name":"g_VignetteEdges","type":0,"value":"0.9",},
