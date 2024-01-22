@@ -27,6 +27,7 @@
     {"name":"Bedroom","order":16,"path":"folders/Sprites/decorations/Bedroom.yy",},
     {"name":"Classroom","order":25,"path":"folders/Sprites/decorations/Classroom.yy",},
     {"name":"dialogue","order":7,"path":"folders/Sprites/dialogue.yy",},
+    {"name":"heads","order":10,"path":"folders/Sprites/dialogue/heads.yy",},
     {"name":"iteams","order":6,"path":"folders/Sprites/iteams.yy",},
     {"name":"layers","order":4,"path":"folders/Sprites/layers.yy",},
     {"name":"0f431ba6-af17-4d21-8e9d-9851443435ab","order":1,"path":"folders/Sprites/layers/0f431ba6-af17-4d21-8e9d-9851443435ab.yy",},
@@ -40,7 +41,6 @@
     {"name":"tiles","order":5,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":5,"path":"folders/Tile Sets.yy",},
     {"name":"Walking sound","order":12,"path":"folders/Walking sound.yy",},
-    {"name":"heads","order":10,"path":"folders/Sprites/dialogue/heads.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Player_walk___Left","order":1,"path":"sprites/Player_walk___Left/Player_walk___Left.yy",},

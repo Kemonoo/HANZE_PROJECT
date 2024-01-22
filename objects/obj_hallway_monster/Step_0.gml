@@ -1,31 +1,40 @@
 var target_x = obj_Noah.x;
 var target_y = obj_Noah.y;
 
+var delta = 0.1; // Adjust this value based on your needs
 
-if (old_x < x)
+var horizontalChange = abs(old_x - x);
+var verticalChange = abs(old_y - y);
+
+if (horizontalChange > verticalChange)
 {
-    sprite_index = Hall_Monster_Walk__Right;
+    if (old_x < x - delta)
+    {
+        sprite_index = Hall_Monster_Walk__Right;
+    }
+    else if (old_x > x + delta)
+    {
+        sprite_index = Hall_Monster_Walk__Left;
+    }
 }
-
-else if (old_x > x)
+else
 {
-    sprite_index = Hall_Monster_Walk__Left;
+    if (old_y > y)
+    {
+        sprite_index = Hall_Monster_Walk__Up;
+    }
+    else if (old_y < y)
+    {
+        sprite_index = Hall_Monster_Walk__Down;
+    }
 }
-
-else if (old_y > y)
-{
-    sprite_index = Hall_Monster_Walk__Up;
-}
-else if (old_y < y)
-{
-    sprite_index = Hall_Monster_Walk__Down;
-}
-
-
-
 
 old_x = x;
 old_y = y;
+
+
+
+
 
 
 if (point_distance(x, y, obj_Noah.x, obj_Noah.y) < follow_distance) && follow_path {
