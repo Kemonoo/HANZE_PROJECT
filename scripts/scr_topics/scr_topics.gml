@@ -1024,7 +1024,7 @@ GOTO("Chose my bad"),
 		OPTION("Small apology", "Chose Small"),// end
 		OPTION("Mediocre apology", "Chose Mediocre"),/// end
 		OPTION("Big apology", "Chose Big"),//end
-	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT)
 	
 ];
 
@@ -1085,11 +1085,11 @@ GOTO("IT give 4")
 	
 ];
 
-	global.topics[$ "Chose Big"] = //end
+	global.topics[$ "Chose Big"] = [ //end
 	TEXT("I am very sorry for not helping you after I tripped over your broom"),
 	TEXT("I should have, but I was too scared to"),
 	TEXT("My teacher sent out of the classroom as well and I have not been doing all that well these last few weeks"),
-GOTO("oh janitor"),
+GOTO("oh janitor")
 
 ];
 	

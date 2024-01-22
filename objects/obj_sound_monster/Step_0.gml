@@ -5,23 +5,25 @@ var target_y = obj_Noah.y;
 
 
 
-//sprite change
-if (old_x < x)
-{
-    sprite_index = Bat_Monster_right;
+if (speed == 0 && (direction <= 90 || direction >= 270)) {
+    sprite_index = Bat_Monster_odle;
 }
-
-else if (old_x > x)
-{
+if (speed == 0 && (direction > 90 || direction < 270)) {
+	sprite_index = Bat_Monster_odle;
+	image_xscale = 1;
+}
+if (direction > 90 && direction < 270) {
     sprite_index = Bat_Monster_left;
 }
+     
+if (direction <= 90 || direction >= 270) {
+    sprite_index = Bat_Monster_right;
+     
+} 
 
 
-old_x = x;
-old_y = y;
 
-
-//
+ 
 
 if (move_towards_player) {
     var dir_to_player = point_direction(x, y, target_x, target_y);

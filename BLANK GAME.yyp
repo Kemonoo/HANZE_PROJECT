@@ -298,6 +298,7 @@
     {"id":{"name":"Hall_Tileset_variations","path":"sprites/Hall_Tileset_variations/Hall_Tileset_variations.yy",},},
     {"id":{"name":"obj_hallway_monster","path":"objects/obj_hallway_monster/obj_hallway_monster.yy",},},
     {"id":{"name":"obj_flashing_lights","path":"objects/obj_flashing_lights/obj_flashing_lights.yy",},},
+    {"id":{"name":"bat_monster_rightidle","path":"sprites/bat_monster_rightidle/bat_monster_rightidle.yy",},},
     {"id":{"name":"hallway_monster_not_waling","path":"sprites/hallway_monster_not_waling/hallway_monster_not_waling.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"obj_press_e","path":"objects/obj_press_e/obj_press_e.yy",},},

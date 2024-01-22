@@ -1,6 +1,8 @@
-// Add one to deathcount
+/// @description Insert description here
+// You can write your code in this editor
 
-nearest_enemy = instance_nearest(x, y, obj_Skellie_3);
+
+nearest_enemy = instance_nearest(x, y, obj_Skellie_1);
 if (place_meeting(x, y, nearest_enemy) && (shield_active == true)){
     knockback_direction = point_direction(nearest_enemy.x, nearest_enemy.y, x, y);
     x += lengthdir_x(player_speed*40, knockback_direction);

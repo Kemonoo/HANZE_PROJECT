@@ -245,6 +245,7 @@
     {"name":"Hall_Tileset_variations","order":26,"path":"sprites/Hall_Tileset_variations/Hall_Tileset_variations.yy",},
     {"name":"obj_hallway_monster","order":1,"path":"objects/obj_hallway_monster/obj_hallway_monster.yy",},
     {"name":"obj_flashing_lights","order":5,"path":"objects/obj_flashing_lights/obj_flashing_lights.yy",},
+    {"name":"bat_monster_rightidle","order":3,"path":"sprites/bat_monster_rightidle/bat_monster_rightidle.yy",},
     {"name":"hallway_monster_not_waling","order":4,"path":"sprites/hallway_monster_not_waling/hallway_monster_not_waling.yy",},
     {"name":"Sequence1","order":1,"path":"sequences/Sequence1/Sequence1.yy",},
     {"name":"obj_press_e","order":6,"path":"objects/obj_press_e/obj_press_e.yy",},

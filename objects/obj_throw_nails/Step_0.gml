@@ -18,7 +18,7 @@ if (place_meeting(x, y, obj_wall)) {
     y += lengthdir_y(normal_speed, direction);
     
  
-    var collision_obj = instance_place(x, y, obj_enemy); 
+    var collision_obj = instance_place(x, y, obj_enemy && obj_Skellie_1 && obj_Skellie_3 && obj_hallway_monster && obj_sound_monster); 
     
     if (collision_obj != noone) {
        
