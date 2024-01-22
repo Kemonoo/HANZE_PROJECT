@@ -197,6 +197,7 @@
     {"name":"spr_Pickup_Nails","order":9,"path":"sprites/spr_Pickup_Nails/spr_Pickup_Nails.yy",},
     {"name":"The_Art_Room__FINAL_MIX_INGAME_VERSION_","order":3,"path":"sounds/The_Art_Room__FINAL_MIX_INGAME_VERSION_/The_Art_Room__FINAL_MIX_INGAME_VERSION_.yy",},
     {"name":"room_puzzle1","order":5,"path":"rooms/room_puzzle1/room_puzzle1.yy",},
+    {"name":"noah_less_wide","order":16,"path":"sprites/noah_less_wide/noah_less_wide.yy",},
     {"name":"Sprite90","order":14,"path":"sprites/Sprite90/Sprite90.yy",},
     {"name":"Hall_Monster_Walk__Down","order":3,"path":"sprites/Hall_Monster_Walk__Down/Hall_Monster_Walk__Down.yy",},
     {"name":"sfx_Attic_mimic_sound","order":2,"path":"sounds/sfx_Attic_mimic_sound/sfx_Attic_mimic_sound.yy",},

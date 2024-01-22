@@ -3,7 +3,7 @@
 global.topics = {};
 //jock dialogue
 global.topics[$ "Example"] = [
-	SPEAKER("Jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("It's you again..", //start
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
@@ -16,7 +16,7 @@ global.topics[$ "Example"] = [
 //START OF WWJD BRANCH
 
 	global.topics[$ "Chose What did I do?"] = [ //wwjd
-		SPEAKER("Jerk", jock_neutral, PORTRAIT_SIDE.LEFT), //should be skeptical face here
+		SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT), //should be skeptical face here
 			CHOICE("You don't remember? ",
 				OPTION("No..?", "Chose No..?"), //did
 				OPTION("..don't think I want to", "Chose ..don't think I want to")) // did
@@ -24,7 +24,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose No..?"] = [ //wwjd
-		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT),
 			CHOICE("Because of you, my favorite trainers got all messed up",
 				OPTION("What..?", "Chose What..?"),
 				OPTION("..oh ", "Chose ..oh"), 
@@ -43,7 +43,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose What..?"] = [ //wwjd
-		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT), 
+		SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT), 
 			CHOICE("Yes, you ran into my boyfriend and made him spill his ..drink all over my trainers ",
 				OPTION("oh..", "Chose oh.."), // end
 				OPTION("..dink?", "Chose ..drink?")) // end
@@ -61,7 +61,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose ..don't think I want to"] = [ //wwjd
-		SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT), 
+		SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT), 
 			CHOICE("You don-.. fucking dicks",
 				OPTION("..sorry?", "Chose ..sorry?"), // end
 				OPTION("swearing is bad","Chose swearing is bad")) // end
@@ -85,7 +85,7 @@ global.topics[$ "Example"] = [
 //START OF 22 RBANCH
 
 	global.topics[$ "Chose Sorry..?"] = [ //22 end
-		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Miron", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("Oh so now you can apologize?",
 				OPTION("...no", "Chose ...no"), //end
 				OPTION("... ", "Chose ..."), // end
@@ -99,7 +99,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose ..."] = [ // 22 end
-		SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Miron", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 			CHOICE("Cat suddenly caught your tongue again??",
 				OPTION("Sorry?", "Chose Sorry?"), //end
 				OPTION("I love cats", "Chose I love cats"), //end
@@ -123,7 +123,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose Yes..?"] = [ //22
-		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Miron", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("You just didn't feel like saying sorry before then?", 
 				OPTION("What do you mean?", "Chose What do you mean?"), // end 22.2
 				OPTION("Before?", "Chose Before?"),// end22.3
@@ -137,7 +137,7 @@ global.topics[$ "Example"] = [
 ];
 
 	global.topics[$ "Chose Before?"] = [//22.3 end
-		SPEAKER("Jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Miron", jock_suprised, PORTRAIT_SIDE.LEFT),
 			CHOICE("Woww, you really are self centered aren't you",
 				OPTION("If you say so", "Chose If you say so"), //end 
 				OPTION("I'm not..?", "Chose I'm not..?")) //end
@@ -166,7 +166,7 @@ GOTO("Chose I think y-") //end
 
 
 global.topics[$ "Chose ..again?"] = [ //fuck ass start
-	SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Miron", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes again", 
 			OPTION("....", "Chose ...."), //end
 			OPTION("I think y-", "Chose I think y-"), // end
@@ -179,7 +179,7 @@ GOTO("Chose ...") //end
 ];
 
 global.topics[$ "Chose I think y-"] = [ //fuck ass end
-	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("Cut the crap, you can't forget the person you've run into",
 			OPTION("I can..", "Chose I can.."), //end
 			OPTION("I really don't remember", "Chose I really don't remember"))//end
@@ -196,7 +196,7 @@ GOTO("Ending 8")// end
 ];
 
 global.topics[$ "Chose ..not following"] = [ //fuckasss 3
-	SPEAKER("Jerk", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Miron", jock_brow_neutral, PORTRAIT_SIDE.LEFT),
 		CHOICE("Want to know why you got me agitated then?",
 			OPTION("..no", "Chose ..no"), //end
 			OPTION("..yes", "Chose ..yes"), //end
@@ -209,7 +209,7 @@ GOTO("Chose Before?") //end
 ];
 
 global.topics[$ "Chose ..yes"] = [ //fuckass 3 end
-	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT),
 		CHOICE("YOU ran into my boyfriend, which made him SPILL his drink all over my FAVORITE trainers",
 			OPTION(".....", "Chose ....."), //end
 			OPTION("Still clueless..", "Chose Still clueless.."), //end
@@ -251,14 +251,14 @@ GOTO("Chose ..yes") // end
 global.topics[$ "Ending 1"] = [
 	TEXT("Since they're drying in the attic, I had to walk around on socks all day."),
 	TEXT("That was cold as shit and you haven't even said sorry yet."),
-	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 2"] = [
 	TEXT("That.. doesn't matter... Just get my trainers from the attic, you owe me that."),
 	TALK_JERK(),
-	SPEAKER("Jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 	
 ];
@@ -267,49 +267,49 @@ global.topics[$ "Ending 3"] = [
 	TEXT("You probably don't even remember what you should be apoligizing for"),
 	TEXT("Get my trainers from the attic, that should help jog your memory"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 4"] = [
 	TEXT("Then I have a propesition for you. Get me my trainers from the attic, or I kill your cat"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 5"] = [
 	TEXT("Fucking hell, okay just get me my trainers from the attic. You owe that at least."),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending 6"] = [
 	TEXT("I don't believe a single hair on your body. Get my trainers from the attic and prove it then"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 7"] = [
 	TEXT("Unbelievable. Maybe you remember my shoes then, they're in the attic"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
 global.topics[$ "Ending 8"] = [
 	TEXT("Get my trainers from the attic, maybe that'll jog your memory"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 global.topics[$ "Ending 9"] = [
 	TEXT("Yes. I had to walk around on socks all day because my trainers had to dry in the attic"),
 	TEXT("Fucking cold that was"),
 	TALK_JERK(),
-	SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT)
 	
 ];
 
@@ -320,29 +320,35 @@ global.topics[$ "Ending 9"] = [
 //ITEM GIVE BACK OPTIONS DIALOGYE JOCK
 
 global.topics[$ "Chose iteam option69"] = [
-SPEAKER("jerk", jock_suprised, PORTRAIT_SIDE.LEFT),	
+SPEAKER("Miron", jock_suprised, PORTRAIT_SIDE.LEFT),	
 	CHOICE("And? Found my trainers yet?",
 			OPTION("Give the shoes back" ,"Chose give shoes"), //end
-			OPTION("Keep the shoes","Chose lie shoes"))//END
+			OPTION("Keep the shoes","Chose lie shoes"),//END
+			OPTION("Not yet", "Chose Not yet"))
 		
+];
+
+global.topics[$ "Chose Not yet"] = [//END
+SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT),
+	 TEXT("Well, go find them"),
 ];
 
 global.topics[$ "Chose lie shoes"] = [//END
 	 KEEP_SHOES(),
-SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	 TEXT("I think someone stole them"),
 	GOTO("End shoes 1"),
 ];
 
 global.topics[$ "Chose give shoes"] = [
 	GIVE_SHOES_BACK(),
-SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("They were there"),//noah
    GOTO("jock excited")
 ];
 
 global.topics[$ "jock excited"] = [
-SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("GREAT!"),
 	TEXT("I can finally walk on them again"),
 	CHOICE("Wait why do they feel warm",
@@ -351,23 +357,23 @@ SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
 		OPTION("Big apology", "Chose Big jock"))//end
 ];
 
-global.topics[$ "small jock"] = [//END
- SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+global.topics[$ "Chose small jock"] = [//END
+ SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("Sorry I used them"),
 	TEXT("And sorry for the spilling"),
 GOTO("End shoes 2")
 ];
 
-global.topics[$ "Mediocre jock"] = [//end
- SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+global.topics[$ "Chose Mediocre jock"] = [//end
+ SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I used your shoes for a bit sorry"),
 	TEXT("I'm also sorry for walking into your boyfriend and ruining your shoes"),
 	TEXT("I was lost in my thoughts"),
 GOTO("End shoes 3")
 ];
 
-global.topics[$ "Big jock"] = [//end
- SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+global.topics[$ "Chose Big jock"] = [//end
+ SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("Sorry for walking into your boyfriend and running away after instead of apologizing"),
 	TEXT("I just don't feel like myself these last weeks"),
 	TEXT("My mind is going bad places that my body wants to follow"),
@@ -375,7 +381,7 @@ GOTO("no cry")
 ];
 
 global.topics[$ "no cry"] = [//end
- SPEAKER("jerk", jock_suprised, PORTRAIT_SIDE.LEFT),
+ SPEAKER("Miron", jock_suprised, PORTRAIT_SIDE.LEFT),
 	TEXT("okay don't start crying on me now, I don't know how to deal with that."),
 	TEXT("You know, my boyfriend had the same problems"),
 		CHOICE("You could talk to him about it? It might help you",
@@ -404,7 +410,7 @@ GOTO("End shoes 6")
 
 
 global.topics[$ "End shoes 1"] = [
- SPEAKER("jerk", jock_mad, PORTRAIT_SIDE.LEFT),
+ SPEAKER("Miron", jock_mad, PORTRAIT_SIDE.LEFT),
 	TEXT("SOMEONE STOLE THEM?!"),
 	TEXT("THEY'RE DEAD"),
 	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
@@ -413,7 +419,7 @@ global.topics[$ "End shoes 1"] = [
 
 
 global.topics[$ "End shoes 2"] = [
- SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+ SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("Nah it's alright, I mean i got them again and they're warm!"),
 	TEXT("Perfect for my cold feet."), 
 	TEXT("You're good don't worry"),
@@ -422,7 +428,7 @@ global.topics[$ "End shoes 2"] = [
 ];
 
 global.topics[$ "End shoes 3"] = [
-SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("Ah, I know the feeling. My boyfriend has that sometimes as well"),
 	TEXT("It helped when he talked to some people about it"),
 	TEXT("Might help for you as well"), 
@@ -433,7 +439,7 @@ SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
 
 
 global.topics[$ "End shoes 4"] = [
-SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("For what it's worth, I forgive you"),
 	TEXT("Seems like you're dealing with enough already"),
 	TEXT("You should check out the office,"),
@@ -443,7 +449,7 @@ SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
 ];
 
 global.topics[$ "End shoes 5"] = [
-SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh I do,"),
 	TEXT("but I'm sure he'd want me to help out as much people that are going through the same thing as he has"),
 	TEXT("Besides, I don't really mind"),
@@ -453,7 +459,7 @@ SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
 ];
 
 global.topics[$ "End shoes 6"] = [
-SPEAKER("jerk", jock_neutral, PORTRAIT_SIDE.LEFT),
+SPEAKER("Miron", jock_neutral, PORTRAIT_SIDE.LEFT),
 	TEXT("This is me forgiving you, accept the offer"),
 	TEXT("I feel bad for being rude to you when it wasn't really your fault"),
 	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
@@ -478,7 +484,7 @@ giveNailsBackOptionChosen = false;
 //START OF THE JANITOR DIALOGUE
 //janitor dialogeyy
 global.topics[$ "npc janitor"] = [ //end
-	SPEAKER("OLD MAN", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("My poor mop", //he cries
 			OPTION("Are you okay?", "Chose Are you okay?"), //end
 			OPTION("Can I help you?", "Chose Can I help you?"), //end
@@ -487,7 +493,7 @@ global.topics[$ "npc janitor"] = [ //end
 ];
 
 global.topics[$ "Chose Are you okay?"] = [ //old man nboyy end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("No",
 			OPTION("What happened", "Chose What happened"),//YEEHAW BRANCH END
 			OPTION("Ohh no", "Chose Ohh no"),// BILLIBOEM END
@@ -498,7 +504,7 @@ global.topics[$ "Chose Are you okay?"] = [ //old man nboyy end
 //START OF YEEHAW BRANCH
 
 global.topics[$ "Chose What happened"] = [ //YEEHAW BRANCH END
-	SPEAKER("Jerk", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
 		CHOICE("Someone broke my family heirloom",
 			OPTION("That's crazy", "Chose That's crazy"),// oldyy end
 			OPTION("Can I help?", "Chose Can I help?"),// end
@@ -507,7 +513,7 @@ global.topics[$ "Chose What happened"] = [ //YEEHAW BRANCH END
 ];
 
 global.topics[$ "Chose That's crazy"] = [ //oldyy end
-	SPEAKER("Jerk", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
 		CHOICE("Even crazier is the person who broke it. They ran off without saying a word",
 			OPTION("How rude of them", "Chose How rude of them"),// oldy 2 end
 			OPTION("......", "Chose ......"),//six dots0ldy 3 end
@@ -536,7 +542,7 @@ GOTO("Ending janitor 4") //end
 ];
 
 global.topics[$ "Chose Family heirloom?"] = [ //end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes, my mop. I treassured it a lot",
 			OPTION("Can I help?", "Chose Can I help?"), //end kjek11
 			OPTION("A mop?", "Chose A mop?"), //end
@@ -549,7 +555,7 @@ GOTO("Ending janitor 4")//end
 ];
 	
 global.topics[$ "Chose A mop?"] = [ //end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("Making mops was our family business 3000 years ago. This is the last one left",
 			OPTION("A mop family business?", "Chose a mop family business?"),//end
 			OPTION("3000 years ago?", "Chose 3000 years ago?"), //end
@@ -558,7 +564,7 @@ global.topics[$ "Chose A mop?"] = [ //end
 ];
 	
 global.topics[$ "Chose a mop family business?"] = [ // end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("Yes, we were the best in the business",
 			OPTION("What happened?", "Chose What happened?"),//end
 			OPTION("Not anymore?", "Chose Not anymore?"), //end
@@ -567,7 +573,7 @@ global.topics[$ "Chose a mop family business?"] = [ // end
 ];
 
 global.topics[$ "Chose What happened?"] = [ //e d
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("Our rivals.. murdered all of my family, leaving me with this single mop as a reminder of them",
 			OPTION("You didn't take any revenge?", "Chose You didn't take any revenge?"),//end
 			OPTION("omg", "Chose omg"), //end 
@@ -576,7 +582,7 @@ global.topics[$ "Chose What happened?"] = [ //e d
 ];
 
 global.topics[$ "Chose You didn't take any revenge?"] = [ //end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("There were too many of them and only one of me in the end",
 			OPTION("You should have done something", "Chose You should have done something"),//end							
 			OPTION("How horrific", "Chose How horrific"), //end
@@ -610,7 +616,7 @@ GOTO("Ending janitor defenitive")//end
 ];
 
 global.topics[$ "Chose Not anymore?"] = [ // end
-	SPEAKER("Jerk", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT),
 		TEXT("No"),
 		CHOICE("Our rivals made sure of that",
 			OPTION("How so?", "Chose How so?"),//end
@@ -645,7 +651,7 @@ GOTO("Ending janitor 5") //end
 ];
 
 global.topics[$ "Chose I can try to help you fix it?"] = [ //end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT), //crying
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT), //crying
 		CHOICE("My heart or my mop?",
 			OPTION("Your heart", "Chose Your heart"),//end
 			OPTION("Your mop", "Chose Your mop"), //end
@@ -680,7 +686,7 @@ GOTO("Ending janitor 11")//end
 ];
 
 global.topics[$ "Chose Can I help you?"] = [ //end
-	SPEAKER("OLD MAN", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("Help my broken heart or my mop?", //he cries
 			OPTION("What happened to your mop?", "Chose What happened to your mop?"), //end
 			OPTION("Did someone break your heart?", "Chose Did someone break your heart?"), //end
@@ -694,7 +700,7 @@ GOTO("Chose What happened")//end
 ];
 
 global.topics[$ "Chose Did someone break your heart?"] = [ //end
-SPEAKER("OLD MAN", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Yes"),	
 GOTO("Chose What happened")//end
 			
@@ -719,7 +725,7 @@ GOTO("Ending janitor 10")//end
 
 
 global.topics[$ "Chose Ohh no"] = [ //BILLIEBOEM BRANCH
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("She's dying", //insert crying
 			OPTION("Who's dying?", "Chose Who's dying?"),// 441 end
 			OPTION("What ails her", "Chose What ails her"),//working 777 
@@ -728,7 +734,7 @@ global.topics[$ "Chose Ohh no"] = [ //BILLIEBOEM BRANCH
 ];
 
 global.topics[$ "Chose Who's dying?"] = [ //441 end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("My one and only member left of the family", //insert crying
 			OPTION("Sorry for your loss", "Chose Sorry for your loss"),//442 end
 			OPTION("What happened to her?", "Chose What happened to her?"),//443 end
@@ -742,7 +748,7 @@ GOTO("Ending janitor 12")//end
 ];
 
 global.topics[$ "Chose What happened to her?"] = [ //443 end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		TEXT("Someone tripped over her"), 
 		CHOICE("My poor, poor mop",
 			OPTION("Can I help?", "Chose Can I help?"),//4431 >> this prompt should take you to line 446 (end)
@@ -762,7 +768,7 @@ GOTO("Chose Family heirloom?")//end
 ];
 
 global.topics[$ "Chose Where is she now?"] = [ //444 end
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("She's lying in my hands right here", //insert crying
 			OPTION("Will she make it?", "Chose Will she make it?"),//44441 end
 			OPTION("A mop?", "Chose A mop?"),//(end) >> Should go to line 466
@@ -776,7 +782,7 @@ GOTO("Ending janitor 14")//end
 ];
 
 global.topics[$ "Chose What ails her"] = [ //777
-	SPEAKER("Jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 		CHOICE("A broken neck", //insert crying
 			OPTION("Uh?", "Chose Uh?"),// 7771 end
 			OPTION("How?", "Chose How?"),// 7772 end
@@ -822,7 +828,7 @@ GOTO("Ending janitor 10") //end
 global.topics[$ "Ending janitor 1"] = [
 	TEXT("They didn't even offer to help me find nails in the art room to fix my mop again"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT) //he cries agian
+	SPEAKER("Greg", confused_mad_tears_janitor, PORTRAIT_SIDE.LEFT) //he cries agian
 	
 ];
 
@@ -830,14 +836,14 @@ global.topics[$ "Ending janitor 1"] = [
 global.topics[$ "Ending janitor 2"] = [
 	TEXT("If only someone could get some nails from the art room for me to fix my mop"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT) //he cries agian
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT) //he cries agian
 	
 ];
 
 global.topics[$ "Ending janitor 3"] = [
 	TEXT("In a hurry to break my heart and not offer to help get nails from the art room to fix her?"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -845,7 +851,7 @@ global.topics[$ "Ending janitor 4"] = [
 	TEXT("Maybe some nails from the art room could fix my precious family heirloom"),
 	TALK_OLDMAN(),
 	TEXT("but not my heart"),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -853,7 +859,7 @@ global.topics[$ "Ending janitor 5"] = [
 	TEXT("..yes."),
 	TEXT("I could really use some nails. There might be some in the art room."),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -861,7 +867,7 @@ global.topics[$ "Ending janitor 6"] = [
 	TEXT("Our glory is forever lost, but maybe I can fix this mop with some nails."),
 	TEXT("There should be some in the art room"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -869,28 +875,28 @@ global.topics[$ "Ending janitor 7"] = [
 	TEXT("If you can find me some nails from the art room, my mop can be fixed"),
 	TEXT("Find whoever broke my mop and it might fix my heart"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 8"] = [
 	TEXT("There might be a cure for my heart in the art room"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 9"] = [
 	TEXT("Only nails could fix her now"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
 global.topics[$ "Ending janitor 10"] = [
 	TEXT("I just need nails from the art room please"),
 	TALK_OLDMAN(),//crying
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -899,7 +905,7 @@ global.topics[$ "Ending janitor 11"] = [
 	TEXT("When I can no longer connect with them like before"),
 	TEXT("When I don't even have nails to fix her"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 
@@ -908,21 +914,21 @@ global.topics[$ "Ending janitor 12"] = [
 	TEXT("If i find some nails i might be able to bring her back to life"),
 	TEXT("I'm just too scared to leave her alone"),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
  
 ];
 
 global.topics[$ "Ending janitor 13"] = [
 	TEXT("I'm praying for nails from the art room, but my answers have not yet been heard"), //crying
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
  
 ];
 
 global.topics[$ "Ending janitor 14"] = [
 	TEXT("We might be able to help her with some nails from the art room"), //crying
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
  
 ];
 global.topics[$ "Ending janitor defenitive"] = [
@@ -930,7 +936,7 @@ global.topics[$ "Ending janitor defenitive"] = [
 	TEXT("Just like my mop"), //crying
 	TEXT("Nails would maybe fix my mop, could you help me find some. I'm too scared to leave her here all alone."),
 	TALK_OLDMAN(),
-	SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT)
 
 ];
 //END OF THE JANITOR DIALOGUEE
@@ -940,12 +946,19 @@ global.topics[$ "Ending janitor defenitive"] = [
 //ITEM RETURN OPTIONS JANITOR
 
 global.topics[$ "Chose Item options janitor"] = [
-SPEAKER("jerk", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	TEXT(".. and that she will be able to mop again"),
 	CHOICE("Please Gods I know you can hear me",
 			OPTION("Save her" ,"Chose Save her"), //END
-			OPTION("Keep nails","Chose Keep nails")) //done
+			OPTION("Keep nails","Chose Keep nails"), //done
+			OPTION("Haven't found the item yet", "Chose not yet"))
 	 
+];
+
+global.topics[$ "Chose not yet"] = [
+TEXT("..."),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
+
 ];
 
 global.topics[$ "Chose Keep nails"] = [
@@ -955,35 +968,34 @@ GOTO("selfish Noah")//end
 ];
 
 global.topics[$ "selfish Noah"] = [//end
-SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I think her time has come"),
 GOTO("IT give 8"),
 	
 ];
 
 global.topics[$ "Chose Save her"] = [//END
-SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
-	GIVE_NAILS_BACK(),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I went to the art room you were talking about"),
-	GOTO("Janitor desperate")
+GOTO("Janitor desperate"),
 ];
 
 global.topics[$ "Janitor desperate"] = [
-SPEAKER("jerk", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT),
+SPEAKER("Greg", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT),
 	CHOICE("Have you found the nails to help me save her??",
 		OPTION("I did", "Chose I did"),//end
-		OPTION("No", "Chose No"),//end
-	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+		OPTION("No", "Chose No"))//end
 	
 ];
 
 global.topics[$ "Chose No"] = [
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh no"),
 	CHOICE("My family will be forever lost",
 		OPTION("Oh my bad, I did find them", "Chose my bad"),//e d 
 		OPTION("Yeah sorry", "Chose Yeah sorry"),// end
-		OPTION("I should go", "Chose I should go"),//end
-	SPEAKER("Old man", janitor_sad_tears, PORTRAIT_SIDE.LEFT))
+		OPTION("I should go", "Chose I should go"))//end
+
 	
 ];
 
@@ -991,14 +1003,14 @@ global.topics[$ "Chose No"] = [
 
 global.topics[$ "Chose Yeah sorry"] = [//end
 	TEXT("I should bury her"),
-	SPEAKER("Old man", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	
 ];
 
 global.topics[$ "Chose I should go"] = [//end
 	TEXT("Oh yes yes"),
 	TEXT("I'm sure you've seen me cry enough already"),
-	SPEAKER("Old man", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	
 ];
 
@@ -1008,48 +1020,53 @@ GOTO("Chose my bad"),
 ];
 
 	global.topics[$ "Chose my bad"] = [//end
+		GIVE_NAILS_BACK(),
+	SPEAKER("Greg", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh I can save her now"),
 	CHOICE("She'll be alright, my prayers have been heared",
 		OPTION("She won't die", "Chose She won't die"),// end
 		OPTION("You need to know one more thing", "Chose You need to know one more thing"),/// end
-		OPTION("I'm sorry", "Chose I'm sorry"),//end
-	SPEAKER("Old man", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT))
+		OPTION("I'm sorry", "Chose I'm sorry"))//end
+
 	
 ];
 
 	global.topics[$ "Chose She won't die"] = [//END
+		SPEAKER("Greg", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("My family legacy will live on for years to come"),
 	TEXT("I feel that you have more to say"),
-	GOTO("I'm sorry"),
-	SPEAKER("Old man", janitor_reliefed_tears, PORTRAIT_SIDE.LEFT),
+	GOTO("Chose I'm sorry"),
+
 	
 ];
 
 	global.topics[$ "Chose You need to know one more thing"] = [//END
-	GOTO("I'm sorry"),
+	GOTO("Chose I'm sorry"),
 
 ];
 
 	global.topics[$ "Chose I'm sorry"] = [
-	CHOICE("What is it"),
+		SPEAKER("Greg", janitor_confused_tears, PORTRAIT_SIDE.LEFT),
+	CHOICE("What is it??",
 		OPTION("Small apology", "Chose Small"),// end
 		OPTION("Mediocre apology", "Chose Mediocre"),/// end
-		OPTION("Big apology", "Chose Big"),//end
-	SPEAKER("Old man", janitor_confused_tears, PORTRAIT_SIDE.LEFT)
+		OPTION("Big apology", "Chose Big"))//end
+
 	
 ];
 
 	global.topics[$ "Chose Small"] = [//end
+		SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I was the one who.."),
 	TEXT("tripped over your mop"),
 	TEXT("I'm sorry"),
 GOTO("say anything"),
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+
 	
 ];
 
-	global.topics[$ "Chose say anything"] = [
-		SPEAKER("Old man", janitor_confused_tears, PORTRAIT_SIDE.LEFT),
+	global.topics[$ "say anything"] = [
+		SPEAKER("Greg", janitor_confused_tears, PORTRAIT_SIDE.LEFT),
 	CHOICE("Why didn't you say anything before?",
 		OPTION("Truth", "Chose Truth"),//end 
 		OPTION("Lie", "Chose Lie"))//end
@@ -1057,23 +1074,23 @@ GOTO("say anything"),
 ];
 
 	global.topics[$ "Chose Lie"] = [//end
-		SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I didn't notice"),
 	GOTO("IT give 3"),//end
 	
 ];
 
 	global.topics[$ "Chose Truth"] = [//end
-		SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I was afraid of your reaction so I ran away"),//noah
 GOTO("stopped before"),
 
 ];
 
 global.topics[$ "stopped before"] = [//end
-SPEAKER("Old man", janitor_small_tears, PORTRAIT_SIDE.LEFT),
+SPEAKER("Greg", janitor_small_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("If you stopped before, we could have solved it together"),
-	CHOICE("And it might have saved me alot of tears",
+	CHOICE("And it might have saved me a lot of tears",
 		OPTION("Yeah sorry", "Chose Yeah sorry"),//end
 		OPTION("I was too scared to", "Chose I was too scared to"),//end
 		OPTION("Running away is easier sometimes", "Chose Running is easier"))//end
@@ -1096,7 +1113,7 @@ SPEAKER("Old man", janitor_small_tears, PORTRAIT_SIDE.LEFT),
 ];
 
 	global.topics[$ "Chose Mediocre"] = [//end
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("The one who tripped over you mop was me"),//noah
 	TEXT("I'm sorry for running away and not helping sooner"),//noah
 GOTO("IT give 4")
@@ -1104,7 +1121,7 @@ GOTO("IT give 4")
 ];
 
 	global.topics[$ "Chose Big"] = [ //end
-		SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I am very sorry for not helping you after I tripped over your broom"),
 	TEXT("I should have, but I was too scared to"),
 	TEXT("My teacher sent out of the classroom as well and I have not been doing all that well these last few weeks"),
@@ -1113,7 +1130,7 @@ GOTO("oh janitor")
 ];
 	
 	global.topics[$ "oh janitor"] = [//end end
-SPEAKER("Old man", janitor_small_tears, PORTRAIT_SIDE.LEFT),
+SPEAKER("Greg", janitor_small_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh, that"),
 	CHOICE("seem like a lot to deal with",
 		OPTION("I'll manage", "Chose I'll manage"),//end
@@ -1142,14 +1159,14 @@ GOTO("IT give 7"),
 //nending item give back janitor
 
 global.topics[$ "IT give 1"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("It is alright"),
 	TEXT("She is alive again thanks to you, so you are forgiven"),
 
 ];
 
 global.topics[$ "IT give 2"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("There was no need to"),
 	TEXT("I could have used the consolidation, but all is well now"),
 	TEXT("She is alive again with your help, so I believe you've righted your wrongs"),
@@ -1158,31 +1175,36 @@ global.topics[$ "IT give 2"] = [
 ];
 
 global.topics[$ "IT give 2,5"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("But it's not always the best option"),
 	TEXT("It takes time to get to a better ending, but the result is worth it"),
 
 ];
 
 	global.topics[$ "IT give 3"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh, well. At least you admitted it was you"),
 	TEXT("Thank you, for helping as well. She will live longer now thanks to you. You're forgiven"),
 
 ];
 
 global.topics[$ "IT give 4"] = [
-		SPEAKER("Old man", janitor_confused_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_confused_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh"),
 	TEXT("You did help me save her, and eventually apologized for your actions"),
-			SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+GOTO("JANITOR HAPPY SMALL"),
+
+];
+
+global.topics[$ "JANITOR HAPPY SMALL"] = [
+			SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("She is alive again with your help, so I believe you've righted your wrongs"),
 	TEXT("I forgive you, because of you my tears will dry. It's alright"),
 
 ];
 
 global.topics[$ "IT give 5"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Well if you need to talk to anyone, my storage closet is always open"),
 	TEXT("Thank you for apologizing as well"),
 	TEXT("and since you helped keep her alive, I forgive you."),
@@ -1190,7 +1212,7 @@ global.topics[$ "IT give 5"] = [
 ];
 
 global.topics[$ "IT give 6"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("Oh I"),
 	TEXT("I forgive you for what you did and thank you, for helping save her."),
 	TEXT("And you can always come to me if you need anyone to talk to,"),
@@ -1200,7 +1222,7 @@ global.topics[$ "IT give 6"] = [
 ];
 
 global.topics[$ "IT give 7"] = [
-		SPEAKER("Old man", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_small_happy_ihs_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("If it helps, I forgive you for your actions"),
 	TEXT("You deserve a thank you as well, for helping me save her"),
 	TEXT("Just know this, my supply closet is always open"),
@@ -1209,7 +1231,7 @@ global.topics[$ "IT give 7"] = [
 ];
 
 global.topics[$ "IT give 8"] = [
-		SPEAKER("Old man", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Greg", janitor_sad_tears, PORTRAIT_SIDE.LEFT),
 	TEXT("No, not yet"),
 	TEXT("Please"),
 ];
@@ -1448,12 +1470,19 @@ global.topics[$ "Chose Item options"] = [
 	SPEAKER("Teacher", teacher_neutral, PORTRAIT_SIDE.LEFT),
 	CHOICE("S-s-s-so co-ol-d",
 			OPTION("Give the Jacket", "Chose Return item"), //good
-			OPTION("Keep the jacket", "Chose Don't return item")) //bad
+			OPTION("Keep the Jacket", "Chose Don't return item"), //bad
+			OPTION("Got to find the Jacket", "Chose find jacket"))
 			
 ];
 
+global.topics[$ "Chose find jacket"] = [//bad end
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
+	TEXT("..."), //end
+
+];
+
 global.topics[$ "Chose Don't return item"] = [//bad end
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	KEEP_JACKET(),
 	TEXT("It really is your problem that you're cold"), //end
 
@@ -1461,7 +1490,7 @@ global.topics[$ "Chose Don't return item"] = [//bad end
 
 global.topics[$ "Chose Return item"] = [//good
 	GIVE_JACKET_BACK(),
-		SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+		SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I found a lab coat for you to wear as a jacket"),//this is noah speaking
 	GOTO("How kind of"),
 ];
@@ -1475,7 +1504,7 @@ global.topics[$ "How kind of"] = [//good
 ];
 
 global.topics[$ "Chose Small apology"] = [//good
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I'm sorry for the coat thing I did"),//this is noah speaking
 	GOTO("OH IT"),
 ];
@@ -1487,7 +1516,7 @@ global.topics[$ "OH IT"] = [//good
 ];
 
 global.topics[$ "YES NOAH"] = [//good
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("Yes"), //NOAH
 	GOTO("TEACHER APOLOGIZES"),
 ];
@@ -1500,7 +1529,7 @@ global.topics[$ "TEACHER APOLOGIZES"] = [//good
 ];
 
 global.topics[$ "Chose Mediocre apology"] = [//good
-	SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+	SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I'm sorry for setting your coat on fire and running off. My thoughts were all over the place"),//this is noah speaking
 	GOTO("QUITE ALRIGHT"),
 ];
@@ -1513,7 +1542,7 @@ global.topics[$ "QUITE ALRIGHT"] = [//good
 ];
 
 global.topics[$ "Chose Big apology"] = [//good
-SPEAKER("Noah", Noah_head, PORTRAIT_SIDE.LEFT),
+SPEAKER("Noah", noah_less_wide, PORTRAIT_SIDE.LEFT),
 	TEXT("I'm sorry for setting your coat on fire and just running away"),
 	TEXT("I haven't been feeling so well mentaly lately and something happened before I got to your class which messed with my head more"),//this is noah speaking
 GOTO("OH DEAR TEACHER"),
@@ -1555,7 +1584,7 @@ global.topics[$ "Chose That's not nececary"] = [//good
 //TECHER ENDINGS
 
 global.topics[$ "Ending teacher 1"] = [
-	TEXT("yea, anyways. There's jacket in the attic I believe."), 
+	TEXT("yea, anyways. There's jacket in the basement I believe."), 
 	TEXT("Would you be willing to help me out? I can't leave my office behind unsupervised"),
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_neutral, PORTRAIT_SIDE.LEFT),
@@ -1563,7 +1592,7 @@ global.topics[$ "Ending teacher 1"] = [
 ];
 
 global.topics[$ "Ending teacher 2"] = [
-	TEXT("Whatever, instead of thinking about that I could really use a jacket from the attic to finish these papers faster"), 
+	TEXT("Whatever, instead of thinking about that I could really use a jacket from the basement to finish these papers faster"), 
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 
@@ -1571,35 +1600,35 @@ global.topics[$ "Ending teacher 2"] = [
 
 global.topics[$ "Ending teacher 3"] = [
 	TEXT("It seemed, that they didn't pay attention last class and thought they could just do it right first try without explanation."),
-	TEXT("But enough of that, I should grab a jacket from the attic"), 
+	TEXT("But enough of that, I should grab a jacket from the basement"), 
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 
 ];
 
 global.topics[$ "Ending teacher 4"] = [
-	TEXT("Still pissed about it, because now I need to get a jacket from the attic"),
+	TEXT("Still pissed about it, because now I need to get a jacket from the basement"),
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 
 ];
 
 global.topics[$ "Ending teacher 5"] = [
-	TEXT("One of my students hates me and managed to turn it into ashes. I'm sure there's a replacement in the attic, but i'm stuck in the cold with this paperwork"),
+	TEXT("One of my students hates me and managed to turn it into ashes. I'm sure there's a replacement in the basement, but i'm stuck in the cold with this paperwork"),
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 
 ];
 
 global.topics[$ "Ending teacher 6"] = [
-	TEXT("If you could find a jacket in the attic for me? I'd be much faster with all this paperwork"), 
+	TEXT("If you could find a jacket in the basement for me? I'd be much faster with all this paperwork"), 
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_neutral, PORTRAIT_SIDE.LEFT),
 
 ];
 
 global.topics[$ "Ending teacher 7"] = [
-	TEXT("In the attic somewhere, but I can't leave this office before I've completed my work"),
+	TEXT("In the basement somewhere, but I can't leave this office before I've completed my work"),
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_neutral, PORTRAIT_SIDE.LEFT),
 
@@ -1607,13 +1636,13 @@ global.topics[$ "Ending teacher 7"] = [
 
 global.topics[$ "Ending teacher 8"] = [
 	TEXT("To make it worse, I don't remember who it was"),
-	TEXT("Finishing these papers in this cold is also undoable, maybe I should get a jacket from the attic"), 
+	TEXT("Finishing these papers in this cold is also undoable, maybe I should get a jacket from the basement"), 
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_neutral, PORTRAIT_SIDE.LEFT),
 ];
 
 global.topics[$ "Ending teacher 9"] = [
-	TEXT("Because of them I probably have to go to the attic to stop my shivers"),
+	TEXT("Because of them I probably have to go to the basement to stop my shivers"),
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 
@@ -1621,7 +1650,7 @@ global.topics[$ "Ending teacher 9"] = [
 
 global.topics[$ "Ending teacher 10"] = [
 	TEXT("I should have, but I don't want to think about that right now. I should finish my paperwork first."),
-	TEXT("Which is hard to do since I can't concentrate in this cold, there might be a coat in the attic I can use"), 
+	TEXT("Which is hard to do since I can't concentrate in this cold, there might be a coat in the basement I can use"), 
 	TALK_TEACHER(),
 	SPEAKER("Teacher", teacher_mad, PORTRAIT_SIDE.LEFT),
 

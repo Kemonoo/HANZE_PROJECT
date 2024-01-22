@@ -243,6 +243,7 @@
     {"id":{"name":"spr_Pickup_Nails","path":"sprites/spr_Pickup_Nails/spr_Pickup_Nails.yy",},},
     {"id":{"name":"The_Art_Room__FINAL_MIX_INGAME_VERSION_","path":"sounds/The_Art_Room__FINAL_MIX_INGAME_VERSION_/The_Art_Room__FINAL_MIX_INGAME_VERSION_.yy",},},
     {"id":{"name":"room_puzzle1","path":"rooms/room_puzzle1/room_puzzle1.yy",},},
+    {"id":{"name":"noah_less_wide","path":"sprites/noah_less_wide/noah_less_wide.yy",},},
     {"id":{"name":"Sprite90","path":"sprites/Sprite90/Sprite90.yy",},},
     {"id":{"name":"Hall_Monster_Walk__Down","path":"sprites/Hall_Monster_Walk__Down/Hall_Monster_Walk__Down.yy",},},
     {"id":{"name":"sfx_Attic_mimic_sound","path":"sounds/sfx_Attic_mimic_sound/sfx_Attic_mimic_sound.yy",},},
