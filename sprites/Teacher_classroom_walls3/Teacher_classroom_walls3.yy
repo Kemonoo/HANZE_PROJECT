@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "Teacher_classroom_walls3",
   "bbox_bottom": 383,
-  "bbox_left": 8,
+  "bbox_left": 256,
   "bbox_right": 383,
   "bbox_top": 55,
   "bboxMode": 0,
@@ -20,7 +20,7 @@
   "height": 384,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b991b07d-75ee-4270-bf25-3a76360189c8","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":56.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b991b07d-75ee-4270-bf25-3a76360189c8","blendMode":3,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"03ef42c2-2bde-47c0-a2d4-549ee8b91057","blendMode":3,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {

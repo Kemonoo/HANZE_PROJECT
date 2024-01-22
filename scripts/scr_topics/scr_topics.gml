@@ -8,7 +8,7 @@ global.topics[$ "Example"] = [
 			OPTION("What did I do?", "Chose What did I do?"), //wwjd
 			OPTION("Sorry..?", "Chose Sorry..?"), //22
 			OPTION("..again?", "Chose ..again?"),//FUCK ASS
-			OPTION("item options", "Chose iteam option69"))
+			OPTION("Item options", "Chose iteam option69"))
 			
 ];
 
@@ -79,69 +79,6 @@ global.topics[$ "Example"] = [
 //END OF WWJD BRANCH
 ];
 
-
-//giving and keeping item dialog 
-
-//shoe give back keep
-global.topics[$ "Chose iteam option69"] = [
-	CHOICE("Item opions make a wise choice",
-			OPTION("really u got them" ,"Chose really u got them"), 
-			OPTION("(lie) not yet","Chose (lie) not yet"),
-			OPTION("Here are your shoes","Chose Here are your shoes"),
-			OPTION("fuck you", "Chose fuck you"))
-   
-];
-
-global.topics[$ "Chose Here are your shoes"] = [
-	GIVE_SHOES_BACK(),
-	GOTO("finshed nail story")
-];
-
-global.topics[$ "Chose (lie) not yet"] = [
-	 KEEP_SHOES()
-];
-
-global.topics[$ "finshed nail story"] = [
-	TEXT("Holy shit u found them ."),
-	TEXT("Thank you so much god bless."),
-	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
-	
-];
-//end of shoe give back keep
-//nail give back keep
-
-global.topics[$ "Chose Item options old man"] = [
-	CHOICE("Item opions make a wise choice",
-			OPTION("really u got them" ,"Chose really u got them"), 
-			OPTION("(lie) not yet","Chose (lie) not yet 2"),
-			OPTION("here you go", "Chose here you go 2"),
-			OPTION("fuck you", "Chose fuck you"))
-	 
-];
-
-
-global.topics[$ "Chose here you go 2"] = [
-	GIVE_NAILS_BACK(),
-	GOTO("finshed nail story")
-];
-
-global.topics[$ "Chose (lie) not yet 2"] = [
-	 KEEP_NAILS()
-];
-
-
-
-global.topics[$ "finshed nail story"] = [
-	TEXT("Holy shit u got them ."),
-	TEXT("Thank you so much god bless."),
-	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT)
-	
-];
-
-
-
-//end of nail give bavk keep
-//end of giving and keeping dialog
 
 
 
@@ -380,10 +317,147 @@ global.topics[$ "Ending 9"] = [
 
 
 
+//ITEM GIVE BACK OPTIONS DIALOGYE JOCK
+
+global.topics[$ "Chose iteam option69"] = [
+	CHOICE("And? Found my trainers yet?",
+			OPTION("Give the shoes back" ,"Chose give shoes"), //end
+			OPTION("Keep the shoes","Chose lie shoes"))//END
+		
+];
+
+global.topics[$ "Chose lie shoes"] = [//END
+	 KEEP_SHOES(),
+	 TEXT("I think someone stole them"),
+	 GOTO("End shoes 1"),
+];
+
+global.topics[$ "Chose give shoes"] = [
+	GIVE_SHOES_BACK(),
+	TEXT("They were there"),//noah
+	GOTO("jock excited")
+];
+
+global.topics[$ "jock excited"] = [
+	TEXT("GREAT!"),
+	TEXT("I can finally walk on them again"),
+	CHOICE("Wait why do they feel warm",
+		OPTION("Small apology", "Chose small jock"),//END
+		OPTION("Mediocre apology", "Chose Mediocre jock"),//END
+		OPTION("Big apology", "Chose Big jock"))//end
+];
+
+global.topics[$ "small jock"] = [//END
+	TEXT("Sorry I used them"),
+	TEXT("And sorry for the spilling"),
+GOTO("End shoes 2")
+];
+
+global.topics[$ "Mediocre jock"] = [//end
+	TEXT("I used your shoes for a bit sorry"),
+	TEXT("I'm also sorry for walking into your boyfriend and ruining your shoes"),
+	TEXT("I was lost in my thoughts"),
+GOTO("End shoes 3")
+];
+
+global.topics[$ "Big jock"] = [//end
+	TEXT("Sorry for walking into your boyfriend and running away after instead of apologizing"),
+	TEXT("I just don't feel like myself these last weeks"),
+	TEXT("My mind is going bad places that my body wants to follow"),
+GOTO("no cry")
+];
+
+global.topics[$ "no cry"] = [//end
+	TEXT("okay don't start crying on me now, I don't know how to deal with that."),
+	TEXT("You know, my boyfriend had the same problems"),
+		CHOICE("You could talk to him about it? It might help you",
+			OPTION("It's okay", "Chose It's okay"), //end
+			OPTION("You wouldn't mind?", "Chose You wouldn't mind?"),//end
+			OPTION("Oh", "Chose Oh jock"))//end
+
+];
+
+global.topics[$ "Chose It's okay"] = [//end
+GOTO("End shoes 4")
+];
+
+global.topics[$ "Chose You wouldn't mind?"] = [//end
+GOTO("End shoes 5")
+];
+
+global.topics[$ "Chose Oh jock"] = [//end
+GOTO("End shoes 6")
+];
+
+
+
+
+//ENDOINGS SHOES
+
+
+global.topics[$ "End shoes 1"] = [
+	TEXT("SOMEONE STOLE THEM?!"),
+	TEXT("THEY'RE DEAD"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+
+global.topics[$ "End shoes 2"] = [
+	TEXT("Nah it's alright, I mean i got them again and they're warm!"),
+	TEXT("Perfect for my cold feet."), 
+	TEXT("You're good don't worry"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+global.topics[$ "End shoes 3"] = [
+	TEXT("Ah, I know the feeling. My boyfriend has that sometimes as well"),
+	TEXT("It helped when he talked to some people about it"),
+	TEXT("Might help for you as well"), 
+	TEXT("And my shoes do look very comfortable so I don't blame you for wearing them"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+
+global.topics[$ "End shoes 4"] = [
+	TEXT("For what it's worth, I forgive you"),
+	TEXT("Seems like you're dealing with enough already"),
+	TEXT("You should check out the office,"),
+	TEXT("my boyfriend went there a lot as well. He always felt better afterwards"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+global.topics[$ "End shoes 5"] = [
+	TEXT("Oh I do,"),
+	TEXT("but I'm sure he'd want me to help out as much people that are going through the same thing as he has"),
+	TEXT("Besides, I don't really mind"),
+	TEXT(" You did apologize and even got my trainers, so you're alright"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+global.topics[$ "End shoes 6"] = [
+	TEXT("This is me forgiving you, accept the offer"),
+	TEXT("I feel bad for being rude to you when it wasn't really your fault"),
+	SPEAKER("Jerk", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+
+
+
+//end of shoe give back keep
+
+
 
 
 selectedDialogOption = "";
 giveNailsBackOptionChosen = false;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -394,7 +468,7 @@ global.topics[$ "npc janitor"] = [ //end
 		CHOICE("My poor mop", //he cries
 			OPTION("Are you okay?", "Chose Are you okay?"), //end
 			OPTION("Can I help you?", "Chose Can I help you?"), //end
-			OPTION("Item options", "Chose Item options old man"))
+			OPTION("Item options", "Chose Item options janitor"))//working
 
 ];
 
@@ -854,6 +928,275 @@ global.topics[$ "Ending janitor defenitive"] = [
 
 
 
+//ITEM RETURN OPTIONS JANITOR
+
+global.topics[$ "Chose Item options janitor"] = [
+	TEXT(".. and that she will be able to mop again"),
+	CHOICE("Please Gods I know you can hear me",
+			OPTION("Save her" ,"Chose Save her"), //END
+			OPTION("Keep nails","Chose Keep nails")) //done
+	 
+];
+
+global.topics[$ "Chose Keep nails"] = [
+	 KEEP_NAILS(),
+GOTO("selfish Noah")//end
+
+];
+
+global.topics[$ "selfish Noah"] = [//end
+	TEXT("I think her time has come"),
+GOTO("IT give 8"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT)
+	
+];
+
+global.topics[$ "Chose Save her"] = [//END
+	GIVE_NAILS_BACK(),
+	TEXT("I went to the art room you were talking about"),
+	GOTO("Janitor desperate")
+];
+
+global.topics[$ "Janitor desperate"] = [
+	CHOICE("Have you found the nails to help me save her??",
+		OPTION("I did", "Chose I did"),//end
+		OPTION("No", "Chose No"),//end
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+	
+];
+
+global.topics[$ "Chose No"] = [
+	TEXT("Oh no"),
+	CHOICE("My family will be forever lost",
+		OPTION("Oh my bad, I did find them", "Chose my bad"),//e d 
+		OPTION("Yeah sorry", "Chose Yeah sorry"),// end
+		OPTION("I should go", "Chose I should go"),//end
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+	
+];
+
+//item options endings
+
+global.topics[$ "Chose Yeah sorry"] = [//end
+	TEXT("I should bury her"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	
+];
+
+global.topics[$ "Chose I should go"] = [//end
+	TEXT("Oh yes yes"),
+	TEXT("I'm sure you've seen me cry enough already"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	
+];
+
+global.topics[$ "Chose I did"] = [
+GOTO("Chose my bad"),
+
+];
+
+	global.topics[$ "Chose my bad"] = [//end
+	TEXT("Oh I can save her now"),
+	CHOICE("She'll be alright, my prayers have been heared",
+		OPTION("She won't die", "Chose She won't die"),// end
+		OPTION("You need to know one more thing", "Chose You need to know one more thing"),/// end
+		OPTION("I'm sorry", "Chose I'm sorry"),//end
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+	
+];
+
+	global.topics[$ "Chose She won't die"] = [//END
+	TEXT("My family legacy will live on for years to come"),
+	TEXT("I feel that you have more to say"),
+	GOTO("I'm sorry"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	
+];
+
+	global.topics[$ "Chose You need to know one more thing"] = [//END
+	GOTO("I'm sorry"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	
+];
+
+	global.topics[$ "Chose I'm sorry"] = [
+	CHOICE("What is it"),
+		OPTION("Small apology", "Chose Small"),// end
+		OPTION("Mediocre apology", "Chose Mediocre"),/// end
+		OPTION("Big apology", "Chose Big"),//end
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT))
+	
+];
+
+	global.topics[$ "Chose Small"] = [//end
+	TEXT("I was the one who.."),
+	TEXT("tripped over your mop"),
+	TEXT("I'm sorry"),
+GOTO("say anything"),
+	SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	
+];
+
+	global.topics[$ "Chose say anything"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	CHOICE("Why didn't you say anything before?",
+		OPTION("Truth", "Chose Truth"),//end 
+		OPTION("Lie", "Chose Lie"))//end
+	
+];
+
+	global.topics[$ "Chose Lie"] = [//end
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("I didn't notice"),
+	GOTO("IT give 3"),//end
+	
+];
+
+	global.topics[$ "Chose Truth"] = [//end
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("I was afraid of your reaction so I ran away"),//noah
+	TEXT("If you stopped before, we could have solved it together"),
+	CHOICE("And it might have saved me alot of tears",
+		OPTION("Yeah sorry", "Chose Yeah sorry"),//end
+		OPTION("I was too scared to", "Chose I was too scared to"),//end
+		OPTION("Running away is easier sometimes", "Chose Running is easier"))//end
+	
+];
+
+	global.topics[$ "Chose Yeah sorry"] = [//end
+	GOTO("IT give 1"),//end
+	
+];
+
+	global.topics[$ "Chose I was too scared to"] = [//end
+	GOTO("IT give 2"),//end
+	
+];
+
+	global.topics[$ "Chose Running is easier"] = [//end
+	GOTO("IT give 2,5"),//end
+	
+];
+
+	global.topics[$ "Chose Mediocre"] = [//end
+	TEXT("The one who tripped over you mop was me"),//noah
+	TEXT("I'm sorry for running away and not helping sooner"),//noah
+GOTO("IT give 4")
+	
+];
+
+	global.topics[$ "Chose Big"] = //end
+	TEXT("I am very sorry for not helping you after I tripped over your broom"),
+	TEXT("I should have, but I was too scared to"),
+	TEXT("My teacher sent out of the classroom as well and I have not been doing all that well these last few weeks"),
+GOTO("oh janitor"),
+
+];
+	
+	global.topics[$ "oh janitor"] = [//end end
+SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh, that"),
+	CHOICE("seem like a lot to deal with",
+		OPTION("I'll manage", "Chose I'll manage"),//end
+		OPTION("It is getting hard", "Chose It is getting hard"),//e d
+		OPTION("It is yea", "Chose It is yea"))//end
+	
+];
+
+	global.topics[$ "Chose I'll manage"] = [//end
+GOTO("IT give 5"),
+];
+
+	global.topics[$ "Chose It is getting hard"] = [//end
+GOTO("IT give 6"),
+];
+	
+	global.topics[$ "Chose It is yea"] = [//end
+GOTO("IT give 7"),
+];
+	
+
+
+
+
+
+//nending item give back janitor
+
+global.topics[$ "IT give 1"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("It is alright"),
+	TEXT("She is alive again thanks to you, so you are forgiven"),
+
+];
+
+global.topics[$ "IT give 2"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("There was no need to"),
+	TEXT("I could have used the consolidation, but all is well now"),
+	TEXT("She is alive again with your help, so I believe you've righted your wrongs"),
+	TEXT("Thank you, for owning up and helping save her"),
+
+];
+
+global.topics[$ "IT give 2,5"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("But it's not always the best option"),
+	TEXT("It takes time to get to a better ending, but the result is worth it"),
+
+];
+
+	global.topics[$ "IT give 3"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh, well. At least you admitted it was you"),
+	TEXT("Thank you, for helping as well. She will live longer now thanks to you. You're forgiven"),
+
+];
+
+global.topics[$ "IT give 4"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh"),
+	TEXT("You did help me save her, and eventually apologized for your actions"),
+	TEXT("She is alive again with your help, so I believe you've righted your wrongs"),
+	TEXT("I forgive you, because of you my tears will dry. It's alright"),
+
+];
+
+global.topics[$ "IT give 5"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("Well if you need to talk to anyone, my storage closet is always open"),
+	TEXT("Thank you for apologizing as well"),
+	TEXT("and since you helped keep her alive, I forgive you."),
+
+];
+
+global.topics[$ "IT give 6"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("Oh I"),
+	TEXT("I forgive you for what you did and thank you, for helping save her."),
+	TEXT("And you can always come to me if you need anyone to talk to,"),
+	TEXT("but I think it is wiser for you to visit the office for that"),
+	TEXT("They have even better ears to listen with"),
+
+];
+
+global.topics[$ "IT give 7"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("If it helps, I forgive you for your actions"),
+	TEXT("You deserve a thank you as well, for helping me save her"),
+	TEXT("Just know this, my supply closet is always open"),
+	TEXT("Our office doors look even better when they're open"),
+	TEXT("you might want to take a look over there as well sometime"),
+];
+
+global.topics[$ "IT give 8"] = [
+		SPEAKER("Old man", spr_npc_happy, PORTRAIT_SIDE.LEFT),
+	TEXT("No, not yet"),
+	TEXT("Please"),
+];
+
+//END OF ITEM RETURN OPTION JANITOR
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -1081,11 +1424,9 @@ global.topics[$ "Chose Interesting"] = [//c77 end
 
 //START OF GIVING ITEMS BACK BRACH
 global.topics[$ "Chose Item options"] = [
-	CHOICE("Do you want to give the item back or not? Choose wisely",
-			OPTION("Return item", "Chose Return item"), //good
-			OPTION("Don't return item", "Chose Don't return item"), //bad
-			OPTION("Wear a coat", "Chose Wear a coat"),//smart ass  end
-			OPTION("Did you manage to find the jacket?", "Chose Give shoes back"))//giving items back unbranched
+	CHOICE("S-s-s-so co-ol-d",
+			OPTION("Give the Jacket", "Chose Return item"), //good
+			OPTION("Keep the jacket", "Chose Don't return item")) //bad
 			
 ];
 
