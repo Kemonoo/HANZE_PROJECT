@@ -28,7 +28,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Teacher",
     "path": "sprites/Teacher/Teacher.yy",
