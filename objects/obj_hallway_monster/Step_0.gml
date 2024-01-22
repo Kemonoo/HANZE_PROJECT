@@ -75,42 +75,6 @@ if (move_towards_player) {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
   
     move_towards_point(target_x, target_y, move_speed);
 	
@@ -125,5 +89,4 @@ if (move_towards_player) {
 audio_emitter_position(audio_emitter, x, y, 0);
 
 
-*/
 
