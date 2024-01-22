@@ -74,6 +74,43 @@ if (move_towards_player) {
         target_y = obj_Noah.y;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
   
     move_towards_point(target_x, target_y, move_speed);
 	
@@ -86,3 +123,7 @@ if (move_towards_player) {
  
 
 audio_emitter_position(audio_emitter, x, y, 0);
+
+
+*/
+
