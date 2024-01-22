@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_shoe",
-    "path": "sprites/spr_item_shoe/spr_item_shoe.yy",
+    "name": "spr_item_shoes",
+    "path": "sprites/spr_item_shoes/spr_item_shoes.yy",
   },
   "spriteMaskId": null,
   "visible": true,
