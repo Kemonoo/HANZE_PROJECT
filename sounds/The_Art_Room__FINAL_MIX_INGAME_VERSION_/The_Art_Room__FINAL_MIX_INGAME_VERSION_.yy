@@ -8,7 +8,7 @@
   },
   "bitDepth": 1,
   "bitRate": 112,
-  "compression": 1,
+  "compression": 2,
   "conversionMode": 0,
   "duration": 324.7804,
   "parent": {
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "The_Art_Room__FINAL_MIX_INGAME_VERSION_.mp3",
   "type": 1,
-  "volume": 0.34,
+  "volume": 0.26,
 }
