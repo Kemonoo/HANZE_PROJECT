@@ -91,7 +91,7 @@ if !inside_object
 				image_index = 0; 
 				alarm[0] = dash_duration;
 				num_dash++;
-				alarm[2] = 1; //set to 100 for demo 
+				alarm[2] = 100; //set to 100 for demo 
 			}
 				
 	    }

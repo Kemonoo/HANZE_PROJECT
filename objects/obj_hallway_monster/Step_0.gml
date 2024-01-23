@@ -50,7 +50,7 @@ if (point_distance(x, y, obj_Noah.x, obj_Noah.y) < follow_distance) && follow_pa
 
 if (move_towards_player) {
    
-    var move_speed = 4; // the speed
+    var move_speed = 5; // the speed
 	var dir_to_player = point_direction(x, y, target_x, target_y);
 
     // Check for collisions with walls

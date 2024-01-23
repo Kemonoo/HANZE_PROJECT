@@ -10,7 +10,7 @@ if (place_meeting(x, y, nearest_enemy) && (shield_active == true)){
 	
 	alarm[3] = 1;
 	alarm[5] = 7;
-	alarm[4] = 100;
+	alarm[4] = 600;
 	audio_play_sound(noah_hit_sound_final, 1, false);
 }
 
