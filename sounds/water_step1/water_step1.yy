@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "water_step1.mp3",
   "type": 1,
-  "volume": 0.19,
+  "volume": 0.28,
 }
