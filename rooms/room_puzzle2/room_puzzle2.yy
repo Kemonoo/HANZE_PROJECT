@@ -166,10 +166,12 @@
         {"name":"g_VignetteSharpness","type":0,"value":"2",},
         {"name":"g_VignetteTexture","type":2,"value":"_filter_vignette_texture",},
       ],"tiles":{"SerialiseHeight":25,"SerialiseWidth":32,"TileCompressedData":[
--201,-2147483648,4,0,-2147483648,0,0,-7,-2147483648,1,0,-18,-2147483648,-20,1,2,4,0,-9,-2147483648,1,0,-20,1,2,4,0,-9,-2147483648,1,0,-20,
-1,1,4,-3,0,-6,-2147483648,-2,0,-20,1,1,4,-4,0,-5,-2147483648,-2,0,-9,1,-4,0,-5,-2147483648,4,0,-2147483648,-2147483648,0,-9,-2147483648,
-1,0,-9,1,6,0,-2147483648,0,-2147483648,-2147483648,0,-16,-2147483648,1,0,-9,1,1,0,-21,-2147483648,1,0,-9,1,1,0,-22,-2147483648,-9,1,-27,
--2147483648,-4,0,-273,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_wood_and_art","path":"tilesets/tile_wood_and_art/tile_wood_and_art.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-201,-2147483648,4,0,-2147483648,0,0,-7,-2147483648,1,0,-18,-2147483648,-2,1,1,2,-13,1,6,2,1,1,2,4,0,-9,-2147483648,3,0,1,2,
+-12,1,8,2,1,1,2,2,1,4,0,-9,-2147483648,1,0,-3,1,3,2,1,2,-3,1,1,2,-7,1,-3,2,1,4,-3,
+0,-6,-2147483648,-2,0,-2,1,1,2,-15,1,3,4,2,4,-4,0,-5,-2147483648,-2,0,2,1,2,-7,1,-4,0,-5,-2147483648,4,0,
+-2147483648,-2147483648,0,-9,-2147483648,2,0,2,-3,1,1,4,-3,1,7,4,0,-2147483648,0,-2147483648,-2147483648,0,-16,-2147483648,6,0,1,1,2,1,2,-4,
+1,1,0,-21,-2147483648,4,0,1,2,2,-3,1,4,2,1,2,0,-22,-2147483648,-2,1,7,2,1,2,1,1,2,1,-27,-2147483648,-4,
+0,-273,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_wood_and_art","path":"tilesets/tile_wood_and_art/tile_wood_and_art.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":700,"effectEnabled":true,"effectType":"none","gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
