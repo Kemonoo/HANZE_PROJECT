@@ -157,6 +157,7 @@
     {"name":"Clothes_hanger_person_thing__idk_whats_the_name_of_this","order":5,"path":"sprites/Clothes_hanger_person_thing__idk_whats_the_name_of_this/Clothes_hanger_person_thing__idk_whats_the_name_of_this.yy",},
     {"name":"spr_classdoor1","order":2,"path":"sprites/spr_classdoor1/spr_classdoor1.yy",},
     {"name":"Bat_Monster_odle","order":2,"path":"sprites/Bat_Monster_odle/Bat_Monster_odle.yy",},
+    {"name":"obj_egg","order":11,"path":"objects/obj_egg/obj_egg.yy",},
     {"name":"obj_desk2","order":7,"path":"objects/obj_desk2/obj_desk2.yy",},
     {"name":"obj_walll","order":4,"path":"objects/obj_walll/obj_walll.yy",},
     {"name":"Chair","order":11,"path":"sprites/Chair/Chair.yy",},
