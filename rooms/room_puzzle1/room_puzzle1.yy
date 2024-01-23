@@ -333,7 +333,7 @@
         {"name":"g_MaskStart","type":0,"value":"1",},
         {"name":"g_MaskEnd","type":0,"value":"0.325",},
         {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
-      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"water_text","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_28B7A9EF","animationSpeed":1.0,"colour":704643071,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"spriteId":{"name":"him","path":"sprites/him/him.yy",},"x":4045.0,"y":603.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_55F4D053","animationSpeed":1.0,"colour":1342177279,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":4.015625,"scaleY":2.640625,"spriteId":{"name":"all_seeing","path":"sprites/all_seeing/all_seeing.yy",},"x":3024.0,"y":2083.0,},
@@ -709,7 +709,7 @@
         {"name":"g_RGBNoiseAnimation","type":0,"value":"0.325",},
         {"name":"g_RGBNoiseColour","type":1,"value":"#FF191919",},
         {"name":"g_RGBNoiseTexture","type":2,"value":"_filter_rgbnoise_noise",},
-      ],"userdefinedDepth":false,"visible":true,},
+      ],"userdefinedDepth":false,"visible":false,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":40,"TileCompressedData":[
 -177,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,
 -24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-24,-2147483648,-16,1,-567,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_wood_and_art","path":"tilesets/tile_wood_and_art/tile_wood_and_art.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
