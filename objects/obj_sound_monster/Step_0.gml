@@ -27,7 +27,7 @@ if (direction <= 90 || direction >= 270) {
 
 if (move_towards_player) {
     var dir_to_player = point_direction(x, y, target_x, target_y);
-    var move_speed = 9; // the speed
+    var move_speed = 7; // the speed
 
     // Check for collisions with walls
     if (place_meeting(x + lengthdir_x(move_speed, dir_to_player), y + lengthdir_y(move_speed, dir_to_player), obj_wall)) {
